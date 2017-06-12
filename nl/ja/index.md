@@ -1,23 +1,35 @@
+---
 
+
+
+copyright:
+
+  years: 2014, 2017
+
+lastupdated: "2017-01-10"
+
+---
+
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 # {{site.data.keyword.Bluemix_notm}} セキュリティー
 {: #security}
-*最終更新日: 2015 年 10 月 15 日*
 
-{{site.data.keyword.Bluemix}} プラットフォームはセキュア・エンジニアリング・プラクティスを使用して設計されており、ネットワークおよびインフラストラクチャー全体における階層化セキュリティー管理機能を備えています。{{site.data.keyword.Bluemix_notm}} は、アプリケーション開発者がモバイル・アプリおよび Web アプリを保護するために使用できるセキュリティー・サービス・スイートも備えています。これらのエレメントを組み合わせることで、{{site.data.keyword.Bluemix_notm}} は、セキュアなアプリケーション開発に対して明確な選択を提供するプラットフォームになっています。{:shortdesc}
+{{site.data.keyword.Bluemix}} プラットフォームはセキュア・エンジニアリング・プラクティスを使用して設計されており、ネットワークおよびインフラストラクチャー全体における階層化セキュリティー管理機能を備えています。{{site.data.keyword.Bluemix_notm}} は、アプリケーション開発者がモバイル・アプリおよび Web アプリを保護するために使用できる一連のセキュリティー・サービスを備えています。これらのエレメントを組み合わせることで、{{site.data.keyword.Bluemix_notm}} は、セキュアなアプリケーション開発に対して明確な選択を提供するプラットフォームになっています。
+{:shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} は、システム、ネットワーキング、およびセキュア・エンジニアリングに関する IBM のベスト・プラクティスに基づいたセキュリティー・ポリシーに準拠することで、セキュリティーが確保されている状態にします。これらのポリシーには、ソース・コード・スキャン、動的スキャン、脅威のモデル化、侵入テストなどのプラクティスが含まれます。
-{{site.data.keyword.Bluemix_notm}} は、セキュリティー・インシデントの管理について、IBM Product Security Incident Response Team (PSIRT) プロセスに従います。詳しくは、[IBM Security Vulnerability Management (PSIRT)](http://www-03.ibm.com/security/secure-engineering/process.html) のサイトを参照してください。
+{{site.data.keyword.Bluemix_notm}} は、システム、ネットワーキング、およびセキュア・エンジニアリングに関する IBM のベスト・プラクティスに基づいたセキュリティー・ポリシーに準拠することで、セキュリティーが確保されている状態にします。これらのポリシーには、ソース・コード・スキャン、動的スキャン、脅威のモデル化、侵入テストなどのプラクティスが含まれます。{{site.data.keyword.Bluemix_notm}} は、セキュリティー・インシデントの管理について、IBM Product Security Incident Response Team (PSIRT) プロセスに従います。詳しくは、[IBM Security Vulnerability Management (PSIRT) ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} のサイトを参照してください。
 
-{{site.data.keyword.Bluemix_notm}} Public および Dedicated では、IBM SoftLayer Infrastructure-as-a-Service (IaaS) クラウド・サービスを使用し、そのセキュリティー・アーキテクチャーを最大限に活用します。SoftLayer IaaS は、ご使用のアプリケーションとデータに対して何重にも重ねた層の保護を提供します。{{site.data.keyword.Bluemix_notm}} Local の場合、企業ファイアウォールの背後にあるお客様自身のデータ・センターに {{site.data.keyword.Bluemix_notm}} Local をホストすることで、お客様が物理的セキュリティーを所有し、インフラストラクチャーを提供します。さらに、{{site.data.keyword.Bluemix_notm}} は、Platform as a Service 層で各種カテゴリー (プラットフォーム、データ、およびアプリケーション) のセキュリティー機能を追加します。
+{{site.data.keyword.Bluemix_notm}} Public および Dedicated では、{{site.data.keyword.BluSoftlayer}} Infrastructure-as-a-Service (IaaS) クラウド・サービスを使用し、そのセキュリティー・アーキテクチャーを最大限に活用します。{{site.data.keyword.BluSoftlayer}} IaaS は、ご使用のアプリケーションとデータに対して何重にも重ねた層の保護を提供します。{{site.data.keyword.Bluemix_notm}} Local の場合、企業ファイアウォールの背後にあるお客様自身のデータ・センターに {{site.data.keyword.Bluemix_notm}} Local をホストすることで、お客様が物理的セキュリティーを所有し、インフラストラクチャーを提供します。さらに、{{site.data.keyword.Bluemix_notm}} は、Platform as a Service 層で各種カテゴリー (プラットフォーム、データ、およびアプリケーション) のセキュリティー機能を追加します。
 
 ## {{site.data.keyword.Bluemix_notm}} プラットフォームのセキュリティー
 {: #platform-security}
 
-{{site.data.keyword.Bluemix_notm}} は、(IBM SoftLayer を介して) コア・プラットフォームに対して機能、インフラストラクチャー、運用、および物理的なセキュリティーを提供します。ただし、{{site.data.keyword.Bluemix_notm}} Local は、お客様がインフラストラクチャーとデータ・センターを提供し、物理的セキュリティーを所有するという点で独自です。
+{{site.data.keyword.Bluemix_notm}} は、({{site.data.keyword.BluSoftlayer}} を介して) コア・プラットフォームに対して機能、インフラストラクチャー、運用、および物理的なセキュリティーを提供します。ただし、{{site.data.keyword.Bluemix_notm}} Local は、お客様がインフラストラクチャーとデータ・センターを提供し、物理的セキュリティーを所有するという点で独自です。
 
-SoftLayer の {{site.data.keyword.Bluemix_notm}} 環境は、ほとんどの制約的な IBM 情報技術 (IT) セキュリティー標準 (業界標準に適合しているか業界標準を上回る) に準拠しています。これらの標準には、ネットワーク、データ暗号化、アクセス制御が含まれています。
+{{site.data.keyword.BluSoftlayer}} の {{site.data.keyword.Bluemix_notm}} 環境は、ほとんどの制約的な IBM 情報技術 (IT) セキュリティー標準 (業界標準に適合しているか業界標準を上回る) に準拠しています。これらの標準には、
+ネットワーク、データ暗号化、アクセス制御が含まれています。
  * アプリケーション ACL、アクセス権、侵入テスト
  * 識別、認証、許可
  * 情報とデータの保護
@@ -26,15 +38,17 @@ SoftLayer の {{site.data.keyword.Bluemix_notm}} 環境は、ほとんどの制�
  * サービス妨害と組織的攻撃の検出
  * セキュリティー・インシデント対応
 
-![Bluemix プラットフォーム・セキュリティーの概要](images/platform_sec.png)
+![Bluemix プラットフォーム・セキュリティーの概要](images/platform_sec.svg)
 
-*図 1. {{site.data.keyword.Bluemix_notm}} プラットフォームのセキュリティー概要*
+図 1. {{site.data.keyword.Bluemix_notm}} プラットフォームのセキュリティー概要
 
-{{site.data.keyword.Bluemix_notm}} Local のセキュリティーは異なりますが、それは、お客様が、自社のファイアウォールの内側とデータ・センター内で Bluemix をホストすることで、セキュリティーの一端を担っているためです。下図は、セキュリティーのうち、どの部分をお客様が担い、どの部分を IBM が管理、保守するかについての詳細です。
+{{site.data.keyword.Bluemix_notm}} Local では、企業ファイアウォールの背後で、データセンター内に {{site.data.keyword.Bluemix_notm}} をホストします。そのため、特定のセキュリティーの側面についてはお客様の責任となります。下図は、セキュリティーのうち、どの部分をお客様が担い、どの部分を IBM が管理、保守するかについての詳細です。
 
-![Bluemix Local プラットフォームのセキュリティー概要](images/security_local_platform.png)
+![Bluemix Local プラットフォームのセキュリティー概要](images/security_local_platform.svg){: #localplatformsecurity}
 
-*図 2. {{site.data.keyword.Bluemix_notm}} Local プラットフォームのセキュリティー概要*
+図 2. {{site.data.keyword.Bluemix_notm}} Local プラットフォームのセキュリティー概要
+
+IBM は、リレー ({{site.data.keyword.Bluemix_notm}} Local に付属のデリバリー機能) を使用して、お客様のデータ・センターに対して {{site.data.keyword.Bluemix_notm}} Local のインストール、リモート・モニター、および管理を行います。リレーは、各 {{site.data.keyword.Bluemix_notm}} Local インスタンスに固有の証明書にセキュアに接続します。{{site.data.keyword.Bluemix_notm}} Local およびリレーについて詳しくは、[Bluemix Local](/docs/local/index.html) を参照してください。
 
 ### 機能セキュリティー
 
@@ -42,28 +56,31 @@ SoftLayer の {{site.data.keyword.Bluemix_notm}} 環境は、ほとんどの制�
 
 <dl>
 <dt>認証</dt>
-<dd>アプリケーション開発者は、IBM Web ID を使用することで {{site.data.keyword.Bluemix_notm}} に対して認証されます。{{site.data.keyword.Bluemix_notm}} Dedicated および Local の場合、デフォルトで、LDAP を介した認証がサポートされます。ご要望に応じて、 {{site.data.keyword.Bluemix_notm}} に対して、代わりに IBM Web ID を介した認証をセットアップできます。
+<dd>アプリケーション開発者は、IBM Web ID を使用することで {{site.data.keyword.Bluemix_notm}} に対して認証されます。
+
+{{site.data.keyword.Bluemix_notm}} Dedicated および Local の場合、デフォルトで、LDAP を介した認証がサポートされます。ご要望に応じて、 {{site.data.keyword.Bluemix_notm}} に対して、代わりに IBM Web ID を介した認証をセットアップできます。
 </dd>
 
 <dt>許可</dt>
 <dd>{{site.data.keyword.Bluemix_notm}} は Cloud Foundry メカニズムを使用して、確実に各アプリケーション開発者が自分の作成したアプリケーションおよびサービス・インスタンスに対してのみアクセス権限を持つようにします。{{site.data.keyword.Bluemix_notm}} サービスに対する許可は OAuth に基づいています。{{site.data.keyword.Bluemix_notm}} プラットフォームのすべての内部エンドポイントへのアクセスは、外部ユーザーに制限されています。</dd>
 
 <dt>監査</dt>
-<dd>アプリケーション開発者の認証については、成功か失敗かに関わらずすべての試行に対して監査ログが作成されます。また、 {{site.data.keyword.Bluemix_notm}} アプリケーションが実行されるコンテナーをホストする Linux システムへの特権アクセスについても、監査ログが作成されます。</dd>
+<dd>アプリケーション開発者の認証については、成功か失敗かにかかわらずすべての試行に対して監査ログが作成されます。また、 {{site.data.keyword.Bluemix_notm}} アプリケーションが実行されるコンテナーをホストする Linux システムへの特権アクセスについても、監査ログが作成されます。</dd>
 
 <dt>データの保護</dt>
-<dd> すべての  {{site.data.keyword.Bluemix_notm}} トラフィックは、リバース・プロキシー、SSL 終了、およびロード・バランシング機能を提供する IBM WebSphere® DataPower® SOA アプライアンスを経由します。以下の HTTP メソッドを使用できます。 * DELETE
- * GET
- * HEAD
- * OPTIONS
- * POST
- * PUT
- * TRACE
-
-HTTP の非活動タイムアウトは 2 分です。
-
-以下のヘッダーには DataPower によりデータが取り込まれます。
-<dl>
+<dd> すべての  {{site.data.keyword.Bluemix_notm}} トラフィックは、リバース・プロキシー、SSL 終了、およびロード・バランシング機能を提供する IBM WebSphere® DataPower® SOA アプライアンスを経由します。
+以下の HTTP メソッドを使用できます。
+<ul>
+<li>DELETE</li>
+<li>GET</li>
+<li>HEAD</li>
+<li>OPTIONS</li>
+<li>POST</li>
+<li>PUT</li>
+<li>TRACE</li>
+</ul>
+HTTP の非活動タイムアウトは 2 分です。</dd>
+<dd>以下のヘッダーには DataPower によりデータが取り込まれます。<dl>
 <dt>$wsis</dt>
 <dd>クライアント・サイドの接続がセキュア (HTTPS) である場合は true に、その他の場合は false に設定されます。</dd>
 <dt>$wssc</dt>
@@ -80,7 +97,7 @@ HTTP の非活動タイムアウトは 2 分です。
 </dd>
 
 <dt>セキュア開発プラクティス</dt>
-<dd> {{site.data.keyword.Bluemix_notm}} Public および Dedicated では、IBM Security AppScan® Dynamic Analyzer および static analyzer の各オファリングを使用して、様々な {{site.data.keyword.Bluemix_notm}} コンポーネントに対してセキュリティー脆弱性スキャンを定期的に実行します。{{site.data.keyword.Bluemix_notm}} デプロイメントに対しては、そのすべてのタイプについて潜在的な脆弱性を検出して解決するために、脅威のモデル化および侵入テストを実行します。さらに、アプリケーション開発者は AppScan Dynamic Analyzer サービスを使用して、{{site.data.keyword.Bluemix_notm}} にデプロイされている自分たちの Web アプリをセキュアにすることができます。</dd>
+<dd> {{site.data.keyword.Bluemix_notm}} Public および Dedicated では、IBM Security AppScan® Dynamic Analyzer を使用して、さまざまな {{site.data.keyword.Bluemix_notm}} コンポーネントに対してセキュリティー脆弱性スキャンを定期的に実行します。{{site.data.keyword.Bluemix_notm}} デプロイメントに対しては、そのすべてのタイプについて潜在的な脆弱性を検出して解決するために、脅威のモデル化および侵入テストを実行します。さらに、アプリケーション開発者は AppScan Dynamic Analyzer サービスを使用して、{{site.data.keyword.Bluemix_notm}} にデプロイされている自分たちの Web アプリをセキュアにすることができます。</dd>
 </dl>
 
 ### インフラストラクチャーのセキュリティー
@@ -120,17 +137,18 @@ HTTP の非活動タイムアウトは 2 分です。
 
 <dt>ユーザー・アクセス管理</dt>
 <dd>{{site.data.keyword.Bluemix_notm}} 内では職務分離ガイドラインに従い、ユーザーに細かいアクセス特権を割り当てて、ユーザーが持っているのは、最小特権の原則に基づいた、ジョブの実行に必要なアクセス権限のみであることを保証します。
-{{site.data.keyword.Bluemix_notm}} Dedicated および Local 環境内では、割り当てられた管理者が、管理コンソールを使用して、組織内の {{site.data.keyword.Bluemix_notm}} ユーザーの役割および許可を管理できます。詳しくは、『[{{site.data.keyword.Bluemix_notm}} の管理](../admin/index.html#mng)』を参照してください。
+
+{{site.data.keyword.Bluemix_notm}} Dedicated および Local 環境内では、割り当てられた管理者が、管理コンソールを使用して、組織内の {{site.data.keyword.Bluemix_notm}} ユーザーの役割および許可を管理できます。詳しくは、『[{{site.data.keyword.Bluemix_notm}} の管理](/docs/admin/adminpublic.html#mng)』を参照してください。
 </dd>
 </dl>
 
 ### 物理的セキュリティー
 
-{{site.data.keyword.Bluemix_notm}} Public および Dedicated は、物理的なネットワーク・セキュリティーに関し、SoftLayer のネットワーク内ネットワーク・トポロジーに依存しています。このネットワーク内ネットワーク・アーキテクチャーは、許可された職員のみがシステムに完全にアクセスできるようにします。{{site.data.keyword.Bluemix_notm}} Local の場合、お客様がローカル・インスタンスの物理的セキュリティーを所有します。お客様のデータ・センターは、お客様の企業ファイアウォールの背後で保護されます。
+{{site.data.keyword.Bluemix_notm}} Public および Dedicated は、物理的なネットワーク・セキュリティーに関し、{{site.data.keyword.BluSoftlayer}} のネットワーク内ネットワーク・トポロジーに依存しています。このネットワーク内ネットワーク・アーキテクチャーは、許可された職員のみがシステムに完全にアクセスできるようにします。{{site.data.keyword.Bluemix_notm}} Local の場合、お客様がローカル・インスタンスの物理的セキュリティーを所有します。お客様のデータ・センターは、お客様の企業ファイアウォールの背後で保護されます。
 
-SoftLayer のネットワーク内ネットワークでは、パブリック・ネットワーク層 で、ホストされている Web サイトやオンライン・リソースへの公衆トラフィックを処理します。プライベート・ネットワーク層 では、SSL、PPTP、または IPSec VPN ゲートウェイを介して別個の独立したサード・パーティー通信会社を通じた真のアウト・オブ・バンド管理が可能です。データ・センターからデータ・センターへのネットワーク層 は、別々の SoftLayer 設備に収納されているサーバー間に、無料でセキュアな接続を提供します。
+{{site.data.keyword.BluSoftlayer}} のネットワーク内ネットワークでは、パブリック・ネットワーク層 で、ホストされている Web サイトやオンライン・リソースへの公衆トラフィックを処理します。プライベート・ネットワーク層 では、SSL、PPTP、または IPSec VPN ゲートウェイを介して別個の独立したサード・パーティー通信会社を通じた真のアウト・オブ・バンド管理が可能です。データ・センターからデータ・センターへのネットワーク層 は、別々の {{site.data.keyword.BluSoftlayer}} 設備に収納されているサーバー間に、無料でセキュアな接続を提供します。
 
-各 SoftLayer データ・センターは、SSAE 16 および 業界で認められた要件を例外なく満たす制御により、完全に保護されています。詳細については、SoftLayer の Security にある Compliance のページを参照してください。
+各 {{site.data.keyword.BluSoftlayer}} データ・センターは、SSAE 16 および 業界で認められた要件を例外なく満たす制御により、完全に保護されています。
 
 ## データ・セキュリティー
 {: #data-security}
@@ -152,7 +170,7 @@ SoftLayer のネットワーク内ネットワークでは、パブリック・�
 
 データ・セキュリティーについて計画する際には、それぞれのタイプのデータを考慮する必要があります。
 
-{{site.data.keyword.Bluemix_notm}} プラットフォームは、ネットワーク全体で、データが {{site.data.keyword.Bluemix_notm}} 内部ネットワークの境界にある IBM DataPower Gateway に到達するまで、SSL を使用してアプリケーションへのエンド・ユーザー・アクセスを保護することで、転送中のデータを保護します。IBM DataPower Gateway はリバース・プロキシーとして機能し、SSL 終端を提供します。
+{{site.data.keyword.Bluemix_notm}} プラットフォームは、ネットワーク全体で、データが {{site.data.keyword.Bluemix_notm}} 内部ネットワークの境界にある IBM DataPower Gateway に到達するまで、SSL を使用してアプリケーションへのエンド・ユーザー・アクセスを保護することで、転送中のデータを保護します。IBM DataPower Gateway はリバース・プロキシーとして機能し、SSL 終端を提供します。そこからアプリケーションまで、IPSEC を使用して、IBM DataPower Gateway からアプリケーションまで移動していくデータを保護します。
 
 使用中のデータと保存状態のデータのセキュリティーはともに、アプリケーションを開発するのがお客様であるため、お客様の責任になります。{{site.data.keyword.Bluemix_notm}} カタログで使用可能ないくつかのデータ関連サービスを利用して、この問題の解決に役立てることができます。
 
@@ -163,7 +181,7 @@ SoftLayer のネットワーク内ネットワークでは、パブリック・�
 
 いくつかの {{site.data.keyword.Bluemix_notm}} サービスによって提供されるセキュリティー機能を使用して、アプリケーションを保護することができます。IBM によって作成されたすべての {{site.data.keyword.Bluemix_notm}} サービスは、IBM セキュア・エンジニアリング開発プラクティスに従っています。
 
-**注:** ここで説明されているサービスの一部は、Bluemix Dedicated と Local のいずれのインスタンスにも適用されない場合があります。
+**注:** ここで説明されているサービスの一部は、{{site.data.keyword.Bluemix_notm}} Dedicated と Local のいずれのインスタンスにも適用されない場合があります。
 
 ### SSO サービス
 
@@ -182,109 +200,30 @@ Single Sign On サービスでは、以下に示すように、ユーザーの�
 <dd> Google、Facebook、および LinkedIn によって保守されているユーザー・レジストリー。</dd>
 </dl>
 
-詳しくは、『[Single Sign On 入門 (Getting started with Single Sign On)](../services/SingleSignOn/index.html)』を参照してください。
+詳しくは、『[Single Sign On 概説 (Getting started with Single Sign On)](/docs/services/SingleSignOn/index.html)』を参照してください。
 
-### AppScan Mobile Analyzer
+### Application Security on Cloud
 
-このサービスは、Android モバイル・アプリケーションのセキュリティー分析を提供します。このサービスを使用するには、コンパイルされた Android アプリを APK ファイルとしてアップロードする必要があります。セキュリティー分析のスキャンが完了すると、レポートをダウンロードできます。
-
-詳しくは、『[AppScan Mobile Analyzer 入門 (Getting started with AppScan Mobile Analyzer)](../services/AppScanMobileAnalyzer/index.html)』を参照してください。
-
-### AppScan Dynamic Analyzer
-
-このサービスは、動的分析ツールを使用した Web アプリケーションのセキュリティー分析を提供します。このツールは、アプリのソース・コード上ではなくデプロイ済みの Web アプリ上で機能し、その言語やテクノロジーに関係なく、あらゆる {{site.data.keyword.Bluemix_notm}} Web アプリをスキャンすることができます。ユーザーは自分が所属する組織のアプリケーションのみをスキャンできます。スキャンを作成するには、Web アプリの URL と、該当する場合はログイン資格情報を構成する必要があります。スキャンが完了すると、レポートをダウンロードできます。
-
-詳しくは、『[AppScan Dynamic Analyzer 入門 (Getting started with AppScan Dynamic Analyzer)](../services/AppScanDynamicAnalyzer/index.html)』.
-
-### Mobile Analyzer for iOS (ベータ版)
-
-Mobile Analyzer for iOS サービスは、iOS モバイル・アプリケーションに AppScan 動的セキュリティー分析を提供します。これは、iOS モバイル・アプリでのセキュリティー問題を特定するのに役立ちます。
-
-詳しくは、『[Mobile Analyzer for iOS 入門 (Getting started with Mobile Analyzer for iOS)](../services/AppScanIOS/index.html)』を参照してください。
-
-### Static Analyzer (ベータ版)
-
-Static Analyzer サービスを使用することで、クラウドでの静的アプリケーション・セキュリティー・テストが可能になります。これは、ソフトウェア開発ライフサイクルにおいて早期にソース・コードの脆弱性を検出して、デプロイする前に修正できるようにするのに役立ちます。
-
-Static Analyzer では、ローカル・ディスクでコマンド・ライン・インターフェース (CLI) を使用して、Java および Java Web コンテンツをスキャンできます。また、Eclipse または Maven に Static Analyzer プラグインを追加する小規模なインストーラーを実行できます。クライアント・ユーティリティーを使用して、ファイルに関する情報をスキャンしてアーカイブ・ファイルに収集できます。このアーカイブ・ファイルをスキャン結果としてクラウドに送信します。
-
-詳しくは、『[IBM Static Analyzer for Bluemix 入門 (Getting started with IBM Static Analyzer for Bluemix)](../services/StaticAnalyzer/index.html)』を参照してください。
+このサービスは、モバイル・アプリおよび Web アプリのセキュリティー分析を提供します。このサービスを使用して、ソース・コードのセキュリティー脆弱性をスキャンできます。詳しくは、『[Application Security on Cloud の概要 (Getting started with Application Security on Cloud)](/docs/services/ApplicationSecurityonCloud/index.html)』を参照してください。
 
 ### アプリケーション・セキュリティー・テスト用の IBM UrbanCode プラグイン
 
-IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラグインを使用すれば、{{site.data.keyword.Bluemix_notm}} でホストされている Web アプリや Android アプリに対してセキュリティー・スキャンを実行できるようになります。このプラグインは、IBM UrbanCode™ Deploy Community が IBM Bluemix DevOps Services プラットフォーム上で開発とサポートを行っています。
+IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラグインを使用すれば、{{site.data.keyword.Bluemix_notm}} でホストされている Web アプリや Android アプリに対してセキュリティー・スキャンを実行できるようになります。このプラグインは、 プラットフォームで IBM UrbanCode™ Deploy Community によって開発され、サポートされています。
 
-詳しくは、[IBM Application Security Testing for Bluemix](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/) にアクセスしてください。
-
-### SQL Database
-
-SQL Database サービスは、完全にプロビジョンされたリレーショナル・データベースをアプリに追加します。このサービスでは、IBM Directory
-Server LDAP を使用して認証を行い、IBM InfoSphere® Guardium® Data Activity Monitor を使用してアプリケーションがアクセスするデータベースを保護します。アプリケーションとデータベースの間の接続は、DigiCert が署名する SSL 証明書によって保護されます。
-
-このサービスを使用する特定のプランでは、{{site.data.keyword.Bluemix_notm}}x で SQL Database コンソールを使用して、以下の情報を含むレポートを取得できます。
-
- * アプリケーションがアクセスするデータベース内に存在する可能性のある機密データ。
- * 指定された期間内にデータベースにアクセスしたアプリケーション・ユーザー。
- * データベース内の機密データにアクセスしているアプリケーション・ユーザー。
-
-SQL を使用してデータをマスクするには、データベースと共にデプロイされているマスキングのユーザー定義関数 (UDF) をアプリケーションから呼び出します。例えば、使用したいデータを別の場所でテスト用にマスクすることも可能です。UDF はこのデータ・マスキング・アルゴリズムを IBM Infosphere Optim™ から実装します。
-
-このサービスのプレミアム・プランには、データ暗号化も含まれています。このサービスについて詳しくは、『[SQL Database 入門 (Getting started with SQL Database)](../services/SQLDB/index.html) 』を参照してください。
+詳しくは、[IBM Application Security Testing for Bluemix ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window} にアクセスしてください。
 
 ### dashDB
 
-dashDB サービスでは、IBM Directory Server LDAP を使用してユーザー認証を行い、IBM InfoSphere Guardium Data Activity Monitor を使用してアプリケーションがアクセスするデータベースを保護します。アプリケーションとデータベースの間の接続は、SSL 証明書によって保護されます。このサービスでは、DB2® 固有の暗号化機能を使用して、デプロイ済みのデータベースおよびデータベース・バックアップを自動的に暗号化します。マスター鍵のローテーションは、90 日ごとに自動で実施されます。
+dashDB サービスは、ユーザー認証に組み込み LDAP サーバーを使用します。アプリケーションとデータベースの間の接続は、SSL 証明書によって保護されます。このサービスでは、DB2® 固有の暗号化機能を使用して、デプロイ済みのデータベースおよびデータベース・バックアップを自動的に暗号化します。マスター鍵のローテーションは、90 日ごとに自動で実施されます。
 
-詳しくは、『[dashDB 入門 (Getting started with dashDB)](services/dashDB/index.html)』を参照してください。
-
-### Cloud Integration
-
-Cloud Integration サービスにより、クラウドとオンプレミスのデータを統合できます。DB2、Oracle、SAP などのバックエンド・データベースと対話するサービスを追加できます。次に、データを移動したり、{{site.data.keyword.Bluemix_notm}} アプリケーションがアクセスおよび使用するための REST API を作成したりすることができます。このサービスにより、オンプレミスのセキュア・コネクターとのセキュア通信が可能になり、アプリケーションが使用する REST API としてバックエンド SoR (Systems of Record) が公開されます。
-
-詳しくは、『[Cloud Integration 入門 (Getting started with Cloud Integration)](../services/CloudIntegration/index.html)』を参照してください。
+詳しくは、『[dashDB 概説 (Getting started with dashDB)](/docs/services/dashDB/index.html)』を参照してください。
 
 ### Secure Gateway
 
 Secure Gateway サービスを使用すれば、{{site.data.keyword.Bluemix_notm}} アプリをオンプレミスまたはクラウドにあるリモート・ロケーションにセキュアに接続できるようになります。これにより、セキュア接続が実現し、{{site.data.keyword.Bluemix_notm}} 組織と接続先リモート・ロケーションとの間にトンネルが確立されます。{{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースまたは API パッケージを使用して、セキュア・ゲートウェイを構成および作成できます。
 
-詳しくは、『[Secure Gateway 入門 (Getting started with Secure Gateway)](../services/SecureGateway/index.html)』を参照してください。
+詳しくは、『[Secure Gateway 概説 (Getting started with Secure Gateway)](/docs/services/SecureGateway/secure_gateway.html)』を参照してください。
 
-## {{site.data.keyword.Bluemix_notm}} セキュリティー・デプロイメント
-{: #security-deployment}
+### SIEM (Security Information and Event Management)
 
-{{site.data.keyword.Bluemix_notm}} セキュリティー・デプロイメント・アーキテクチャーには、セキュア・アクセスを確保するために、アプリのユーザーと開発者に対して異なる情報フローが含まれています。
-
-![Bluemix セキュリティー・デプロイメント・アーキテクチャー](images/sec_deployment.png)
-
-*図 3. Bluemix セキュリティー・デプロイメント・アーキテクチャー*
-
-{{site.data.keyword.Bluemix_notm}} *アプリ・ユーザー*の情報フローは、以下のとおりです。
- 1. 侵入防止およびネットワーク・セキュリティーが配備されているファイアウォールを介します。
- 2. リバース・プロキシーおよび SSL 終端プロキシーを備えた IBM DataPower Gateway を介します。
- 3. ネットワーク・ルーターを介します。
- 4. ドロップレット実行エージェント (DEA) のアプリケーション・ランタイムに到達します。
-
-{{site.data.keyword.Bluemix_notm}} *開発者*は、ログイン用と開発およびデプロイ用の 2 つのメイン・フローに従います。
- * ログイン用の開発者フローには、以下が含まれます。
-    * {{site.data.keyword.Bluemix_notm}} Public にログインする開発者の場合、フローは以下のとおりです。
-      1. IBM シングル・サインオン・サービスを介します。
-      2. IBM Web ID を介します。
-    * {{site.data.keyword.Bluemix_notm}} Dedicated または Local にログインする開発者の場合、フローは企業 LDAP を介します。
- * アプリの開発およびデプロイ用の開発者フローは、以下のとおりです。
-    1. 侵入防止およびネットワーク・セキュリティーが配備されているファイアウォールを介します。これは、{{site.data.keyword.Bluemix_notm}} Dedicated にのみ適用されます。
-    2. リバース・プロキシーおよび SSL 終端プロキシーを備えた IBM DataPower Gateway を介します。
-    3. ネットワーク・ルーターを介します。
-    4. Cloud Foundry クラウド・コントローラーを使用した許可を介します。これにより、開発者によって作成されたアプリおよびサービス・インスタンスにのみアクセスが確保されます。
-
-上記のパスで説明したユーザーに加え、権限がある IBM セキュリティー運用チームが、以下に示すものなど、各種運用セキュリティー・タスクを実行します。
- * 脆弱点スキャン。{{site.data.keyword.Bluemix_notm}} Local では、お客様がファイアウォール内にある物理的セキュリティーとあらゆるスキャンを所有します。
- * ユーザー・アクセス管理。
- * IBM Endpoint Manager を使用してフィックスを定期的に適用することによる、オペレーティング・システムの堅牢化。
- * 侵入防止によるリスク管理。
- * QRadar を使用したセキュリティー・モニター。
- * 管理コンソールで使用可能なセキュリティー・レポート。
-
-# 関連リンク
-## 一般 
-* [SoftLayer Security Compliance](http://www.softlayer.com/security)
-* [Single Sign On 入門 (Getting started with Single Sign On)](../services/SingleSignOn/index.html)
+SIEM (Security Information and Event Management) ツールを使用して、アプリケーション・ログ内のセキュリティー・アラートを分析できます。そのようなツールの 1 つに、IBM Security QRadar&reg; SIEM があります。このツールは、クラウド環境でセキュリティー・インテリジェンスを提供します。詳しくは、[IBM QRadar Security Intelligence Platform ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window} を参照してください。
