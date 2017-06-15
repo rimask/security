@@ -71,7 +71,7 @@ In particular, ISO 27018:2014 specifies guidelines that are based on ISO 27002. 
 
 
 
-### Platform and service compliance
+## Platform and service compliance
 The following table displays which services in {{site.data.keyword.Bluemix_notm}} are compliant for each of the standards.
 
 |{{site.data.keyword.Bluemix_notm}} components		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
