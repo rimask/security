@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-01-11" 
+lastupdated: "2017-08-08" 
 
 
 
@@ -21,9 +21,9 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} provides a secure cloud platform that you can trust. {{site.data.keyword.Bluemix_notm}} compliance results from a platform and services that are built on best-in-industry security standards, including ISO 27001 and ISO 27002.
 {:shortdesc}
 
-![EU Data Protection Model Clause](images/icon_eumc.png)  A **European Union (EU) Model Clause** is an agreement to protect personal data that is transferred from the EU or European Economic Area (EEA) to a third country. The EU Model Clause is signed between the client that is located in the EU or EEA as the data exporter, and the IBM data processor that is located in the third country as the data importer. The [IBM SaaS EU Model Clause ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} contains the rights and obligations of the data exporter and the data importer, and the rights of the data subjects. The IBM SaaS EU Model Clause ensures that personal data, when processed in a third country, is under protection that is similar to the protection available within the EU or EEA.
+![EU Data Protection Model Clause](images/icon_eumc.png)  Agreements incorporating the **European Union (EU) Model Clauses** protect personal data that is transferred from the EU or European Economic Area (EEA) to a third country. The EU Model Clause is signed between the client that is located in the EU or EEA as the data exporter, and the IBM data processor that is located in the third country as the data importer. The [IBM Data Processing Addendum (with EU Standard Contractual Clauses ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} contains the rights and obligations of the data exporter and the data importer, and the rights of the data subjects. The IBM Data Processing Addendum provides protections similar to those available in the EU or EEA for personal data processed in a third country.
 
-For customers who want to transfer data that originates in the European Economic Area to a country outside the EEA, {{site.data.keyword.Bluemix}} offers European Model Clauses in the form that is approved by the European Commission and European Union's data protection authorities. The European Model Clauses guarantee European customers that {{site.data.keyword.Bluemix_notm}} supports the necessary data privacy protections in every location on the globe.
+
 
 ![Financial Industry Information Systems](images/FISC.gif)  For banking and related financial institutions in Japan, computer systems must have security procedures in place that are based on the Center for Financial Industry Information Systems (FISC) security guidelines. FISC security guidelines are enforced by the Japan Financial Services Agency (FSA), Bank of Japan (BOJ), and FISC.
  
