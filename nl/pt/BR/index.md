@@ -19,7 +19,7 @@ lastupdated: "2017-01-10"
 Projetada com práticas seguras de engenharia, a plataforma do {{site.data.keyword.Bluemix}} possui controles de segurança em camadas na rede e na infraestrutura. O {{site.data.keyword.Bluemix_notm}} fornece um grupo de serviços de segurança que podem ser usados por desenvolvedores de aplicativos para proteger seus apps móveis e da web. Esses elementos são combinados para fazer do {{site.data.keyword.Bluemix_notm}} uma plataforma com opções claras para desenvolvimento seguro do aplicativo.
 {:shortdesc}
 
-O {{site.data.keyword.Bluemix_notm}} garante disponibilidade de segurança ao seguir as políticas de segurança que são orientadas por melhores práticas na IBM para sistemas, rede e engenharia segura. Essas políticas incluem práticas, como varredura do código-fonte, varredura dinâmica, modelagem de ameaça e teste de penetração. O {{site.data.keyword.Bluemix_notm}} segue o processo IBM Product Security Incident Response Team (PSIRT) para gerenciamento de incidentes de segurança. Veja o site [IBM Security Vulnerability Management (PSIRT) ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} para obter detalhes.
+O {{site.data.keyword.Bluemix_notm}} garante disponibilidade de segurança ao seguir as políticas de segurança que são orientadas por melhores práticas na IBM para sistemas, rede e engenharia segura. Essas políticas incluem práticas, como varredura do código-fonte, varredura dinâmica, modelagem de ameaça e teste de penetração. O {{site.data.keyword.Bluemix_notm}} segue o processo IBM Product Security Incident Response Team (PSIRT) para gerenciamento de incidentes de segurança. Veja o site [IBM Security Vulnerability Management (PSIRT) ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-03.ibm.com/security/secure-engineering/process.html "Ícone de link externo"){: new_window} para obter detalhes.
 
 O {{site.data.keyword.Bluemix_notm}} público e usar usa os serviços de nuvem de infraestrutura como serviço (IaaS) do {{site.data.keyword.BluSoftlayer}} e aproveita ao máximo sua arquitetura de segurança. O {{site.data.keyword.BluSoftlayer}} IaaS fornece várias camadas de sobreposição de proteção para seus aplicativos e dados. Para {{site.data.keyword.Bluemix_notm}} Local, você possui a segurança física e fornece a infraestrutura hospedando o {{site.data.keyword.Bluemix_notm}} Local em seu próprio datacenter sob um firewall da empresa. Além disso, o {{site.data.keyword.Bluemix_notm}} inclui recursos de segurança na camada Plataforma como serviço em diferentes categorias: plataforma, dados e aplicativo.
 
@@ -38,13 +38,13 @@ rede, criptografia de dados e controle de acesso
  * Negação de serviço e detecção de ataques sistemáticos
  * Resposta a incidentes de segurança
 
-![Visão geral de segurança da plataforma Bluemix](images/platform_sec.svg)
+![Visão geral de segurança de plataforma do Bluemix](images/platform_sec.svg)
 
-Figura 1. Visão geral de segurança de plataforma do {{site.data.keyword.Bluemix_notm}}
+Figura 1. Visão geral de segurança da plataforma do {{site.data.keyword.Bluemix_notm}}
 
 Com o {{site.data.keyword.Bluemix_notm}} Local, você hospeda o {{site.data.keyword.Bluemix_notm}} atrás do firewall de sua empresa e em seu datacenter. Portanto, você é responsável por determinados aspectos de segurança. A seguinte imagem detalha quais partes da segurança são de propriedade do cliente e quais partes de segurança são gerenciadas e mantidas pela IBM.
 
-![Visão geral de segurança da plataforma Bluemix Local](images/security_local_platform.svg) {: #localplatformsecurity}
+![Visão geral de segurança da plataforma do Bluemix Local](images/security_local_platform.svg) {: #localplatformsecurity}
 
 Figura 2. Visão geral de segurança da plataforma do {{site.data.keyword.Bluemix_notm}} Local
 
@@ -93,7 +93,8 @@ Os métodos de HTTP a seguir são permitidos:
 <dt>x-client-ip</dt>
 <dd>Configurado com o endereço IP do cliente.</dd>
 <dt>x-forwarded-proto</dt>
-<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https, http, ws ou wss.</dd>
+<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https,
+http, ws ou wss.</dd>
 </dl>
 </dd>
 
@@ -203,7 +204,7 @@ O serviço de Single Sign On suporta várias fontes de identidade em que as cred
 
 Para obter mais informações, consulte [Introdução à conexão única](/docs/services/SingleSignOn/index.html).
 
-### Segurança do aplicativo em nuvem
+### Application Security on Cloud
 
 Esse serviço fornece uma análise de segurança de apps móveis e da web e permite varrer o código-fonte para vulnerabilidades de segurança. Para obter mais informações, consulte [Introdução à segurança do aplicativo na nuvem](/docs/services/ApplicationSecurityonCloud/index.html).
 
@@ -211,7 +212,7 @@ Esse serviço fornece uma análise de segurança de apps móveis e da web e perm
 
 O plug-in do IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} permite executar varreduras de segurança nos apps da web ou Android que estão hospedados no {{site.data.keyword.Bluemix_notm}}. Esse plug-in é desenvolvido e suportado pela Comunidade IBM UrbanCode™ Deploy.
 
-Para obter mais informações, acesse [IBM Application Security Testing for Bluemix ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
+Para obter mais informações, acesse [IBM Application Security Testing for Bluemix ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/ "Ícone de link externo"){: new_window}.
 
 ### dashDB
 
@@ -227,4 +228,4 @@ Para obter mais informações, consulte [Introdução ao Secure Gateway](/docs/s
 
 ### Security information and event management
 
-É possível usar ferramentas do security information and event management (SIEM) para analisar alertas de segurança em logs de aplicativos. Uma dessas ferramentas é o IBM Security QRadar&reg; SIEM, que fornece inteligência de segurança em ambientes de nuvem. Para obter informações, veja [IBM QRadar Security Intelligence Platform ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
+É possível usar ferramentas do security information and event management (SIEM) para analisar alertas de segurança em logs de aplicativos. Uma dessas ferramentas é o IBM Security QRadar&reg; SIEM, que fornece inteligência de segurança em ambientes de nuvem. Para obter informações, veja [IBM QRadar Security Intelligence Platform ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en "Ícone de link externo"){: new_window}.

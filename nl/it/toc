@@ -8,10 +8,11 @@ Sicurezza Bluemix
     index.md
     deployment.md
     
-    {. topicgroup}
+    {: .topicgroup}
     Link correlati
         [Sicurezza IBM SaaS](http://www.ibm.com/cloud-computing/built-on-cloud/saas-security)
         [Introduzione a Single Sign On](../services/SingleSignOn/index.html)
+        
     {: .navgroup-end}
     
     {: .navgroup id="reference"}

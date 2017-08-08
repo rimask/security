@@ -8,10 +8,11 @@ Bluemix のセキュリティー
     index.md
     deployment.md
     
-    {. topicgroup}
+    {: .topicgroup}
     関連リンク
-        [IBM SaaS のセキュリティー](http://www.ibm.com/cloud-computing/built-on-cloud/saas-security)
+        [IBM SaaS security](http://www.ibm.com/cloud-computing/built-on-cloud/saas-security)
         [Single Sign On 入門 (Getting started with Single Sign On)](../services/SingleSignOn/index.html)
+        
     {: .navgroup-end}
     
     {: .navgroup id="reference"}

@@ -1,4 +1,4 @@
----
+﻿---
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} fournit une plateforme cloud sécurisée, digne de confiance. La conformité {{site.data.keyword.Bluemix_notm}} résulte d'une plateforme et de services générés avec les meilleures normes de sécurité de l'industrie, notamment ISO 27001 et ISO 27002.
 {:shortdesc}
 
-![Clause contractuelle de protection des données dans l'Union européenne](images/icon_eumc.png)  Une **clause contractuelle de l'Union européenne (UE)** est un accord conçu pour protéger les données personnelles transférées de l'Union européenne ou de l'Espace économique européen (EEE) vers un pays tiers. La clause contractuelle de l'Union européenne (UE) est signée entre le client qui se trouve dans l'UE ou l'EEE (l'exportateur de données) et le processeur de données IBM qui se trouve dans le pays tiers (l'importateur de données). La clause [IBM SaaS EU Model Clause ![Icône de lien externe](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} comprend les droits et les obligations de l'exportateur de données et de l'importateur de données, ainsi que les droits des personnes concernées. La clause IBM SaaS EU Model Clause garantit que les données personnelles, lorsqu'elles sont traitées dans un pays tiers, sont protégées de la même manière que dans l'UE ou l'EEE.
+![Clause contractuelle de protection des données dans l'Union européenne](images/icon_eumc.png)  Une **clause contractuelle de l'Union européenne (UE)** est un accord conçu pour protéger les données personnelles transférées de l'Union européenne ou de l'Espace économique européen (EEE) vers un pays tiers. La clause contractuelle de l'Union européenne (UE) est signée entre le client qui se trouve dans l'UE ou l'EEE (l'exportateur de données) et le processeur de données IBM qui se trouve dans le pays tiers (l'importateur de données). La clause [IBM SaaS EU Model Clause ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} comprend les droits et les obligations de l'exportateur de données et de l'importateur de données, ainsi que les droits des personnes concernées. La clause IBM SaaS EU Model Clause garantit que les données personnelles, lorsqu'elles sont traitées dans un pays tiers, sont protégées de la même manière que dans l'UE ou l'EEE.
 
 Pour les clients qui souhaitent transférer des données provenant de l'Espace économique européen (EEE) vers un pays hors de l'EEE,
 {{site.data.keyword.Bluemix}} propose des clauses contractuelles européennes dans le formulaire approuvé par les autorités de protection
@@ -46,10 +46,9 @@ en matière de sécurité des informations ayant un impact sur la confidentialit
 clients. Cette norme met l'accent sur la mesure et l'évaluation des performances du système de gestion de la sécurité informatique d'une organisation et
 inclut également des contrôles liés à la sécurité des informations, qui reposent sur des exigences système et d'autres exigences.
 
-{{site.data.keyword.Bluemix_notm}} fait l'objet d'un audit par une firme indépendante et répond à toutes les exigences de la norme ISO 27001 : [Bluemix ISO 27001:2013 Certificate of Registration ![Icône de lien externe](../icons/launch-glyph.svg "External link icon")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
+{{site.data.keyword.Bluemix_notm}} fait l'objet d'un audit par une firme indépendante et répond à toutes les exigences de la norme ISO 27001 : [Bluemix ISO 27001:2013 Certificate of Registration ![External link icon](../icons/launch-glyph.svg "External link icon")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
 
-![PCI DSS](images/icon_pci.png) **Payment Card Industry (PCI) Data Security Standards (DSS)** est une norme de
-sécurité des informations qui a été conçue pour protéger les données de carte de crédit. Elle s'applique à toutes les entités impliquées dans le traitement
+![PCI DSS](images/icon_pci.png)  **Payment Card Industry (PCI) Data Security Standards (DSS)** est une norme de sécurité des informations destinée à protéger les données de carte de crédit. Elle s'applique à toutes les entités impliquées dans le traitement
 de cartes de paiement, notamment les commerçants, les organismes de traitement, les émetteurs et les fournisseurs de services. Elle s'applique également à
 toutes les autres entités qui stockent, traitent ou transmettent des données relatives aux titulaires de carte ou des données d'authentification sensibles.
 
@@ -60,15 +59,15 @@ protection des données sur les titulaires de carte et requièrent souvent la va
 sécurité qualifié (QSA) indépendant. L'attestation de conformité peut être utilisée avec le rapport SOC 2 et la certification ISO 27001 afin de prouver que
 l'infrastructure satisfait les contrôles PCI.
 
-{{site.data.keyword.Bluemix}} procède à une évaluation PCI DSS annuelle à l'aide d'un évaluateur de sécurité qualifié (QSA) approuvé. {{site.data.keyword.Bluemix_notm}} est compatible conformément à la norme PCI DSS version 3.1 au niveau de fournisseur de services 1, comme énoncé dans [Bluemix PCI DSS AOC ![Icône de lien externe](../icons/launch-glyph.svg "External link icon")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/IBM_Bluemix_PCI.pdf){: new_window}. Pour obtenir des informations et de l'aide relatives à la conformité à la norme PCI DSS pour votre environnement {{site.data.keyword.Bluemix_notm}}, prenez contact avec le service commercial depuis la page [Contactez-nous ![Icône de lien externe](../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
+{{site.data.keyword.Bluemix}} procède à une évaluation PCI DSS annuelle à l'aide d'un évaluateur de sécurité qualifié (QSA) approuvé. Pour obtenir des informations et de l'aide relatives à la conformité à la norme PCI DSS pour votre environnement {{site.data.keyword.Bluemix_notm}}, prenez contact avec le service commercial depuis la page [Contactez-nous ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
 
-![SSAE16 SOC1/2/3](images/icon_aicpa.png) Les rapports **Service Organization Controls (SOC)** définissent l'évaluation des pratiques de contrôle interne exemplaires liées à la sécurité, l'accessibilité, l'intégrité du traitement, la confidentialité et la protection des données personnelles au sein d'une organisation de services. Ces rapports générés à partir du guide de l'AICPA (American Institute of Certified Public Accountants) comprennent les éléments suivants : 
+![SSAE16 SOC1/2/3](images/icon_aicpa.png) Les rapports **Service Organization Controls (SOC)** définissent l'évaluation des pratiques de contrôle interne prépondérantes en matière de sécurité, de disponibilité, d'intégrité du traitement, de confidentialité et d'isolation des données personnelles au sein d'une organisation de services. Ces rapports générés à partir du guide de l'AICPA (American Institute of Certified Public Accountants) comprennent les éléments suivants : 
   * Supervision de l'organisation
   * Programme de gestion des fournisseurs
   * Processus internes de gouvernance d'entreprise et de gestion des risques
   * Régime réglementaire de surveillance
  
-{{site.data.keyword.Bluemix_notm}} met à disposition des rapports SOC 1, SOC 2 et SOC 3. Pour plus d'informations, prenez contact avec l'[équipe commerciale {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg "External link icon")](mailto:bmxcert1@us.ibm.com){:new_window}. 
+{{site.data.keyword.Bluemix_notm}} met à disposition des rapports SOC 1, SOC 2 et SOC 3. Pour plus d'informations, contactez l'équipe [{{site.data.keyword.Bluemix_notm}} Sales ![External link icon](../icons/launch-glyph.svg "External link icon")](mailto:bmxcert1@us.ibm.com){:new_window}. 
 
 
 ![HIPAA](images/icon_hipaa.png) La loi Health Insurance Portability and Accountability Act (HIPAA), adoptée par le congrès
@@ -78,7 +77,7 @@ Etats-Unis. Elle englobe la réglementation de la
 loi de 1996, ainsi que des exigences de confidentialité de la loi Health Information Technology for Economic and Clinical Health (HITECH) Act de 2009. {{site.data.keyword.Bluemix_notm}}
 satisfait toutes les exigences de la loi HIPAA en ce qui concerne les centres de données ou les fournisseurs de services.
 
-Pour plus d'informations ou de l'aide afin d'assurer la conformité à la loi HIPAA pour votre environnement Bluemix, de la certifier et de la conserver, prenez contact avec le [service commercial {{site.data.keyword.Bluemix_notm}} ![Icône de lien externe](../icons/launch-glyph.svg "External link icon")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
+Pour plus d'informations ou pour une assistance afin d'aboutir à la conformité HIPAA pour votre environnement Bluemix, d'obtenir une certification et de la préserver, contactez l'équipe {{site.data.keyword.Bluemix_notm}} [Sales ![External link icon](../icons/launch-glyph.svg "External link icon")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
 
 
 ![ISO 27017](images/icon_ISO27017.png) La norme ISO/IEC 27017:2015 fournit des directives pour les contrôles de sécurité des
@@ -114,7 +113,7 @@ transmission, le stockage et la génération de l'information en matière de jus
 
 
 
-### Conformité de la plateforme et des services
+## Conformité de la plateforme et des services
 Le tableau ci-dessous indique quels sont les services dans {{site.data.keyword.Bluemix_notm}} qui sont conformes à chaque norme.
 
 |Composants {{site.data.keyword.Bluemix_notm}}		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
