@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-08-08" 
+lastupdated: "2017-08-17" 
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-08"
 {{site.data.keyword.Bluemix}} provides a secure cloud platform that you can trust. {{site.data.keyword.Bluemix_notm}} compliance results from a platform and services that are built on best-in-industry security standards, including ISO 27001 and ISO 27002.
 {:shortdesc}
 
-![EU Data Protection Model Clause](images/icon_eumc.png)  Agreements incorporating the **European Union (EU) Model Clauses** protect personal data that is transferred from the EU or European Economic Area (EEA) to a third country. The EU Model Clause is signed between the client that is located in the EU or EEA as the data exporter, and the IBM data processor that is located in the third country as the data importer. The [IBM Data Processing Addendum (with EU Standard Contractual Clauses ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} contains the rights and obligations of the data exporter and the data importer, and the rights of the data subjects. The IBM Data Processing Addendum provides protections similar to those available in the EU or EEA for personal data processed in a third country.
+![EU Data Protection Model Clause](images/icon_eumc.png)  Agreements incorporating the **European Union (EU) Model Clauses** protect personal data that is transferred from the EU or European Economic Area (EEA) to a third country. The EU Model Clause is signed between the client that is located in the EU or EEA as the data exporter, and the IBM data processor that is located in the third country as the data importer. The IBM Data Processing Addendum (with EU Standard Contractual Clauses) contains the rights and obligations of the data exporter and the data importer, and the rights of the data subjects. The IBM Data Processing Addendum provides protections similar to those available in the EU or EEA for personal data processed in a third country.
 
 
 
