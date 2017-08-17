@@ -84,7 +84,7 @@ The following table displays which services in {{site.data.keyword.Bluemix_notm}
 |{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
 |{{site.data.keyword.datacshort}}			|Y	|Y	|Y	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
-|{{site.data.keyword.jazzhub_short}}					|Y	|Y	|	|			|
+|{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
 |{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
