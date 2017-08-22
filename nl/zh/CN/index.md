@@ -43,8 +43,7 @@ lastupdated: "2017-01-10"
 
 通过 {{site.data.keyword.Bluemix_notm}} Local，可在公司防火墙后和数据中心内托管 {{site.data.keyword.Bluemix_notm}}。因此，某些方面的安全性将由您来负责。下图详细描述了哪些安全机制是客户拥有的，哪些是由 IBM 管理和维护的。
 
-![Bluemix Local 平台安全概况](images/security_local_platform.svg)
-{: #localplatformsecurity}
+![Bluemix Local 平台安全概况](images/security_local_platform.svg) {: #localplatformsecurity}
 
 图 2. {{site.data.keyword.Bluemix_notm}} Local 平台安全概况
 
@@ -56,7 +55,9 @@ IBM 通过中继（{{site.data.keyword.Bluemix_notm}} Local 随附的一种交�
 
 <dl>
 <dt>认证</dt>
-<dd>应用程序开发者使用 IBM Web 身份向 {{site.data.keyword.Bluemix_notm}} 进行认证。对于 {{site.data.keyword.Bluemix_notm}} Dedicated 和 Local，缺省情况下支持通过 LDAP 进行认证。根据请求，对于 {{site.data.keyword.Bluemix_notm}}，可以改为设置通过 IBM Web 身份进行认证。
+<dd>应用程序开发者使用 IBM Web 身份向 {{site.data.keyword.Bluemix_notm}} 进行认证。
+
+对于 {{site.data.keyword.Bluemix_notm}} Dedicated 和 Local，缺省情况下支持通过 LDAP 进行认证。根据请求，对于 {{site.data.keyword.Bluemix_notm}}，可以改为设置通过 IBM Web 身份进行认证。
 </dd>
 
 <dt>授权</dt>
@@ -209,7 +210,7 @@ Single Sign On 服务支持多个存储用户凭证的身份源：
 
 ### dashDB
 
-dashDB 服务使用嵌入的 LDAP 服务器进行用户认证。应用程序和数据库之间的连接由 SSL 证书保护。此服务使用 DB2® 本机加密功能，以自动加密已部署的数据库和数据库备份。主密钥轮替每 90 天自动执行一次。
+dashDB 服务使用嵌入的 LDAP 服务器进行用户认证。应用程序和数据库之间的连接由 SSL 证书保护。此服务使用 Db2® 本机加密功能，以自动加密已部署的数据库和数据库备份。主密钥轮替每 90 天自动执行一次。
 
 有关更多信息，请参阅 [dashDB 入门](/docs/services/dashDB/index.html)。
 

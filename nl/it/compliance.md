@@ -6,7 +6,7 @@ copyright:
 
   year: 2015，2016
 
-lastupdated: "2017-01-11" 
+lastupdated: "2017-08-08" 
 
 
 
@@ -21,9 +21,9 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} fornisce una piattaforma cloud sicura di cui ti puoi fidare. La conformità {{site.data.keyword.Bluemix_notm}} deriva da una piattaforma e da servizi basati sui migliori standard di sicurezza, tra cui ISO 27001 e ISO 27002.
 {:shortdesc}
 
-![Clausola del modello di protezione dati UE](images/icon_eumc.png)  una **Clausola del modello dell'Unione Europea (UE)** è un accordo studiato per proteggere i dati personali che vengono trasferiti dall'Unione Europea (UE) o dallo Spazio economico europeo (SEE) verso un terzo paese. La Clausola del modello UE viene firmato tra il client ubicato nell'UE o SEE come esportatore di dati e il processore di dati IBM ubicato nel paese terzo come importatore dei dati. La [Clausola del modello UE IBM SaaS![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Icona link esterno"){: new_window} contiene i diritti e gli obblighi dell'esportatore e dell'importatore dei dati nonché i diritti dei soggetti interessati. La Clausola del modello UE IBM SaaS garantisce che i dati personali, quando elaborati in un paese terzo, siano posti sotto una protezione analoga a quella disponibile all'interno dell'UE o SEE.
+![Clausola del modello di protezione dati UE](images/icon_eumc.png)  Accordi che incorporano le **Clausole del modello dell'Unione Europea (UE)** per proteggere i dati personali che vengono trasferiti dall'Unione Europea (UE) o dallo Spazio economico europeo (SEE) verso un terzo paese. La Clausola del modello UE viene firmato tra il client ubicato nell'UE o SEE come esportatore di dati e il processore di dati IBM ubicato nel paese terzo come importatore dei dati. [IBM Data Processing Addendum (con le clausole contrattuali standard EU) ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Icona link esterno"){: new_window} contiene i diritti e gli obblighi dell'esportatore e dell'importatore dei dati nonché i diritti dei soggetti interessati. IBM Data Processing Addendum fornisce protezione simile a quella disponibile in EU o EEA per i dati personali elaborati in paesi terzi.
 
-Per i clienti che vogliono trasferire i dati provenienti dallo Spazio economico europeo a un paese fuori dal SEE, {{site.data.keyword.Bluemix}} offre clausole del modello europeo nel formato approvato dalle autorità di protezione dei dati della Commissione Europea e dell'Unione Europea. Le clausole del modello europeo garantiscono ai clienti europei che {{site.data.keyword.Bluemix_notm}} supporti le protezioni della privacy dei dati necessarie in ogni punto nel mondo.
+
 
 ![Financial Industry Information Systems](images/FISC.gif)  Per le istituzioni bancarie e finanziarie correlate in Giappone, i sistemi informatici devono disporre di procedure di sicurezza in vigore basate sulle linee guida di sicurezza FICS (Center for Financial Industry Information Systems). Le linee guida di sicurezza FISC vengono fatte rispettare dal Japan Financial Services Agency (FSA), Bank of Japan (BOJ) e FISC.
  
@@ -74,9 +74,9 @@ In particolare, ISO 27018:2014 specifica le linee guida che si basano sull'ISO 2
 ## Conformità di servizi e piattaforme
 La seguente tabella mostra quali servizi {{site.data.keyword.Bluemix_notm}} sono conformi a ciascuno standard.
 
-|Componenti {{site.data.keyword.Bluemix_notm}} 	|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
+|Componenti {{site.data.keyword.Bluemix_notm}}		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
-|Piattaforma {{site.data.keyword.Bluemix_notm}} 	|S			|S	|S	|S	|
+|Piattaforma {{site.data.keyword.Bluemix_notm}}		|S			|S	|S	|S	|
 |{{site.data.keyword.APIM}}			|S	|S |S	|			|
 |{{site.data.keyword.autoscaling}}			|S	|S |S	|			|
 |{{site.data.keyword.bigicloudst}}			|S |S |	|S |

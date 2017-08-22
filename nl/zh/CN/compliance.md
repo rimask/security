@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-01-11"
+lastupdated: "2017-08-08" 
 
 
 
@@ -21,9 +21,9 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} 提供了一个您可以信任的安全云平台。{{site.data.keyword.Bluemix_notm}} 合规性是通过基于业界最佳安全标准（包括 ISO 27001 和 ISO 27002）构建的平台和服务来实现的。
 {:shortdesc}
 
-![欧盟数据保护示范条款](images/icon_eumc.png) **欧盟 (EU) 示范条款**是一种协议，用于保护从欧盟 (EU) 或欧洲经济区 (EEA) 传输到第三方国家或地区的个人数据。“欧盟 (EU) 示范条款”是由位于 EU 或 EEA 的客户（数据导出方）与位于第三方国家或地区的 IBM 数据处理方（数据导入方）之间签订的。[IBM SaaS 欧盟 (EU) 示范条款 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "外部链接图标"){: new_window} 包含数据导出方和数据导入方的权利和责任，以及数据主体的权利。“IBM SaaS 欧盟示范条款”可确保个人数据在第三方国家或地区处理时仍能受到像在 EU 或 EEA 中一样的保护。
+![欧盟数据保护示范条款](images/icon_eumc.png) 合并了**欧盟 (EU) 示范条款**的协议，用于保护从欧盟 (EU) 或欧洲经济区 (EEA) 传输到第三方国家或地区的个人数据。“欧盟 (EU) 示范条款”是由位于 EU 或 EEA 的客户（数据导出方）与位于第三方国家或地区的 IBM 数据处理方（数据导入方）之间签订的。[IBM Data Processing Addendum (with EU Standard Contractual Clauses![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "外部链接图标"){: new_window} 包含数据导出方和数据导入方的权利和责任，以及数据主体的权利。针对第三方国家或地区处理的个人数据，IBM Data Processing Addendum 提供的保护类似于 EU 或 EEA 中所提供的保护。
 
-对于要将源自欧洲经济区 (EEA) 的数据传输到 EEA 以外的国家或地区的客户，{{site.data.keyword.Bluemix}} 提供了“欧盟示范条例”，其形式得到了欧盟委员会和欧盟数据保护监管机构的批准。“欧盟示范条例”向欧盟客户保证，{{site.data.keyword.Bluemix_notm}} 在全球所有位置均支持必要的数据隐私保护。
+
 
 ![金融行业信息系统](images/FISC.gif) 对于日本的银行和相关金融机构，计算机系统必须具有适当的安全程序，这些程序应基于金融行业信息系统中心 (FISC) 安全准则。FISC 安全准则由日本金融厅 (FSA)、日本央行 (BOJ) 和 FISC 贯彻实施。
  

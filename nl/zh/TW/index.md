@@ -208,7 +208,7 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 外掛�
 
 ### dashDB
 
-dashDB 服務使用內嵌式 LDAP 伺服器進行使用者鑑別。應用程式與資料庫之間的連線受到 SSL 憑證保護。此服務使用 DB2® 原生加密功能自動加密您的已部署資料庫及資料庫備份。每隔 90 天會自動執行一次主要金鑰輪替。
+dashDB 服務使用內嵌式 LDAP 伺服器進行使用者鑑別。應用程式與資料庫之間的連線受到 SSL 憑證保護。此服務使用 Db2® 原生加密功能自動加密您的已部署資料庫及資料庫備份。每隔 90 天會自動執行一次主要金鑰輪替。
 
 如需相關資訊，請參閱[開始使用 dashDB](/docs/services/dashDB/index.html)。
 

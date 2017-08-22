@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-01-11" 
+lastupdated: "2017-08-08" 
 
 
 
@@ -21,9 +21,9 @@ lastupdated: "2017-01-11"
 O {{site.data.keyword.Bluemix}} fornece uma plataforma de nuvem segura que você pode confiar. A conformidade do {{site.data.keyword.Bluemix_notm}} resulta de uma plataforma e de serviços que são construídos sobre os melhores padrões de segurança do setor, incluindo ISO 27001 e ISO 27002.
 {:shortdesc}
 
-![Cláusula de modelo de proteção de dados da União Europeia](images/icon_eumc.png) uma **Cláusula de modelo da União Europeia (EU)** é um acordo para proteger dados pessoais que são transferidos da União Europeia ou do Espaço econômico europeu (EEA) para um país terceiro. A Cláusula de modelo da União Europeia é assinada entre o cliente que está localizado na União Europeia ou no Espaço econômico europeu como o exportador de dados e o processador de dados da IBM que está localizado no país terceiro como o importador de dados. A [Cláusula de modelo IBM SaaS da União Europeia ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Ícone de link externo"){: new_window} contém os direitos e obrigações do exportador e do importador de dados, além dos direitos dos assuntos de dados. A Cláusula de modelo IBM SaaS da União Europeia assegura que os dados pessoais, quando processados em um país terceiro, estão sob proteção que é semelhante à proteção disponível dentro da União Europeia ou do Espaço econômico europeu.
+![Cláusula de modelo da União Europeia](images/icon_eumc.png) Os contratos que incorporam as **Cláusulas de modelo da União Europeia (UE)** protegem dados pessoais que são transferidos da União Europeia ou do Espaço Econômico Europeu (EEA) para um país terceiro. A Cláusula de modelo da União Europeia é assinada entre o cliente que está localizado na União Europeia ou no Espaço econômico europeu como o exportador de dados e o processador de dados da IBM que está localizado no país terceiro como o importador de dados. O [IBM Data Processing Addendum (com as Cláusulas Contratuais Padrão da União Europeia ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Ícone de link externo"){: new_window} contém os direitos e deveres do exportador e do importador de dados, além dos direitos dos titulares dos dados. O IBM Data Processing Addendum fornece proteções semelhantes àquelas disponíveis na União Europeia ou no Espaço Econômico Europeu para dados pessoais processados em um país terceiro.
 
-Para clientes que desejam transferir dados que se originam no Espaço Econômico Europeu para um país fora dele, o {{site.data.keyword.Bluemix}} oferece as Cláusulas de modelo europeu na forma que é aprovada pelas autoridades de proteção de dados da Comissão Europeia e da União Europeia. As Cláusulas de modelo europeu garantem aos clientes europeus que o {{site.data.keyword.Bluemix_notm}} suporta as proteções de privacidade de dados necessárias em cada local no mundo.
+
 
 ![Sistemas de informações do setor financeiro](images/FISC.gif) Para instituições financeiras e relacionadas a finanças no Japão, os sistemas de computador devem ter procedimentos de segurança locais que sejam baseados nas diretrizes de segurança do Centro para Financial Industry Information Systems (FISC). As diretrizes de segurança do FISC são aplicadas pela Japan Financial Services Agency (FSA), Bank of Japan (BOJ) e FISC.
  
@@ -74,13 +74,13 @@ Em particular, o ISO 27018:2014 especifica diretrizes que são baseadas no ISO 2
 ## Conformidade de plataforma e serviço
 A tabela a seguir exibe quais serviços do {{site.data.keyword.Bluemix_notm}} são compatíveis com cada uma das normas.
 
-|Componentes do {{site.data.keyword.Bluemix_notm}} |FISC		|ISO 27001	|PCI |SOC 2 Tipo 1		|
+|Componentes do {{site.data.keyword.Bluemix_notm}}		|FISC		|ISO 27001	|PCI |SOC 2 Tipo 1		|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
-|Plataforma do {{site.data.keyword.Bluemix_notm}} |S			|S	|S	|S	|
-|{{site.data.keyword.APIM}}			|S	|A |S	|			|
-|{{site.data.keyword.autoscaling}}			|Y	|A |S	|			|
-|{{site.data.keyword.bigicloudst}}			|A |A |	|A |
-|{{site.data.keyword.cloudant}}				|A |A |	|S	|
+|Plataforma do {{site.data.keyword.Bluemix_notm}}		|S			|S	|S	|S	|
+|{{site.data.keyword.APIM}}			|S	|S |S	|			|
+|{{site.data.keyword.autoscaling}}			|S	|S |S	|			|
+|{{site.data.keyword.bigicloudst}}			|S |S |	|S |
+|{{site.data.keyword.cloudant}}				|S |S |	|S	|
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
 |{{site.data.keyword.datacshort}}			|S	|S	|S	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
@@ -88,6 +88,6 @@ A tabela a seguir exibe quais serviços do {{site.data.keyword.Bluemix_notm}} s�
 |{{site.data.keyword.containerlong}}			|S		|S	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|
-|{{site.data.keyword.SecureGateway}}			|S	|A |	|	 		|
-|{{site.data.keyword.sescashort}}     |A |A |S	|  |
+|{{site.data.keyword.SecureGateway}}			|S	|S |	|	 		|
+|{{site.data.keyword.sescashort}}     |S |S |S	|  |
 {: caption="Tabela 1. Conformidade de plataforma e serviço" caption-side="top"}

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-01-11" 
+lastupdated: "2017-08-08" 
 
 
 
@@ -21,9 +21,9 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} stellt eine sichere Cloudplattform bereit, der Sie vertrauen können. Die Sicherheitskonformität von {{site.data.keyword.Bluemix_notm}} ist das Ergebnis einer Kombination aus Plattform und Services, die auf den besten Sicherheitsstandards der Branche, einschließlich ISO 27001 und ISO 27002 basieren.
 {:shortdesc}
 
-![EU-Modellklausel für Datenschutz](images/icon_eumc.png) Eine **Modellklausel für die Europäische Union (EU)** ist eine Vereinbarung über den Schutz persönlicher Daten, die aus der EU oder aus dem europäischen Wirtschaftsraum (European Economic Area, EEA) in ein Drittland übertragen werden. Die EU-Modellklausel wird zwischen dem Kunden, der sich in der EU oder im EEA befindet, als Datenexporteur, und dem IBM Datenverarbeiter, der sich in dem Drittland befindet, als Datenimporteur unterzeichnet. Die [IBM SaaS-EU-Modellklausel ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Symbol für externen Link"){: new_window} enthält die Rechte und Verpflichtungen des Datenexporteurs und des Datenimporteurs sowie die Rechte der Datensubjekte. Die IBM SaaS-EU-Modellklausel stellt sicher, dass persönliche Daten, wenn sie in einem Drittland verarbeitet werden, einem Schutz unterliegen, der dem in der EU bzw. im EEA verfügbaren Schutz ähnlich ist.
+![EU-Modellklausel für Datenschutz](images/icon_eumc.png) Vereinbarungen, die die **Modellklauseln für die Europäische Union (EU)** umfassen, schützen persönliche Daten, die aus der EU oder aus dem europäischen Wirtschaftsraum (European Economic Area, EEA) in ein Drittland übertragen werden. Die EU-Modellklausel wird zwischen dem Kunden, der sich in der EU oder im EEA befindet, als Datenexporteur, und dem IBM Datenverarbeiter, der sich in dem Drittland befindet, als Datenimporteur unterzeichnet. Das [IBM Data Processing Addendum (mit EU-Standardvertragsklauseln) ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Symbol für externen Link"){: new_window} enthält die Rechte und Verpflichtungen des Datenexporteurs und des Datenimporteurs sowie die Rechte der Datensubjekte. Der mit dem IBM Data Processing Addendum verfügbare Schutz ist mit dem in der EU bzw. im europäischen Wirtschaftsraum verfügbaren Schutz für persönliche Daten, die in einem Drittland verarbeitet werden, vergleichbar. 
 
-Für Kunden, die aus dem europäischen Wirtschaftsraum (EEA) stammende Daten in ein Land außerhalb des EEA übertragen wollen, bietet {{site.data.keyword.Bluemix}} EU-Modellklauseln in einer Form, die von den Datenschutzbehörden der Europäischen Kommission und der EU genehmigt wurde. Die EU-Modellklauseln garantieren Kunden in Europa, dass {{site.data.keyword.Bluemix_notm}} für jeden Ort auf der Welt die entsprechenden Datenschutzvorschriften unterstützt.
+
 
 ![Finanzwirtschaftliche Informationssysteme](images/FISC.gif) Für Bankunternehmen und zugehörige Finanzinstitute in Japan müssen für Computersysteme Sicherheitsverfahren auf der Basis der FISC-Sicherheitsrichtlinien (Center for Financial Industry Information Systems) eingerichtet sein. FISC-Sicherheitsrichtlinien werden von der Japan Financial Services Agency (FSA), Bank of Japan (BOJ) und FISC zwingend vorgeschrieben.
  
@@ -51,7 +51,7 @@ Wenn Sie Kreditkartendaten speichern oder verarbeiten, sind die Konformität mit
 
 ![HIPAA](images/icon_hipaa.png) Der Health Insurance Portability and Accountability Act (HIPAA), erlassen vom US-Kongress im Jahr 1996, schützt die Krankenversicherungsabdeckung für Angestellte nach dem Verlust ihrer Arbeit. HIPAA wird vom Amt für Bürgerrechte ("Office of Civil Rights") und dem Gesundheits- und Sozialministerium der USA reguliert und durchgesetzt. HIPAA umfasst Bestimmungen aus dem 1996 Act sowie Datenschutzanforderungen aus dem HITECH-Act ("Health Information Technology for Economic and Clinical Health") von 2009 zur Informationstechnologie im Gesundheitswesen. {{site.data.keyword.Bluemix_notm}} erfüllt alle HIPAA-Anforderungen auf der Seite des Rechenzentrums oder des Service-Providers.
 
-Weitere Informationen oder Hilfestellungen zur Erlangung, Zertifizierung und Aufrechterhaltung der HIPAA-Konformität für Ihre Bluemix-Umgebung erhalten Sie beim {{site.data.keyword.Bluemix_notm}} [-Vertriebsteam ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](mailto:cloudplatform_compliance@us.ibm.com "Symbol für externen Link"){:new_window}. 
+Weitere Informationen oder Hilfestellungen zur Erlangung, Zertifizierung und Aufrechterhaltung der HIPAA-Konformität für Ihre Bluemix-Umgebung erhalten Sie beim {{site.data.keyword.Bluemix_notm}} [-Vertriebsteam ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](mailto:cloudplatform_compliance@us.ibm.com "Symbol für externen Link"){:new_window}.
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 gibt Leitlinien dazu, welche Kontrollmechanismen zur Informationssicherheit auf die Bereitstellung und Verwendung von Cloud-Services anwendbar sind. Zusätzlich liefert sie Anweisungen zur Implementierung von Cloud-Service-Providern wie auch von Cloud-Service-Kunden. ISO 27017 gibt Implementierungsanweisungen für relevante Kontrollmechanismen, die in ISO/IEC 27002 angegeben werden, sowie zusätzliche Kontrollmechanismen und Anleitungen speziell für Cloud-Services.
@@ -74,7 +74,7 @@ Insbesondere enthält ISO 27018:2014 Leitlinien, die auf ISO 27002 basieren. In 
 ## Plattform- und Servicekonformität
 Die folgende Tabelle zeigt, welche Services in {{site.data.keyword.Bluemix_notm}} mit welchem der Standards konform sind.
 
-|{{site.data.keyword.Bluemix_notm}}-Komponenten	|FISC		|ISO 27001	|PCI |SOC 2 Typ 1		|
+|{{site.data.keyword.Bluemix_notm}}-Komponenten		|FISC		|ISO 27001	|PCI |SOC 2 Typ 1		|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
 |{{site.data.keyword.Bluemix_notm}}-Plattform		|J			|J	|J	|J	|
 |{{site.data.keyword.APIM}}			|J	|J |J	|			|

@@ -1,4 +1,4 @@
-﻿---
+---
 
 
 
@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-01-11" 
+lastupdated: "2017-08-08"
 
 
 
@@ -21,12 +21,9 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} fournit une plateforme cloud sécurisée, digne de confiance. La conformité {{site.data.keyword.Bluemix_notm}} résulte d'une plateforme et de services générés avec les meilleures normes de sécurité de l'industrie, notamment ISO 27001 et ISO 27002.
 {:shortdesc}
 
-![Clause contractuelle de protection des données dans l'Union européenne](images/icon_eumc.png)  Une **clause contractuelle de l'Union européenne (UE)** est un accord conçu pour protéger les données personnelles transférées de l'Union européenne ou de l'Espace économique européen (EEE) vers un pays tiers. La clause contractuelle de l'Union européenne (UE) est signée entre le client qui se trouve dans l'UE ou l'EEE (l'exportateur de données) et le processeur de données IBM qui se trouve dans le pays tiers (l'importateur de données). La clause [IBM SaaS EU Model Clause ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} comprend les droits et les obligations de l'exportateur de données et de l'importateur de données, ainsi que les droits des personnes concernées. La clause IBM SaaS EU Model Clause garantit que les données personnelles, lorsqu'elles sont traitées dans un pays tiers, sont protégées de la même manière que dans l'UE ou l'EEE.
+![Clause contractuelle de protection des données dans l'Union européenne](images/icon_eumc.png)  Les accords intégrant la **Clause contractuelle de protection des données dans l'Union Européenne (UE)** protègent les données personnelles transférées de l'Union européenne ou de l'Espace économique européen (EEE) vers un pays tiers. La clause contractuelle de l'Union européenne (UE) est signée entre le client qui se trouve dans l'UE ou l'EEE (l'exportateur de données) et le processeur de données IBM qui se trouve dans le pays tiers (l'importateur de données). L'annexe [IBM Data Processing Addendum (avec les clauses contractuelles de l'Union européenne ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window}) couvre les droits et les obligations de l'exportateur de données et de l'importateur de données, ainsi que les droits des personnes concernées.  L'annexe IBM Data Processing Addendum assure des protections similaires à celles disponibles dans l'Union européenne ou l'Espace économique européen pour les données personnelles traitées dans un pays tiers.
 
-Pour les clients qui souhaitent transférer des données provenant de l'Espace économique européen (EEE) vers un pays hors de l'EEE,
-{{site.data.keyword.Bluemix}} propose des clauses contractuelles européennes dans le formulaire approuvé par les autorités de protection
-des données de la Commission européenne et de l'Union européenne. Les clauses contractuelles européennes garantissent aux clients européens que {{site.data.keyword.Bluemix_notm}} assure la confidentialité des
-données requise partout dans le monde.
+
 
 ![Financial Industry Information Systems - FISC](images/FISC.gif) Pour les institutions bancaires et financières au Japon, les systèmes informatiques doivent avoir mis en place des procédures de sécurité, en accord avec les directives de sécurité établies par le FISC (Center for Financial Industry Information Systems). Les directives de sécurité du FISC sont imposées par l'agence japonaise FSA (Financial Services Agency), la banque BOJ (Bank of
 Japan) et le FISC.

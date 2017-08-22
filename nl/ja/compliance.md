@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-01-11"
+lastupdated: "2017-08-08"
 
 
 
@@ -21,9 +21,9 @@ lastupdated: "2017-01-11"
 {{site.data.keyword.Bluemix}} は、信頼できる安全なクラウド・プラットフォームを提供します。{{site.data.keyword.Bluemix_notm}} のコンプライアンスは、ISO 27001 および ISO 27002 などの業界最高のセキュリティー規格を基盤としたプラットフォームおよびサービスの結果として作成されたものです。
 {:shortdesc}
 
-![EU のデータ保護モデル契約条項](images/icon_eumc.png)  **EU モデル契約条項**は、EU または欧州経済地域 (EEA) から第三国に転送される個人データを保護する取り決めです。EU モデル契約条項は、EU または EEA にデータ・エクスポーターとして位置するクライアントと、第三国にデータ・インポーターとして位置する IBM データ・プロセッサーとの間で署名されました。[IBM SaaS EU モデル契約条項 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "「外部リンク」アイコン"){: new_window} には、データ・エクスポーターとデータ・インポーターの権利と義務、およびデータ・サブジェクトの権利が記載されています。IBM SaaS EU モデル契約条項は、第三国で個人データの処理が行われる際に、その個人データに対して EU または EEA 内で使用可能な保護に似た保護を実行することを保証します。
+![EU のデータ保護モデル契約条項](images/icon_eumc.png)  **EU モデル契約条項**を組み込んだ取り決めは、EU または欧州経済地域 (EEA) から第三国に転送される個人データを保護します。EU モデル契約条項は、EU または EEA にデータ・エクスポーターとして位置するクライアントと、第三国にデータ・インポーターとして位置する IBM データ・プロセッサーとの間で署名されました。[IBM Data Processing Addendum (EU 標準契約条項を含む) ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "「外部リンク」アイコン"){: new_window} には、データ・エクスポーターとデータ・インポーターの権利と義務、およびデータ・サブジェクトの権利が記載されています。IBM Data Processing Addendum は、第三国で処理された個人データに対して EU または EEA で提供される保護と同様の保護を提供します。
 
-欧州経済地域 (EEA) から発信するデータを EEA 以外の国に転送するお客様の場合、{{site.data.keyword.Bluemix}} は、EU モデル契約条項を、欧州委員会と欧州連合 (EU) のデータ保護機関に承認された形式で提供します。EU モデル契約条項は、{{site.data.keyword.Bluemix_notm}} が世界中のすべての場所で必要なデータ・プライバシー保護をサポートすることを、ヨーロッパのお客様に保障します。
+
 
 ![金融情報システム](images/FISC.gif)  日本国内の銀行業界および関連する金融業界の場合、コンピューター・システムは、金融情報システムセンター (FISC) の安全対策基準に基づいた安全対策手順を実施する必要があります。FISC 安全対策基準は、金融庁 (FSA)、日本銀行 (BOJ)、および FISC によって実施されています。
  

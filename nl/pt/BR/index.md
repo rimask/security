@@ -40,7 +40,7 @@ rede, criptografia de dados e controle de acesso
 
 ![Visão geral de segurança de plataforma do Bluemix](images/platform_sec.svg)
 
-Figura 1. Visão geral de segurança da plataforma do {{site.data.keyword.Bluemix_notm}}
+Figura 1. Visão geral de segurança de plataforma do {{site.data.keyword.Bluemix_notm}}
 
 Com o {{site.data.keyword.Bluemix_notm}} Local, você hospeda o {{site.data.keyword.Bluemix_notm}} atrás do firewall de sua empresa e em seu datacenter. Portanto, você é responsável por determinados aspectos de segurança. A seguinte imagem detalha quais partes da segurança são de propriedade do cliente e quais partes de segurança são gerenciadas e mantidas pela IBM.
 
@@ -93,8 +93,7 @@ Os métodos de HTTP a seguir são permitidos:
 <dt>x-client-ip</dt>
 <dd>Configurado com o endereço IP do cliente.</dd>
 <dt>x-forwarded-proto</dt>
-<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https,
-http, ws ou wss.</dd>
+<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https, http, ws ou wss.</dd>
 </dl>
 </dd>
 
