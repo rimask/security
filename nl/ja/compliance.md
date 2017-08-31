@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-08-08"
+lastupdated: "2017-08-17"
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-08"
 {{site.data.keyword.Bluemix}} は、信頼できる安全なクラウド・プラットフォームを提供します。{{site.data.keyword.Bluemix_notm}} のコンプライアンスは、ISO 27001 および ISO 27002 などの業界最高のセキュリティー規格を基盤としたプラットフォームおよびサービスの結果として作成されたものです。
 {:shortdesc}
 
-![EU のデータ保護モデル契約条項](images/icon_eumc.png)  **EU モデル契約条項**を組み込んだ取り決めは、EU または欧州経済地域 (EEA) から第三国に転送される個人データを保護します。EU モデル契約条項は、EU または EEA にデータ・エクスポーターとして位置するクライアントと、第三国にデータ・インポーターとして位置する IBM データ・プロセッサーとの間で署名されました。[IBM Data Processing Addendum (EU 標準契約条項を含む) ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "「外部リンク」アイコン"){: new_window} には、データ・エクスポーターとデータ・インポーターの権利と義務、およびデータ・サブジェクトの権利が記載されています。IBM Data Processing Addendum は、第三国で処理された個人データに対して EU または EEA で提供される保護と同様の保護を提供します。
+![EU のデータ保護モデル契約条項](images/icon_eumc.png)  **EU モデル契約条項**を組み込んだ取り決めは、EU または欧州経済地域 (EEA) から第三国に転送される個人データを保護します。EU モデル契約条項は、EU または EEA にデータ・エクスポーターとして位置するクライアントと、第三国にデータ・インポーターとして位置する IBM データ・プロセッサーとの間で署名されました。IBM Data Processing Addendum (EU 標準契約条項を含む) には、データ・エクスポーターとデータ・インポーターの権利と義務、およびデータ・サブジェクトの権利が記載されています。IBM Data Processing Addendum は、第三国で処理された個人データに対して EU または EEA で提供される保護と同様の保護を提供します。
 
 
 
@@ -32,7 +32,7 @@ lastupdated: "2017-08-08"
 
 企業が ISO 27001:2013 認証を取得するためには、企業とカスタマー情報の機密性、完全性、可用性に影響する情報セキュリティー・リスクを管理するための体系的で継続的な方法を使用していることを示す必要があります。この規格は、組織の情報セキュリティー・マネジメント・システム (ISMS) がどの程度適切に機能しているかについての測定と評価を重視し、システムと他の要件を基準にした情報セキュリティー関連の管理も含まれます。
 
-{{site.data.keyword.Bluemix_notm}} は、サード・パーティーのセキュリティー会社によって監査されており、ISO 27001 のすべての条件 ([Bluemix ISO 27001:2013 Certificate of Registration![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf "「外部リンク」アイコン"){: new_window}) を満たしています。
+{{site.data.keyword.Bluemix_notm}} は、サード・パーティーのセキュリティー会社によって監査されており、ISO 27001 のすべての条件 ([Bluemix ISO 27001:2013 Certificate of Registration![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}) を満たしています。
 
 ![PCI DSS](images/icon_pci.png) **Payment Card Industry (PCI) Data Security Standards (DSS)** は、クレジット・カード・データを保護するために設計された情報セキュリティー標準です。PCI DSS は、マーチャント、プロセッサー、発行者、サービス・プロバイダーなど、ペイメント・カード処理に関与するすべてのエンティティーに適用されます。また、カード所有者のデータまたは機密認証データを保管、処理、または送信する他のすべてのエンティティーにも適用されます。
 
@@ -40,7 +40,7 @@ lastupdated: "2017-08-08"
 これらの基準には、カード所有者のデータを保護するためのベスト・プラク
 ティスが取り込まれており、第三者の認定サービス評価機関 (QSA: Qualified Service Assessor) による検証を必要とする場合が多々あります。IBM は、独立した QSA からの「Attestation on Compliance」を提供することで、お客様が各自の PCI コンプライアンスのニーズに対応できるようお手伝いをしています。「Attestation on Compliance」を弊社の SOC 2 レポートおよび ISO 27001 認証と併せて使用すると、インフラストラクチャーが PCI 規制に対応していることを示すことができます。
 
-{{site.data.keyword.Bluemix}} は、承認された認定セキュリティー評価機関 (QSA) によって、1 年に 1 回 PCI DSS アセスメントを完了しています。ご使用の {{site.data.keyword.Bluemix_notm}} 環境における PCI DSS への準拠に関する情報および支援については、『[お問い合わせ ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs "「外部リンク」アイコン"){: new_window}』から営業担当にお問い合わせください。
+{{site.data.keyword.Bluemix}} は、承認された認定セキュリティー評価機関 (QSA) によって、1 年に 1 回 PCI DSS アセスメントを完了しています。ご使用の {{site.data.keyword.Bluemix_notm}} 環境における PCI DSS への準拠に関する情報および支援については、『[お問い合わせ ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}』から営業担当にお問い合わせください。
 
 ![SSAE16 SOC1/2/3](images/icon_aicpa.png) **Service Organization Controls (SOC)** レポートは、サービス組織でのセキュリティー、可用性、処理の完全性、機密性、およびプライバシーに関連した、主要な内部制御実施の評価を定義しています。米国公認会計士協会 (AICPA) ガイドを使用して生成されたこれらのレポートには、以下の項目が含まれています。 
   * 組織の監督
@@ -48,12 +48,12 @@ lastupdated: "2017-08-08"
   * 社内のコーポレート・ガバナンスおよびリスク管理プロセス
   * 規制の監督
  
-{{site.data.keyword.Bluemix_notm}} は、SOC 1、SOC 2、SOC 3 のレポートを提供します。追加情報については、[{{site.data.keyword.Bluemix_notm}} の営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:bmxcert1@us.ibm.com "「外部リンク」アイコン"){:new_window} チームまでお問い合わせください。 
+{{site.data.keyword.Bluemix_notm}} は、SOC 1、SOC 2、SOC 3 のレポートを提供します。追加情報については、[{{site.data.keyword.Bluemix_notm}} の営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:bmxcert1@us.ibm.com){:new_window} チームまでお問い合わせください。 
 
 
 ![HIPAA](images/icon_hipaa.png) 医療保険の積算と責任に関する法律 (HIPAA) は、1996 年に米国連邦議会で施行され、失業後の従業員の医療保険補償を保護します。HIPAA は、米国の公民権局および保健社会福祉省によって規定および施行されています。HIPAA は、1996 年の法律の規制、および 2009 年の経済的および臨床的健全性のための医療情報技術に関する法律 (HITECH) のプライバシー要件を含んでいます。{{site.data.keyword.Bluemix_notm}} は、データ・センターまたはサービス・プロバイダー側において、HIPAA のすべての要件を満たしています。
 
-ご使用の Bluemix 環境における HIPAA コンプライアンスの達成、認証、および保守に関する詳細または支援については、{{site.data.keyword.Bluemix_notm}} [営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:cloudplatform_compliance@us.ibm.com "「外部リンク」アイコン"){:new_window} チームにお問い合わせください。
+ご使用の Bluemix 環境における HIPAA コンプライアンスの達成、認証、および保守に関する詳細または支援については、{{site.data.keyword.Bluemix_notm}} [営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} チームにお問い合わせください。
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 は、クラウド・サービスのプロビジョニングおよび使用に適用される情報セキュリティー管理のガイドラインを提供します。また、クラウド・サービス・プロバイダーとクラウド・サービスの顧客の両方に対する実装ガイドラインを提供します。ISO 27017 は、ISO/IEC 27002 で指定される関連制御の実装ガイダンスを提供します。また、特にクラウド・サービスに関連する追加の制御とガイダンスも提供します。
@@ -86,7 +86,7 @@ lastupdated: "2017-08-08"
 |{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
 |{{site.data.keyword.datacshort}}			|Y	|Y	|Y	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
-|{{site.data.keyword.jazzhub_short}}					|Y	|Y	|	|			|
+|{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
 |{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|

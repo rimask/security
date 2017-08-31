@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-08-08" 
+lastupdated: "2017-08-17" 
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-08"
 {{site.data.keyword.Bluemix}} 提供了一个您可以信任的安全云平台。{{site.data.keyword.Bluemix_notm}} 合规性是通过基于业界最佳安全标准（包括 ISO 27001 和 ISO 27002）构建的平台和服务来实现的。
 {:shortdesc}
 
-![欧盟数据保护示范条款](images/icon_eumc.png) 合并了**欧盟 (EU) 示范条款**的协议，用于保护从欧盟 (EU) 或欧洲经济区 (EEA) 传输到第三方国家或地区的个人数据。“欧盟 (EU) 示范条款”是由位于 EU 或 EEA 的客户（数据导出方）与位于第三方国家或地区的 IBM 数据处理方（数据导入方）之间签订的。[IBM Data Processing Addendum (with EU Standard Contractual Clauses![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "外部链接图标"){: new_window} 包含数据导出方和数据导入方的权利和责任，以及数据主体的权利。针对第三方国家或地区处理的个人数据，IBM Data Processing Addendum 提供的保护类似于 EU 或 EEA 中所提供的保护。
+![欧盟数据保护示范条款](images/icon_eumc.png) 合并了**欧盟 (EU) 示范条款**的协议，用于保护从欧盟 (EU) 或欧洲经济区 (EEA) 传输到第三方国家或地区的个人数据。“欧盟 (EU) 示范条款”是由位于 EU 或 EEA 的客户（数据导出方）与位于第三方国家或地区的 IBM 数据处理方（数据导入方）之间签订的。IBM Data Processing Addendum (with EU Standard Contractual Clauses) 包含数据导出方和数据导入方的权利和责任，以及数据主体的权利。针对第三方国家或地区处理的个人数据，IBM Data Processing Addendum 提供的保护类似于 EU 或 EEA 中所提供的保护。
 
 
 
@@ -32,13 +32,13 @@ lastupdated: "2017-08-08"
 
 为了通过 ISO 27001:2013 认证，公司必须证明自己具有系统化的持续方法，用于管理会影响公司及客户信息的机密性、完整性和可用性的信息安全风险。此标准着重于测量和评估组织的信息安全管理系统 (ISMS) 的表现情况，并包含与信息安全相关且基于系统需求和其他需求的控制措施。
 
-{{site.data.keyword.Bluemix_notm}} 经第三方安全公司审计，满足 ISO 27001 的所有要求：[Bluemix ISO 27001:2013 Certificate of Registration ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf "外部链接图标"){: new_window}。
+{{site.data.keyword.Bluemix_notm}} 经第三方安全公司审计，满足 ISO 27001 的所有要求：[Bluemix ISO 27001:2013 Certificate of Registration ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}。
 
 ![PCI DSS](images/icon_pci.png) **支付卡行业 (PCI) 数据安全标准 (DSS)** 是一种旨在保护信用卡数据的信息安全标准。PCI DSS 适用于支付卡处理中所涉及的所有实体，包括商家、处理机构、发卡人和服务提供者。此外，还适用于存储、处理或传输持卡人数据或敏感认证数据的其他所有实体。
 
 如果您要存储或处理信用卡数据，那么支付卡行业 (PCI) 合规性和网络安全将是您企业关心的主要问题。为了确保有统一标准可供商家使用，支付卡行业安全标准委员会颁布了 PCI 数据安全标准。这些标准整合了用于保护持卡人数据的最佳实践，并且通常需要第三方合格服务评估方 (QSA) 进行验证。IBM 通过独立的 QSA 提供“合规证明”，帮助客户满足其 PCI 合规需求。“合规证明”可与 SOC 2 报告以及 ISO 27001 认证配合使用，以证明基础架构满足 PCI 控制要求。
 
-{{site.data.keyword.Bluemix}} 通过批准的合格安全服务评估方 (QSA) 完成了年度 PCI DSS 评估。有关使您的 {{site.data.keyword.Bluemix_notm}} 环境符合 PCI DSS 评估要求的信息和帮助，请联系销售人员：[联系我们 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs "外部链接图标"){: new_window}。
+{{site.data.keyword.Bluemix}} 通过批准的合格安全服务评估方 (QSA) 完成了年度 PCI DSS 评估。有关使您的 {{site.data.keyword.Bluemix_notm}} 环境符合 PCI DSS 评估要求的信息和帮助，请联系销售人员：[联系我们 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}。
 
 ![SSAE16 SOC1/2/3](images/icon_aicpa.png) **服务组织控制 (SOC)** 报告定义了如何对服务组织评估与安全性、可用性、处理完整性、机密性和隐私性相关的主要内部控制做法。这些报告是使用美国注册会计师协会 (AICPA) 指南生成的，包含以下各项： 
   * 组织监督
@@ -46,12 +46,12 @@ lastupdated: "2017-08-08"
   * 内部公司治理和风险管理流程
   * 法规监督
  
-{{site.data.keyword.Bluemix_notm}} 提供 SOC 1、SOC 2 和 SOC 3 报告。有关其他信息，请联系 [{{site.data.keyword.Bluemix_notm}} 销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:bmxcert1@us.ibm.com "外部链接图标"){:new_window} 团队。 
+{{site.data.keyword.Bluemix_notm}} 提供 SOC 1、SOC 2 和 SOC 3 报告。有关其他信息，请联系 [{{site.data.keyword.Bluemix_notm}} 销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:bmxcert1@us.ibm.com){:new_window} 团队。 
 
 
 ![HIPAA](images/icon_hipaa.png) 美国国会在 1996 年颁布的《健康保险可移植性和责任法案》(HIPAA) 旨在保障员工在失业后仍能享受健康保险。HIPAA 由美国民权办公室以及卫生和公众服务部负责监管和实施。HIPAA 除了包含 1996 年法案中的规定外，还包含 2009 年颁布的《医疗信息技术促进经济和临床健康法案》(HITECH) 中的隐私要求。{{site.data.keyword.Bluemix_notm}} 符合 HIPAA 有关数据中心或服务提供者方面的所有要求。
 
-有关使您的 Bluemix 环境达到 HIPAA 合规性、通过 HIPAA 合规性认证以及保持 HIPAA 合规性的更多信息或帮助，请联系 {{site.data.keyword.Bluemix_notm}} [销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:cloudplatform_compliance@us.ibm.com "外部链接图标"){:new_window} 团队。
+有关使您的 Bluemix 环境达到 HIPAA 合规性、通过 HIPAA 合规性认证以及保持 HIPAA 合规性的更多信息或帮助，请联系 {{site.data.keyword.Bluemix_notm}} [销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 团队。
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 针对适用于供应和使用云服务的信息安全控制措施提供了准则。此外，它还针对云服务提供商和云服务客户提供了实施指南。ISO 27017 针对 ISO/IEC 27002 中规定的相关控制措施提供了实施指南，同时还提供了专门与云服务相关的更多控制措施与指南。
@@ -84,7 +84,7 @@ lastupdated: "2017-08-08"
 |{{site.data.keyword.dashdbshort}}			|是|是|	|是|
 |{{site.data.keyword.datacshort}}			|是|是|是|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|是|
-|{{site.data.keyword.jazzhub_short}}					|是|是|	|			|
+|{{site.data.keyword.contdelivery_short}}					|是|是|	|			|
 |{{site.data.keyword.containerlong}}			|是|是|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|是|
 |{{site.data.keyword.mql}}				|是|是|是|	 		|

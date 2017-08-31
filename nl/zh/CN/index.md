@@ -19,7 +19,7 @@ lastupdated: "2017-01-10"
 {{site.data.keyword.Bluemix}} 平台是使用安全工程实践进行设计的，通过不同的层对整个网络和基础架构中的安全进行控制。{{site.data.keyword.Bluemix_notm}} 提供了一组安全服务，应用程序开发者可以使用这些服务来保护自己的移动和 Web 应用程序。这些优势组合在一起，使 {{site.data.keyword.Bluemix_notm}} 平台成为安全应用程序开发的不二选择。
 {:shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} 遵循由 IBM 中的最佳做法驱动的系统、网络和安全工程方面的安全策略，从而确保安全就绪性。这些策略包括源代码扫描、动态扫描、威胁建模和渗透测试等做法。{{site.data.keyword.Bluemix_notm}} 遵循 IBM 产品安全事件响应小组 (PSIRT) 的安全事件管理流程。有关详细信息，请参阅 [IBM Security Vulnerability Management (PSIRT) ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-03.ibm.com/security/secure-engineering/process.html "外部链接图标"){: new_window} 站点。
+{{site.data.keyword.Bluemix_notm}} 遵循由 IBM 中的最佳做法驱动的系统、网络和安全工程方面的安全策略，从而确保安全就绪性。这些策略包括源代码扫描、动态扫描、威胁建模和渗透测试等做法。{{site.data.keyword.Bluemix_notm}} 遵循 IBM 产品安全事件响应小组 (PSIRT) 的安全事件管理流程。有关详细信息，请参阅 [IBM Security Vulnerability Management (PSIRT) ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} 站点。
 
 {{site.data.keyword.Bluemix_notm}} Public 和 Dedicated 使用 {{site.data.keyword.BluSoftlayer}} 基础架构即服务 (IaaS) 云服务，并充分利用了其安全体系结构。{{site.data.keyword.BluSoftlayer}} IaaS 提供了多个重叠层来保护应用程序和数据。对于 {{site.data.keyword.Bluemix_notm}} Local，通过在位于公司防火墙后您自己的数据中心托管 {{site.data.keyword.Bluemix_notm}} Local，您可以拥有物理安全并提供基础架构。此外，{{site.data.keyword.Bluemix_notm}} 还在“平台即服务”层添加了不同类别（平台、数据和应用程序）的安全功能。
 
@@ -206,7 +206,7 @@ Single Sign On 服务支持多个存储用户凭证的身份源：
 
 通过 IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 插件，可以对在 {{site.data.keyword.Bluemix_notm}} 上托管的 Web 或 Android 应用程序运行安全扫描。此插件由 IBM UrbanCode™ Deploy Community 开发并提供支持。
 
-有关更多信息，请转至 [IBM Application Security Testing for Bluemix ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/ "外部链接图标"){: new_window}。
+有关更多信息，请转至 [IBM Application Security Testing for Bluemix ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}。
 
 ### dashDB
 
@@ -222,5 +222,5 @@ dashDB 服务使用嵌入的 LDAP 服务器进行用户认证。应用程序和�
 
 ### 安全信息和事件管理
 
-您可以使用安全信息和事件管理 (SIEM) 工具来分析应用程序日志中的安全警报。其中一个此类工具是 IBM Security QRadar&reg; SIEM，该工具在云环境中提供安全智能。有关信息，请参阅 [IBM QRadar Security Intelligence Platform ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en "外部链接图标"){: new_window}。
+您可以使用安全信息和事件管理 (SIEM) 工具来分析应用程序日志中的安全警报。其中一个此类工具是 IBM Security QRadar&reg; SIEM，该工具在云环境中提供安全智能。有关信息，请参阅 [IBM QRadar Security Intelligence Platform ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}。
 

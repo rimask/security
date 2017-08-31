@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2016
 
-lastupdated: "2017-08-08"
+lastupdated: "2017-08-17"
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-08"
 {{site.data.keyword.Bluemix}} fournit une plateforme cloud sécurisée, digne de confiance. La conformité {{site.data.keyword.Bluemix_notm}} résulte d'une plateforme et de services générés avec les meilleures normes de sécurité de l'industrie, notamment ISO 27001 et ISO 27002.
 {:shortdesc}
 
-![Clause contractuelle de protection des données dans l'Union européenne](images/icon_eumc.png)  Les accords intégrant la **Clause contractuelle de protection des données dans l'Union Européenne (UE)** protègent les données personnelles transférées de l'Union européenne ou de l'Espace économique européen (EEE) vers un pays tiers. La clause contractuelle de l'Union européenne (UE) est signée entre le client qui se trouve dans l'UE ou l'EEE (l'exportateur de données) et le processeur de données IBM qui se trouve dans le pays tiers (l'importateur de données). L'annexe [IBM Data Processing Addendum (avec les clauses contractuelles de l'Union européenne ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window}) couvre les droits et les obligations de l'exportateur de données et de l'importateur de données, ainsi que les droits des personnes concernées.  L'annexe IBM Data Processing Addendum assure des protections similaires à celles disponibles dans l'Union européenne ou l'Espace économique européen pour les données personnelles traitées dans un pays tiers.
+![Clause contractuelle de protection des données dans l'Union européenne](images/icon_eumc.png)  Les accords intégrant la **Clause contractuelle de protection des données dans l'Union Européenne (UE)** protègent les données personnelles transférées de l'Union européenne ou de l'Espace économique européen (EEE) vers un pays tiers. La clause contractuelle de l'Union européenne (UE) est signée entre le client qui se trouve dans l'UE ou l'EEE (l'exportateur de données) et le processeur de données IBM qui se trouve dans le pays tiers (l'importateur de données). L'annexe IBM Data Processing Addendum (avec les clauses contractuelles de l'Union européenne) couvre les droits et les obligations de l'exportateur et de l'importateur de données, ainsi que les droits des personnes concernées par ces données. L'annexe IBM Data Processing Addendum assure des protections similaires à celles disponibles dans l'Union européenne ou l'Espace économique européen pour les données personnelles traitées dans un pays tiers.
 
 
 
@@ -123,7 +123,7 @@ Le tableau ci-dessous indique quels sont les services dans {{site.data.keyword.B
 |{{site.data.keyword.dashdbshort}}			|O	|O	|	|O	|
 |{{site.data.keyword.datacshort}}			|O	|O	|O	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|O	 		|
-|{{site.data.keyword.jazzhub_short}}					|O	|O	|	|			|
+|{{site.data.keyword.contdelivery_short}}					|O	|O	|	|			|
 |{{site.data.keyword.containerlong}}			|O		|O	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|O	 		|
 |{{site.data.keyword.mql}}				|O	|O	|O	|	 		|

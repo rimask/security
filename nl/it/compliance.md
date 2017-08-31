@@ -6,7 +6,7 @@ copyright:
 
   year: 2015，2016
 
-lastupdated: "2017-08-08" 
+lastupdated: "2017-08-17" 
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-08"
 {{site.data.keyword.Bluemix}} fornisce una piattaforma cloud sicura di cui ti puoi fidare. La conformità {{site.data.keyword.Bluemix_notm}} deriva da una piattaforma e da servizi basati sui migliori standard di sicurezza, tra cui ISO 27001 e ISO 27002.
 {:shortdesc}
 
-![Clausola del modello di protezione dati UE](images/icon_eumc.png)  Accordi che incorporano le **Clausole del modello dell'Unione Europea (UE)** per proteggere i dati personali che vengono trasferiti dall'Unione Europea (UE) o dallo Spazio economico europeo (SEE) verso un terzo paese. La Clausola del modello UE viene firmato tra il client ubicato nell'UE o SEE come esportatore di dati e il processore di dati IBM ubicato nel paese terzo come importatore dei dati. [IBM Data Processing Addendum (con le clausole contrattuali standard EU) ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF "Icona link esterno"){: new_window} contiene i diritti e gli obblighi dell'esportatore e dell'importatore dei dati nonché i diritti dei soggetti interessati. IBM Data Processing Addendum fornisce protezione simile a quella disponibile in EU o EEA per i dati personali elaborati in paesi terzi.
+![Clausola del modello di protezione dati UE](images/icon_eumc.png)  Accordi che incorporano le **Clausole del modello dell'Unione Europea (UE)** per proteggere i dati personali che vengono trasferiti dall'Unione Europea (UE) o dallo Spazio economico europeo (SEE) verso un terzo paese. La Clausola del modello UE viene firmato tra il client ubicato nell'UE o SEE come esportatore di dati e il processore di dati IBM ubicato nel paese terzo come importatore dei dati. IBM Data Processing Addendum (con le clausole contrattuali standard EU) contiene i diritti e gli obblighi dell'esportatore e dell'importatore dei dati nonché i diritti dei soggetti interessati. IBM Data Processing Addendum fornisce protezione simile a quella disponibile in EU o EEA per i dati personali elaborati in paesi terzi.
 
 
 
@@ -32,13 +32,13 @@ lastupdated: "2017-08-08"
 
 Per ottenere la certificazione ISO 27001:2013, un'azienda deve dimostrare che ha un approccio sistematico e costante nella gestione dei rischi della sicurezza informatica che influiscono sulla riservatezza, l'integrità e la disponibilità delle informazioni aziendali e dei clienti. Questo standard sottolinea la misurazione e la valutazione dell'efficacia del sistema di gestione della sicurezza delle informazioni (ISMS) di un'organizzazione e include anche i controlli relativi alla sicurezza di informazioni basati su requisiti di sistema e altri requisiti.
 
-{{site.data.keyword.Bluemix_notm}} è controllato da una società di sicurezza di terze parti e rispetta tutti i requisiti per l'ISO 27001: [Bluemix ISO 27001:2013 Certificate of Registration ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf "Icona link esterno"){: new_window}.
+{{site.data.keyword.Bluemix_notm}} è controllato da una società di sicurezza di terze parti e rispetta tutti i requisiti per l'ISO 27001: [Bluemix ISO 27001:2013 Certificate of Registration ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
 
 ![PCI DSS](images/icon_pci.png)  il **PCI (Payment Card Industry) DSS (Data Security Standard)** è uno standard di sicurezza delle informazioni studiato per proteggere i dati delle carte di credito. PCI DSS si applica a tutte le entità coinvolte nell'elaborazione delle carte di pagamento, tra cui commercianti, processori, emittenti e fornitori di servizi. Si applica anche a tutte le altre entità che memorizzano, elaborano o trasmettono dati del titolare della carta o dati sensibili di autenticazione.
 
 Se memorizzi o elabori i dati delle carte di credito, la conformità al PCI (Payment Card Industry) e la sicurezza di rete sono di primaria importanza per il tuo business. Per garantire standard coerenti per i commercianti, il Payment Card Industry Security Standards Council ha stabilito gli standard di sicurezza dei dati PCI. Questi standard incorporano le procedure ottimali per proteggere i dati del titolare della carta e spesso richiedono la convalida da parte di un QSA (Qualified Service Assessor) di terze parti. IBM aiuta i clienti a soddisfare le loro esigenze di conformità PCI, fornendo un Attestato di conformità da un QSA indipendente. L'attestazione di conformità può essere utilizzata insieme al report SOC 2 e alla certificazione ISO 27001 per dimostrare che l'infrastruttura rispetta i controlli PCI.
 
-{{site.data.keyword.Bluemix}} completa una valutazione PCI DSS annuale utilizzando un QSA (Qualified Security Assessor) approvato. Per informazioni e assistenza sulla conformità agli standard PCI DSS per il tuo ambiente {{site.data.keyword.Bluemix_notm}}, contatta il settore vendite in [Contatti ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs "Icona link esterno"){: new_window}.
+{{site.data.keyword.Bluemix}} completa una valutazione PCI DSS annuale utilizzando un QSA (Qualified Security Assessor) approvato. Per informazioni e assistenza sulla conformità agli standard PCI DSS per il tuo ambiente {{site.data.keyword.Bluemix_notm}}, contatta il settore vendite in [Contatti ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
 
 ![SSAE16 SOC1/2/3](images/icon_aicpa.png) I report **SOC (Service Organization Controls)** definiscono la valutazione delle principali pratiche di controllo interno che riguardano la sicurezza, la disponibilità, l'integrità di elaborazione, la riservatezza e la privacy in un'organizzazione di servizi. I report generati mediante la Guida AICPA (American Institute of Certified Public Accountant) includono i seguenti elementi: 
   * Controllo dell'organizzazione
@@ -46,12 +46,12 @@ Se memorizzi o elabori i dati delle carte di credito, la conformità al PCI (Pay
   * Processi interni del governo di impresa e della gestione dei rischi
   * Controllo regolamentare
  
-{{site.data.keyword.Bluemix_notm}} fornisce i report SOC 1, SOC 2 e SOC 3. Per ulteriori informazioni, contatta il team delle vendite [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](mailto:bmxcert1@us.ibm.com "Icona link esterno"){:new_window}. 
+{{site.data.keyword.Bluemix_notm}} fornisce i report SOC 1, SOC 2 e SOC 3. Per ulteriori informazioni, contatta il team delle vendite [{{site.data.keyword.Bluemix_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](mailto:bmxcert1@us.ibm.com){:new_window}. 
 
 
 ![HIPAA](images/icon_hipaa.png) L'HIPAA (Health Insurance Portability and Accountability Act), approvato dal Congresso degli Stati Uniti nel 1996, protegge la copertura assicurativa sanitaria per i dipendenti dopo la perdita del posto di lavoro. HIPAA è regolamentato e applicato dall'Ufficio di diritti civili e del Dipartimento di Salute e Servizi Umani degli Stati Uniti. HIPAA comprende normative dell'atto del 1996, nonché i requisiti di privacy dell'atto Health Information Technology for Economic and Clinical Health (HITECH) del 2009. {{site.data.keyword.Bluemix_notm}} soddisfa tutti i requisiti per HIPAA sul lato data center o provider di servizi.
 
-Per ulteriori informazioni o assistenza per ottenere, certificare e mantenere la conformità HIPAA per il tuo ambiente Bluemix, contatta il team delle vendite {{site.data.keyword.Bluemix_notm}} [ ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](mailto:cloudplatform_compliance@us.ibm.com "Icona link esterno"){:new_window}.
+Per ulteriori informazioni o assistenza per ottenere, certificare e mantenere la conformità HIPAA per il tuo ambiente Bluemix, contatta il team delle vendite {{site.data.keyword.Bluemix_notm}} [ ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 fornisce linee guida per i controlli della sicurezza delle informazioni applicabili alla fornitura e all'uso dei servizi cloud. Fornisce inoltre delle indicazioni di implementazione per i fornitori e i clienti dei servizi cloud. ISO 27017 offre indicazioni di implementazione per i controlli rilevanti specificati in ISO/IEC 27002 nonché ulteriori controlli e indicazioni che si riferiscono specificamente ai servizi cloud.
@@ -84,7 +84,7 @@ La seguente tabella mostra quali servizi {{site.data.keyword.Bluemix_notm}} sono
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
 |{{site.data.keyword.datacshort}}			|S	|S	|S	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
-|{{site.data.keyword.jazzhub_short}}					|S	|S	|	|			|
+|{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
 |{{site.data.keyword.containerlong}}			|S		|S	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|

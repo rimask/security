@@ -6,7 +6,7 @@ copyright:
 
   years: 2015 2016
 
-lastupdated: "2017-08-08" 
+lastupdated: "2017-08-17" 
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-08"
 {{site.data.keyword.Bluemix}} proporciona una plataforma de nube segura en la que puede confiar. La conformidad de {{site.data.keyword.Bluemix_notm}} proviene de una plataforma y unos servicios que se compilan en los mejores estándares de seguridad del sector, incluidos ISO 27001 e ISO 27002.
 {:shortdesc}
 
-![Cláusula modelo de protección de datos de la EU](images/icon_eumc.png) Los acuerdos que incorporan las **Cláusulas modelo de la Unión Europea (EU)** protegen los datos personales que se transfieren desde la EU o el Espacio Económico Europeo (EEE) a un país tercero. La Cláusula modelo de la EU se firma entre el cliente ubicado en la EU o EEA como el exportador de datos y el procesador de datos de IBM ubicado en un país tercero como el importador de datos. El documento [IBM Data Processing Addendum (with EU Standard Contractual Clauses) ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} contiene los derechos y obligaciones del exportador y del importador de datos, y los derechos de los asuntos de datos. IBM Data Processing Addendum proporciona protecciones similares a las disponibles en la UE o en el EEE para los datos personales procesados en un tercer país.
+![Cláusula modelo de protección de datos de la EU](images/icon_eumc.png) Los acuerdos que incorporan las **Cláusulas modelo de la Unión Europea (EU)** protegen los datos personales que se transfieren desde la EU o el Espacio Económico Europeo (EEE) a un país tercero. La Cláusula modelo de la EU se firma entre el cliente ubicado en la EU o EEA como el exportador de datos y el procesador de datos de IBM ubicado en un país tercero como el importador de datos. El documento IBM Data Processing Addendum (with EU Standard Contractual Clauses) contiene los derechos y obligaciones del exportador y del importador de datos, y los derechos de los asuntos de datos. IBM Data Processing Addendum proporciona protecciones similares a las disponibles en la UE o en el EEE para los datos personales procesados en un tercer país.
 
 
 
@@ -85,7 +85,7 @@ para cada uno de los estándares.
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
 |{{site.data.keyword.datacshort}}			|S	|S	|S	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
-|{{site.data.keyword.jazzhub_short}}					|S	|S	|	|			|
+|{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
 |{{site.data.keyword.containerlong}}			|S		|S	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|

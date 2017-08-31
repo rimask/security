@@ -23,7 +23,7 @@ per lo sviluppo di applicazioni sicure.
 
 {{site.data.keyword.Bluemix_notm}} garantisce disponibilità immediata della sicurezza aderendo alle politiche di sicurezza basate sulle procedure ottimali in IBM per i sistemi, la rete e la progettazione sicura. Tali politiche includono
 procedure quali, ad esempio, scansione del codice sorgente, scansione dinamica, modellazione dei rischi e test di penetrazione. {{site.data.keyword.Bluemix_notm}} segue il processo IBM PSIRT (Product Security Incident Response Team) per la gestione degli
-incidenti di sicurezza. Per i dettagli, vedi il sito [IBM Security Vulnerability Management (PSIRT) ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/security/secure-engineering/process.html "Icona link esterno"){: new_window}.
+incidenti di sicurezza. Per i dettagli, vedi il sito [IBM Security Vulnerability Management (PSIRT) ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} pubblico e dedicato utilizzano i servizi cloud {{site.data.keyword.BluSoftlayer}} IaaS (Infrastructure-as-a-Service) e si avvalgono appieno della sua architettura di sicurezza. Per le tue applicazioni e i tuoi dati, {{site.data.keyword.BluSoftlayer}} IaaS fornisce molteplici livelli di protezione che si sovrappongono tra di loro. Per {{site.data.keyword.Bluemix_notm}} locale, la sicurezza fisica è di tua competenza e fornisci l'infrastruttura
 ospitando {{site.data.keyword.Bluemix_notm}} locale nel tuo data center dietro un firewall aziendale. Inoltre, {{site.data.keyword.Bluemix_notm}} aggiunge funzionalità di sicurezza a livello
@@ -244,7 +244,7 @@ Questo servizio fornisce un'analisi della sicurezza delle applicazioni Web e mob
 
 Il plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} ti consente di eseguire la scansione sulle tue applicazioni Web o Android ospitate su {{site.data.keyword.Bluemix_notm}}. Questo plug-in è sviluppato e supportato dalla IBM UrbanCode™ Deploy Community.
 
-Per ulteriori informazioni, vai a [IBM Application Security Testing for Bluemix ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/ "Icona link esterno"){: new_window}.
+Per ulteriori informazioni, vai a [IBM Application Security Testing for Bluemix ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
 ### dashDB
 
@@ -264,4 +264,4 @@ Per ulteriori informazioni, vedi [Introduzione a Secure Gateway](/docs/services/
 
 ### SIEM (Security Information and Event Management)
 
-Puoi utilizzare gli strumenti SIEM (Security Information and Event Management) per analizzare gli avvisi di sicurezza nei log dell'applicazione. Uno di questi strumenti è IBM Security QRadar&reg; SIEM, che fornisce servizi di sicurezza in ambienti cloud. Per informazioni, vedi [IBM QRadar Security Intelligence Platform ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en "Icona link esterno"){: new_window}.
+Puoi utilizzare gli strumenti SIEM (Security Information and Event Management) per analizzare gli avvisi di sicurezza nei log dell'applicazione. Uno di questi strumenti è IBM Security QRadar&reg; SIEM, che fornisce servizi di sicurezza in ambienti cloud. Per informazioni, vedi [IBM QRadar Security Intelligence Platform ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
