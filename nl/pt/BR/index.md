@@ -228,3 +228,4 @@ Para obter mais informações, consulte [Introdução ao Secure Gateway](/docs/s
 ### Security information and event management
 
 É possível usar ferramentas do security information and event management (SIEM) para analisar alertas de segurança em logs de aplicativos. Uma dessas ferramentas é o IBM Security QRadar&reg; SIEM, que fornece inteligência de segurança em ambientes de nuvem. Para obter informações, veja [IBM QRadar Security Intelligence Platform ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
+
