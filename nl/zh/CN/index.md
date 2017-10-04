@@ -43,7 +43,8 @@ lastupdated: "2017-01-10"
 
 通过 {{site.data.keyword.Bluemix_notm}} Local，可在公司防火墙后和数据中心内托管 {{site.data.keyword.Bluemix_notm}}。因此，某些方面的安全性将由您来负责。下图详细描述了哪些安全机制是客户拥有的，哪些是由 IBM 管理和维护的。
 
-![Bluemix Local 平台安全概况](images/security_local_platform.svg) {: #localplatformsecurity}
+![Bluemix Local 平台安全概况](images/security_local_platform.svg)
+{: #localplatformsecurity}
 
 图 2. {{site.data.keyword.Bluemix_notm}} Local 平台安全概况
 
