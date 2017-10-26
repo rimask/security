@@ -49,9 +49,9 @@ lastupdated: "2017-08-17"
 {{site.data.keyword.Bluemix_notm}} 提供 SOC 1、SOC 2 和 SOC 3 报告。有关其他信息，请联系 [{{site.data.keyword.Bluemix_notm}} 销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:bmxcert1@us.ibm.com){:new_window} 团队。 
 
 
-![HIPAA](images/icon_hipaa.png) 美国国会在 1996 年颁布的《健康保险可移植性和责任法案》(HIPAA) 旨在保障员工在失业后仍能享受健康保险。HIPAA 由美国民权办公室以及卫生和公众服务部负责监管和实施。HIPAA 除了包含 1996 年法案中的规定外，还包含 2009 年颁布的《医疗信息技术促进经济和临床健康法案》(HITECH) 中的隐私要求。{{site.data.keyword.Bluemix_notm}} 符合 HIPAA 有关数据中心或服务提供者方面的所有要求。
+![HIPAA](images/icon_hipaa.png) 美国国会在 1996 年颁布的《健康保险可移植性和责任法案》(HIPAA) 旨在保障员工在失业后仍能享受健康保险。HIPAA 由美国民权办公室以及卫生和公众服务部负责监管和实施。HIPAA 除了包含 1996 年法案中的规定外，还包含 2009 年颁布的《医疗信息技术促进经济和临床健康法案》(HITECH) 中的隐私要求。{{site.data.keyword.Bluemix_notm}} 符合 HIPAA 有关数据中心或服务提供者方面的所有要求。 
 
-有关使您的 Bluemix 环境达到 HIPAA 合规性、通过 HIPAA 合规性认证以及保持 HIPAA 合规性的更多信息或帮助，请联系 {{site.data.keyword.Bluemix_notm}} [销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 团队。
+将 {{site.data.keyword.Bluemix_notm}} Public 与 Softlayer 合并可能会导致发生一些问题。有关使您的 {{site.data.keyword.Bluemix_notm}} 环境达到 HIPAA 合规性、通过 HIPAA 合规性认证以及保持 HIPAA 合规性的更多信息或帮助，请联系 {{site.data.keyword.Bluemix_notm}} [销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 团队。
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 针对适用于供应和使用云服务的信息安全控制措施提供了准则。此外，它还针对云服务提供商和云服务客户提供了实施指南。ISO 27017 针对 ISO/IEC 27002 中规定的相关控制措施提供了实施指南，同时还提供了专门与云服务相关的更多控制措施与指南。

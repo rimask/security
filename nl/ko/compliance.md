@@ -49,9 +49,9 @@ ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 �
 {{site.data.keyword.Bluemix_notm}}는 SOC 1, SOC 2 및 SOC 3 보고서를 제공합니다. 추가 정보는 [{{site.data.keyword.Bluemix_notm}} 영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:bmxcert1@us.ibm.com){:new_window} 팀에 문의하십시오. 
 
 
-![HIPAA](images/icon_hipaa.png) 1996년 미국 의회에서 제정된 건강 보험 이동과 책임 법령(HIPAA)은 실직 후 노동자가 건강 보험 혜택을 받을 수 있도록 보호합니다. HIPAA는 미국의 인권 사무국 및 보건복지부에서 규제 및 집행됩니다. HIPAA는 2009년 제정된 건강정보기술법(HITECH) 법률의 개인정보 보호정책 요구사항을 비롯하여 1996년 법률의 규정을 포함합니다. {{site.data.keyword.Bluemix_notm}}는 데이터 센터 또는 서비스 제공업체 측의 HIPAA에 대한 모든 요구사항을 충족시킵니다.
+![HIPAA](images/icon_hipaa.png) 1996년 미국 의회에서 제정된 건강 보험 이동과 책임 법령(HIPAA)은 실직 후 노동자가 건강 보험 혜택을 받을 수 있도록 보호합니다. HIPAA는 미국의 인권 사무국 및 보건복지부에서 규제 및 집행됩니다. HIPAA는 2009년 제정된 건강정보기술법(HITECH) 법률의 개인정보 보호정책 요구사항을 비롯하여 1996년 법률의 규정을 포함합니다. {{site.data.keyword.Bluemix_notm}}는 데이터 센터 또는 서비스 제공업체 측의 HIPAA에 대한 모든 요구사항을 충족시킵니다. 
 
-Bluemix 환경에 대한 HIPAA 규제 준수를 이행하고, 증명하며, 관리하는 데 필요한 정보 및 지원을 받으려면 {{site.data.keyword.Bluemix_notm}} [영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 팀에 문의하십시오.
+{{site.data.keyword.Bluemix_notm}} Public과 Softlayer의 합병에서 문제가 발생할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 환경에 대한 HIPAA 규제 준수를 이행하고, 증명하며, 관리하는 데 필요한 정보 및 지원을 받으려면 {{site.data.keyword.Bluemix_notm}} [영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 팀에 문의하십시오.
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015는 프로비저닝 및 클라우드 서비스에 적용 가능한 정보 보안 제어에 대한 가이드라인을 제공합니다. 또한 클라우드 서비스 제공업체 및 클라우드 서비스 고객을 위해 구현 지시사항을 제공합니다. ISO 27017는 ISO/IEC 27002에 지정되어 있는 관련 제어를 위한 구현 지시사항과 클라우드 서비스에 관련된 추가 제어 방법 및 지시사항을 제공합니다. 

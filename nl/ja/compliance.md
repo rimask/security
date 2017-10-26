@@ -51,9 +51,9 @@ lastupdated: "2017-08-17"
 {{site.data.keyword.Bluemix_notm}} は、SOC 1、SOC 2、SOC 3 のレポートを提供します。追加情報については、[{{site.data.keyword.Bluemix_notm}} の営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:bmxcert1@us.ibm.com){:new_window} チームまでお問い合わせください。 
 
 
-![HIPAA](images/icon_hipaa.png) 医療保険の積算と責任に関する法律 (HIPAA) は、1996 年に米国連邦議会で施行され、失業後の従業員の医療保険補償を保護します。HIPAA は、米国の公民権局および保健社会福祉省によって規定および施行されています。HIPAA は、1996 年の法律の規制、および 2009 年の経済的および臨床的健全性のための医療情報技術に関する法律 (HITECH) のプライバシー要件を含んでいます。{{site.data.keyword.Bluemix_notm}} は、データ・センターまたはサービス・プロバイダー側において、HIPAA のすべての要件を満たしています。
+![HIPAA](images/icon_hipaa.png) 医療保険の積算と責任に関する法律 (HIPAA) は、1996 年に米国連邦議会で施行され、失業後の従業員の医療保険補償を保護します。HIPAA は、米国の公民権局および保健社会福祉省によって規定および施行されています。HIPAA は、1996 年の法律の規制、および 2009 年の経済的および臨床的健全性のための医療情報技術に関する法律 (HITECH) のプライバシー要件を含んでいます。{{site.data.keyword.Bluemix_notm}} は、データ・センターまたはサービス・プロバイダー側において、HIPAA のすべての要件を満たしています。 
 
-ご使用の Bluemix 環境における HIPAA コンプライアンスの達成、認証、および保守に関する詳細または支援については、{{site.data.keyword.Bluemix_notm}} [営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} チームにお問い合わせください。
+{{site.data.keyword.Bluemix_notm}} Public を Softlayer とマージした場合、問題が生じる可能性があります。ご使用の {{site.data.keyword.Bluemix_notm}} 環境における HIPAA コンプライアンスの達成、認証、および保守に関する詳細または支援については、{{site.data.keyword.Bluemix_notm}} [営業担当 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} チームにお問い合わせください。
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 は、クラウド・サービスのプロビジョニングおよび使用に適用される情報セキュリティー管理のガイドラインを提供します。また、クラウド・サービス・プロバイダーとクラウド・サービスの顧客の両方に対する実装ガイドラインを提供します。ISO 27017 は、ISO/IEC 27002 で指定される関連制御の実装ガイダンスを提供します。また、特にクラウド・サービスに関連する追加の制御とガイダンスも提供します。

@@ -72,9 +72,9 @@ américain en 1996, concerne la couverture d'assurance maladie des employés qui
 Health and Human Services) aux
 Etats-Unis. Elle englobe la réglementation de la
 loi de 1996, ainsi que des exigences de confidentialité de la loi Health Information Technology for Economic and Clinical Health (HITECH) Act de 2009. {{site.data.keyword.Bluemix_notm}}
-satisfait toutes les exigences de la loi HIPAA en ce qui concerne les centres de données ou les fournisseurs de services.
+satisfait toutes les exigences de la loi HIPAA en ce qui concerne les centres de données ou les fournisseurs de services. 
 
-Pour plus d'informations ou pour une assistance afin d'aboutir à la conformité HIPAA pour votre environnement Bluemix, d'obtenir une certification et de la préserver, contactez l'équipe {{site.data.keyword.Bluemix_notm}} [Sales ![External link icon](../icons/launch-glyph.svg "External link icon")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
+Des problèmes peuvent survenir suite à la fusion de {{site.data.keyword.Bluemix_notm}} Public avec Softlayer. Pour plus d'informations ou pour une assistance afin d'aboutir à la conformité HIPAA pour votre environnement {{site.data.keyword.Bluemix_notm}}, d'obtenir une certification et de la préserver, contactez l'équipe {{site.data.keyword.Bluemix_notm}} [Sales ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
 
 
 ![ISO 27017](images/icon_ISO27017.png) La norme ISO/IEC 27017:2015 fournit des directives pour les contrôles de sécurité des
