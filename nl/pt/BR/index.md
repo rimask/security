@@ -93,7 +93,8 @@ Os métodos de HTTP a seguir são permitidos:
 <dt>x-client-ip</dt>
 <dd>Configurado com o endereço IP do cliente.</dd>
 <dt>x-forwarded-proto</dt>
-<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https, http, ws ou wss.</dd>
+<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https,
+http, ws ou wss.</dd>
 </dl>
 </dd>
 
