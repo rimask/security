@@ -195,7 +195,7 @@ Single Sign On 서비스는 사용자의 신임 정보가 저장된 다수의 ID
 <dd>인증을 수행하며 SAML 토큰 교환을 사용하는 사용자 레지스트리입니다.</dd>
 
 <dt>클라우드 디렉토리</dt>
-<dd>IBM Cloud에서 호스팅되는 사용자 레지스트리입니다.</dd>
+<dd>IBM 클라우드에서 호스팅되는 사용자 레지스트리입니다.</dd>
 
 <dt>소셜 ID 소스</dt>
 <dd> Google, Facebook 및 LinkedIn에서 유지보수하는 사용자 레지스트리입니다.</dd>
