@@ -1205,7 +1205,7 @@
 		
 			<rect x="94.74" y="592.5" fill="#FFFFFF" stroke="#494949" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,6" width="690.84" height="80.58"/>
 		<rect x="256.09" y="626.33" fill="none" width="410.14" height="32.81"/>
-		<text transform="matrix(1 0 0 1 359.7192 639.1074)"><tspan x="0" y="0" fill="#4C4951" font-family="'HelvNeueLightforIBM'" font-size="18px">Seguridad física (</tspan><tspan x="127.24" y="0" fill="#4C4951" font-family="'HelvNeueBoldforIBM'" font-size="18px">SoftLayer</tspan><tspan x="197.76" y="0" fill="#4C4951" font-family="'HelvNeueLightforIBM'" font-size="18px">)</tspan></text>
+		<text transform="matrix(1 0 0 1 359.7192 639.1074)"><tspan x="0" y="0" fill="#4C4951" font-family="'HelvNeueLightforIBM'" font-size="18px">Seguridad física (</tspan><tspan x="127.24" y="0" fill="#4C4951" font-family="'HelvNeueBoldforIBM'" font-size="18px">Infraestructura</tspan><tspan x="197.76" y="0" fill="#4C4951" font-family="'HelvNeueLightforIBM'" font-size="18px">)</tspan></text>
 		<g id="_x33_4pz2A.tif">
 			
 				<image overflow="visible" width="450" height="450" id="Layer_0_16_" xlink:href="AC6DD8D3.png"  transform="matrix(0.0761 0 0 0.0761 289.1943 615.6621)">
@@ -1254,10 +1254,10 @@
 			</g>
 		</g>
 		<rect x="772.37" y="24.64" fill="none" width="209.26" height="19.72"/>
-		<text transform="matrix(1 0 0 1 772.3691 30.8623)" fill="#5596E6" font-family="'HelvNeueBoldforIBM'" font-size="8.7654px">En Bluemix</text>
+		<text transform="matrix(1 0 0 1 772.3691 30.8623)" fill="#5596E6" font-family="'HelvNeueBoldforIBM'" font-size="8.7654px">En IBM Cloud</text>
 		<rect x="744.71" y="45.57" fill="#8CD211" width="16.54" height="16.54"/>
 		<rect x="772.37" y="50.28" fill="none" width="209.26" height="19.72"/>
-		<text transform="matrix(1 0 0 1 772.3691 56.502)" fill="#6EB400" font-family="'HelvNeueBoldforIBM'" font-size="8.7654px">Sobre Bluemix</text>
+		<text transform="matrix(1 0 0 1 772.3691 56.502)" fill="#6EB400" font-family="'HelvNeueBoldforIBM'" font-size="8.7654px">Sobre IBM Cloud</text>
 		<path id="SVGID_x5F_39_x5F_" fill="none" d="M844.5,581.76V107.38"/>
 		<text>		<textPath  xlink:href="#SVGID_x5F_39_x5F_" startOffset="0.562%">
 <tspan  fill="#2D660A" font-family="'HelvNeueBoldforIBM'" font-size="15px">IBM PSIRT </tspan><tspan  fill="#2D660A" font-family="'HelvNeueRomanforIBM'" font-size="15px">–</tspan><tspan  fill="#2D660A" font-family="'HelvNeueBoldforIBM'" font-size="15px"> </tspan><tspan  fill="#2D660A" font-family="'HelvNeueRomanforIBM'" font-size="15px">Gestión de incidentes de seguridad</tspan>		</textPath>
@@ -1268,7 +1268,7 @@
 <tspan  fill="#2D660A" font-family="'HelvNeueBoldforIBM'" font-size="15px" letter-spacing="25">Evaluación de disponibilidad de seguridad periódica</tspan>		</textPath>
 </text>
 		<rect x="26.27" y="24.5" fill="none" width="710.73" height="71"/>
-		<text transform="matrix(1 0 0 1 26.269 41.54)" fill="#5596E6" font-family="'HelvNeueBoldforIBM'" font-size="24px">Seguridad de plataforma de Bluemix público y Bluemix dedicado</text>
+		<text transform="matrix(1 0 0 1 26.269 41.54)" fill="#5596E6" font-family="'HelvNeueBoldforIBM'" font-size="24px">Seguridad de plataforma de IBM Cloud público e IBM Cloud dedicado</text>
 		<g>
 			<defs>
 				<rect id="SVGID_40_" x="103.3" y="294.45" width="158.02" height="203.08"/>

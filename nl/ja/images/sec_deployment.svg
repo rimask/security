@@ -38,7 +38,7 @@
      showgrid="false"
      inkscape:zoom="0.59"
      inkscape:cx="516.69398"
-     inkscape:cy="802.02859"
+     inkscape:cy="734.23198"
      inkscape:window-x="-4"
      inkscape:window-y="-4"
      inkscape:window-maximized="1"
@@ -848,11 +848,11 @@
        width="143.7"
        height="31"
        id="rect327" /><text
-       transform="matrix(1 0 0 1 631.883 823.4782)"
-       fill="#030404"
-       font-family="'HelveticaNeue-Light'"
        font-size="28.8074"
-       id="text329">Bluemix UI</text>
+       id="text329"
+       style="font-size:28.80739975px;fill:#030404;font-family:HelveticaNeue-Light"
+       x="617.883"
+       y="823.47821">IBM Cloud UI</text>
 <rect
        x="659.4"
        y="274.3"
@@ -1049,28 +1049,7 @@
        fill="none"
        width="147.9"
        height="53.6"
-       id="rect393" /><text
-       transform="matrix(1 0 0 1 552.8469 604.6135)"
-       id="text395"><tspan
-         x="0"
-         y="0"
-         fill="#030404"
-         font-family="'HelveticaNeue-Light'"
-         font-size="22.1595"
-         id="tspan397">Droplet Execu</tspan><tspan
-         x="129.5"
-         y="0"
-         fill="#030404"
-         font-family="'HelveticaNeue-Light'"
-         font-size="22.1595"
-         id="tspan399">-</tspan><tspan
-         x="0"
-         y="28.8"
-         fill="#030404"
-         font-family="'HelveticaNeue-Light'"
-         font-size="22.1595"
-         id="tspan401">tion Agent</tspan></text>
-<rect
+       id="rect393" /><rect
        x="1347.3"
        y="466.7"
        fill="none"
@@ -1942,22 +1921,45 @@
          font-size="28.8074"
          id="tspan719"> LDAP</tspan></text>
 <text
-       transform="matrix(0.9659 0 -0.2588 0.9659 550.4377 662.5337)"
-       fill="#030404"
-       font-family="'MS-Gothic'"
+       transform="matrix(1,0,-0.26793664,1,0,0)"
        font-size="16.0588"
-       id="text721">アプリ・ランタイム</text>
+       id="text721"
+       x="739.45715"
+       y="690.53369"
+       style="font-size:15.51119423px;fill:#030404;font-family:MS-Gothic">アプリ・ランタイム</text>
 </g><g
      id="TEXT" /><text
      xml:space="preserve"
      style="font-size:13.75px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
-     x="785.05084"
+     x="773.05084"
      y="296.6102"
      id="text6053"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan6055"
-       x="785.05084"
+       x="773.05084"
        y="296.6102"
-       style="font-size:28.79999924px">Bluemix (Dedicated)</tspan></text>
+       style="font-size:28.79999924px">IBM Cloud Dedicated</tspan></text>
+<text
+     xml:space="preserve"
+     style="font-size:13.75px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+     x="557.75018"
+     y="603.38983"
+     id="text5698"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5700"
+       x="557.75018"
+       y="603.38983"
+       style="font-size:22.14999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">Droplet</tspan><tspan
+       sodipodi:role="line"
+       x="557.75018"
+       y="631.07733"
+       style="font-size:22.14999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5702">Execu-tion</tspan><tspan
+       sodipodi:role="line"
+       x="557.75018"
+       y="658.76483"
+       style="font-size:22.14999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5704">Agent</tspan></text>
 </svg>

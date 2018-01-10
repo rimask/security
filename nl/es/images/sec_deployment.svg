@@ -1021,9 +1021,9 @@
 	<circle class="st30" cx="1093" cy="841.7" r="6.1"/>
 	<circle class="st30" cx="714.2" cy="841.7" r="6.1"/>
 	<rect x="631.9" y="803" class="st37" width="180.6" height="32.5"/>
-	<text transform="matrix(1 0 0 1 631.8843 823.5933)" class="st38 st39 st40">IU de Bluemix</text>
+	<text transform="matrix(1 0 0 1 631.8843 823.5933)" class="st38 st39 st40">IU de IBM Cloud</text>
 	<rect x="629.4" y="274.3" class="st37" width="649.6" height="31"/>
-	<text transform="matrix(1 0 0 1 629.3609 294.8276)" class="st38 st39 st40">Consola de administración para Bluemix dedicado</text>
+	<text transform="matrix(1 0 0 1 629.3609 294.8276)" class="st38 st39 st40">Consola de administración para IBM Cloud dedicado</text>
 	<rect x="977.6" y="803" class="st37" width="230.8" height="31"/>
 	<text transform="matrix(1 0 0 1 994.5074 823.5933)" class="st38 st39 st40">Servidor UAA cf</text>
 	<rect x="552.8" y="430.5" class="st37" width="138.1" height="95.7"/>
