@@ -219,7 +219,7 @@ For more information, go to [IBM Application Security Testing for Bluemix ![Exte
 
 You can also install a local Db2 database using the [free Db2 Developer Edition download ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). It rapidly installs a ready-to-go developer edition of Db2 with tools inside a Docker container (Docker not required; it will automatically install any necessary components).
 
-For more information, see [Getting started with dashDB](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
+For more information, see [Getting started with Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
