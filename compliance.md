@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2017-08-17" 
+lastupdated: "2018-02-01" 
 
 
 
@@ -82,7 +82,6 @@ The following table displays which services in {{site.data.keyword.Bluemix_notm}
 |{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |
 |{{site.data.keyword.cloudant}}				|Y |Y |	|Y	|
 |{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
-|{{site.data.keyword.datacshort}}			|Y	|Y	|Y	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
 |{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
