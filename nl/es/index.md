@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -58,6 +58,8 @@ IBM instala, supervisa de forma remota y gestiona {{site.data.keyword.Bluemix_no
 <dl>
 <dt>Autenticación</dt>
 <dd>Los desarrolladores de aplicaciones se autentican ante {{site.data.keyword.Bluemix_notm}} mediante la identidad web de IBM.
+
+
 
 Para {{site.data.keyword.Bluemix_notm}} dedicado y local, la autenticación a través LDAP recibe soporte de forma predeterminado. A petición, se puede configurar la autenticación a través de IBM Web Identity en lugar de para {{site.data.keyword.Bluemix_notm}}.
 </dd>
@@ -143,6 +145,8 @@ Nessus, para detectar cualquier problema en la configuración de la red y del ho
 <dt>Gestión de accesos de usuario</dt>
 <dd>Dentro de {{site.data.keyword.Bluemix_notm}}, se siguen directrices de separación de responsabilidades para asignar a los usuarios privilegios de acceso granulares y para garantizar que los usuarios solo tienen el acceso que necesitan para realizar su trabajo según el principio de privilegio menor.
 
+
+
 En los entornos {{site.data.keyword.Bluemix_notm}} dedicado y local, los administradores asignados pueden gestionar roles y permisos para los usuarios de {{site.data.keyword.Bluemix_notm}} en su organización mediante la Consola de administración. Consulte [Gestión de {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng) para obtener más detalles.
 </dd>
 </dl>
@@ -222,12 +226,14 @@ El plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix_notm
 
 Para obtener más información, vaya a [IBM Application Security Testing for Bluemix ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### dashDB
+### Db2 on Cloud
 
-El servicio de dashDB utiliza un servidor LDAP incorporado para la autenticación de usuario. La conexión entre
-las apps y la base de datos está protegida mediante certificados SSL. Este servicio utiliza la capacidad de cifrado nativo de DB2® para cifrar de forma automática la base de datos desplegada y las copias de seguridad de la base de datos. La rotación de claves maestras se ejecuta automáticamente cada 90 días.
+{{site.data.keyword.Db2_on_Cloud_long}} es una base de datos SQL suministrada para usted en la nube. Puede utilizar {{site.data.keyword.Db2_on_Cloud_short}} como utilizaría cualquier software de base de datos, pero sin la sobrecarga ni el gasto de la configuración de hardware o la instalación y el mantenimiento de software.
+ 
 
-Para obtener más información, consulte [Guía de iniciación a dashDB](/docs/services/dashDB/index.html).
+También puede instalar una base de datos Db2 local utilizando la [descarga gratuita de Db2 Developer Edition ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). De esta forma, se instala rápidamente una edición de Db2 para desarrolladores lista para utilizar dentro de un contenedor Docker (no se requiere Docker; todos los componentes necesarios se instalarán automáticamente).
+
+Para obtener más información, consulte [Guía de iniciación a Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 

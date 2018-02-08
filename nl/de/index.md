@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -215,11 +215,13 @@ Mit dem Plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix
 
 Weitere Informationen finden Sie unter [IBM Application Security Testing for Bluemix ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### dashDB
+### Db2 on Cloud
 
-Vom Service 'dashDB' wird ein eingebetteter LDAP-Server für die Benutzerauthentifizierung verwendet. Die Verbindung zwischen Anwendungen und der Datenbank wird über SSL-Zertifikate geschützt. Dieser Service nutzt die native DB2®-Verschlüsselungsfunktion, um Ihre bereitgestellte Datenbank und die Datenbankbackups automatisch zu verschlüsseln. Die Rotation der Masterschlüssel geschieht automatisch und wird alle 90 Tage durchgeführt.
+{{site.data.keyword.Db2_on_Cloud_long}} ist eine SQL-Datenbank, die für Sie in der Cloud bereitgestellt wird. Sie können {{site.data.keyword.Db2_on_Cloud_short}} genauso wie jede andere Datenbanksoftware verwenden, jedoch ohne den Aufwand und die Kosten, die mit einer Hardwareinstallation oder einer Softwareinstallation und -wartung einhergehen. 
 
-Weitere Informationen finden Sie in [Einführung in dashDB](/docs/services/dashDB/index.html).
+Sie haben außerdem die Möglichkeit, unter Verwendung des [kostenlosen Downloads von Db2 Developer Edition![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) eine lokale Db2-Datenbank zu installieren. Der Download installiert in nur wenig Zeit eine sofort einsatzfähige Db2-Edition für Entwickler mit Tools in einem Docker-Container (Docker selbst ist nicht erforderlich; alle benötigten Komponenten werden automatisch installiert).
+
+Weitere Informationen finden Sie unter [Einführung in Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 

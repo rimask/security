@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -56,7 +56,9 @@ IBM は、リレー ({{site.data.keyword.Bluemix_notm}} Local に付属のデリ
 
 <dl>
 <dt>認証</dt>
-<dd>アプリケーション開発者は、IBM Web ID を使用することで {{site.data.keyword.Bluemix_notm}} に対して認証されます。
+<dd>アプリケーション開発者は、IBM Web ID を使用して {{site.data.keyword.Bluemix_notm}} に対して認証されます。
+
+
 
 {{site.data.keyword.Bluemix_notm}} Dedicated および Local の場合、デフォルトで、LDAP を介した認証がサポートされます。 ご要望に応じて、 {{site.data.keyword.Bluemix_notm}} に対して、代わりに IBM Web ID を介した認証をセットアップできます。
 </dd>
@@ -137,7 +139,7 @@ IBM は、リレー ({{site.data.keyword.Bluemix_notm}} Local に付属のデリ
 <dd>{{site.data.keyword.Bluemix_notm}} は IBMSecurity QRadar® ツールを使用して、Linux ログを統合し、Linux システムにおける特権アクセスをモニターします。 また、{{site.data.keyword.Bluemix_notm}} は IBM QRadar Security Information and Event Management (SIEM) を使用して、アプリケーション開発者のログイン試行の成功および失敗をモニターします。</dd>
 
 <dt>ユーザー・アクセス管理</dt>
-<dd>{{site.data.keyword.Bluemix_notm}} 内では職務分離ガイドラインに従い、ユーザーに細かいアクセス特権を割り当てて、ユーザーが持っているのは、最小特権の原則に基づいた、ジョブの実行に必要なアクセス権限のみであることを保証します。
+<dd>{{site.data.keyword.Bluemix_notm}} 内では、職務の分離のガイドラインに従って各ユーザーにきめ細かいアクセス特権を割り当てるようにし、最小権限の原則にしたがって、各ユーザーが自分のジョブを実行するために必要なアクセス権限のみを持つようにします。
 
 {{site.data.keyword.Bluemix_notm}} Dedicated および Local 環境内では、割り当てられた管理者が、管理コンソールを使用して、組織内の {{site.data.keyword.Bluemix_notm}} ユーザーの役割および許可を管理できます。 詳しくは、『[{{site.data.keyword.Bluemix_notm}} の管理](/docs/admin/adminpublic.html#mng)』を参照してください。
 </dd>
@@ -213,11 +215,13 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラ�
 
 詳しくは、[IBM Application Security Testing for Bluemix ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window} にアクセスしてください。
 
-### dashDB
+### Db2 on Cloud
 
-dashDB サービスは、ユーザー認証に組み込み LDAP サーバーを使用します。 アプリケーションとデータベースの間の接続は、SSL 証明書によって保護されます。 このサービスでは、DB2® 固有の暗号化機能を使用して、デプロイ済みのデータベースおよびデータベース・バックアップを自動的に暗号化します。 マスター鍵のローテーションは、90 日ごとに自動で実施されます。
+{{site.data.keyword.Db2_on_Cloud_long}} は、ユーザーのためにクラウド内にプロビジョンされている SQL データベースです。{{site.data.keyword.Db2_on_Cloud_short}} は、他のデータベース・ソフトウェアと同様に使用できますが、ハードウェアのセットアップやソフトウェアのインストールおよび保守の手間や経費は必要ありません。 
 
-詳しくは、『[dashDB 概説 (Getting started with dashDB)](/docs/services/dashDB/index.html)』を参照してください。
+さらに、[無料の Db2 Developer Edition のダウンロード ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル Db2 データベースをインストールすることもできます。すぐに使用可能な Db2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
+
+詳しくは、『[Db2 on Cloud の概説](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)』を参照してください。
 
 ### Secure Gateway
 

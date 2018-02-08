@@ -4,7 +4,7 @@
 
 copyright:
 
-  years: 2015，2016
+  years: 2015，2018
 
 lastupdated: "2017-08-17" 
 
@@ -43,7 +43,7 @@ en matière de sécurité des informations ayant un impact sur la confidentialit
 clients. Cette norme met l'accent sur la mesure et l'évaluation des performances du système de gestion de la sécurité informatique d'une organisation et
 inclut également des contrôles liés à la sécurité des informations, qui reposent sur des exigences système et d'autres exigences.
 
-{{site.data.keyword.Bluemix_notm}} fait l'objet d'un audit par une firme indépendante et répond à toutes les exigences de la norme ISO 27001 : [Bluemix ISO 27001:2013 Certificate of Registration ![External link icon](../icons/launch-glyph.svg "External link icon")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
+{{site.data.keyword.Bluemix_notm}} fait l'objet d'un audit par une firme indépendante et répond à toutes les exigences de la norme ISO 27001 : [Bluemix ISO 27001:2013 Certificate of Registration ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
 
 ![PCI DSS](images/icon_pci.png)  **Payment Card Industry (PCI) Data Security Standards (DSS)** est une norme de sécurité des informations destinée à protéger les données de carte de crédit. Elle s'applique à toutes les entités impliquées dans le traitement
 de cartes de paiement, notamment les commerçants, les organismes de traitement, les émetteurs et les fournisseurs de services. Elle s'applique également à
@@ -56,7 +56,7 @@ protection des données sur les titulaires de carte et requièrent souvent la va
 sécurité qualifié (QSA) indépendant. L'attestation de conformité peut être utilisée avec le rapport SOC 2 et la certification ISO 27001 afin de prouver que
 l'infrastructure satisfait les contrôles PCI.
 
-{{site.data.keyword.Bluemix}} procède à une évaluation PCI DSS annuelle à l'aide d'un évaluateur de sécurité qualifié (QSA) approuvé. Pour obtenir des informations et de l'aide relatives à la conformité à la norme PCI DSS pour votre environnement {{site.data.keyword.Bluemix_notm}}, prenez contact avec le service commercial depuis la page [Contactez-nous ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
+{{site.data.keyword.Bluemix}} procède à une évaluation PCI DSS annuelle à l'aide d'un évaluateur de sécurité qualifié (QSA) approuvé. Pour obtenir des informations et de l'aide relatives à la conformité à la norme PCI DSS pour votre environnement {{site.data.keyword.Bluemix_notm}}, prenez contact avec le service commercial depuis la page [Contactez-nous ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
 
 ![SSAE16 SOC1/2/3](images/icon_aicpa.png) Les rapports **Service Organization Controls (SOC)** définissent l'évaluation des pratiques de contrôle interne prépondérantes en matière de sécurité, de disponibilité, d'intégrité du traitement, de confidentialité et d'isolation des données personnelles au sein d'une organisation de services. Ces rapports générés à partir du guide de l'AICPA (American Institute of Certified Public Accountants) comprennent les éléments suivants : 
   * Supervision de l'organisation
@@ -64,7 +64,7 @@ l'infrastructure satisfait les contrôles PCI.
   * Processus internes de gouvernance d'entreprise et de gestion des risques
   * Régime réglementaire de surveillance
  
-{{site.data.keyword.Bluemix_notm}} met à disposition des rapports SOC 1, SOC 2 et SOC 3. Pour plus d'informations, contactez l'équipe [{{site.data.keyword.Bluemix_notm}} Sales ![External link icon](../icons/launch-glyph.svg "External link icon")](mailto:bmxcert1@us.ibm.com){:new_window}. 
+{{site.data.keyword.Bluemix_notm}} met à disposition des rapports SOC 1, SOC 2 et SOC 3. Pour plus d'informations, contactez l'équipe [{{site.data.keyword.Bluemix_notm}} Sales ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](mailto:bmxcert1@us.ibm.com){:new_window}. 
 
 
 ![HIPAA](images/icon_hipaa.png) La loi Health Insurance Portability and Accountability Act (HIPAA), adoptée par le congrès

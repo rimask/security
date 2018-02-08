@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -23,7 +23,7 @@ proposant des choix clairs pour le développement d'applications sécurisé.
 {:shortdesc}
 
 {{site.data.keyword.Bluemix_notm}} assure la sécurité en appliquant des règles de sécurité respectant les meilleurs pratiques d'IBM en matière de systèmes, de réseau et d'ingénierie
-sécurisée. Ces règles incluent des pratiques telles que l'analyse du code source, l'analyse dynamique, la modélisation des menaces et des tests de pénétration. {{site.data.keyword.Bluemix_notm}} suit le processus IBM Product Security Incident Response Team (PSIRT) pour la gestion des incidents de sécurité. Pour plus d'informations, voir le site [IBM Security Vulnerability Management (PSIRT) ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window}.
+sécurisée. Ces règles incluent des pratiques telles que l'analyse du code source, l'analyse dynamique, la modélisation des menaces et des tests de pénétration. {{site.data.keyword.Bluemix_notm}} suit le processus IBM Product Security Incident Response Team (PSIRT) pour la gestion des incidents de sécurité. Pour plus d'informations, voir le site [IBM Security Vulnerability Management (PSIRT) ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window}.
 
 Les environnements {{site.data.keyword.Bluemix_notm}} public et dédié utilisent les services cloud d'infrastructure sous forme de services
 (IaaS) {{site.data.keyword.BluSoftlayer}} et profitent pleinement de son architecture sécurisée. L'infrastructure
@@ -274,14 +274,15 @@ vulnérabilités en matière de sécurité. Pour plus d'informations, voir [Init
 Le plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} vous permet d'exécuter des analyses de sécurité pour vos
 applications Web ou Android qui sont hébergées dans {{site.data.keyword.Bluemix_notm}}. Il est développé par la communauté IBM UrbanCode. Deploy Community, qui assure son support.
 
-Pour plus d'informations, voir [IBM Application Security Testing for Bluemix ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
+Pour plus d'informations, voir [IBM Application Security Testing for Bluemix ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### dashDB
+### Db2 on Cloud
 
-Le service dashDB utilise un serveur LDAP imbriqué pour l'authentification d'utilisateur. La connexion entre les applications et la base de données est protégée par des certificats SSL. Ce service utilise la capacité de chiffrement native de DB2® pour chiffrer automatiquement votre base de données déployée et vos sauvegardes de base de
-données. La rotation de clé principale automatique a lieu tous les 90 jours.
+{{site.data.keyword.Db2_on_Cloud_long}} est une base de données SQL mise à votre disposition dans le cloud. Vous pouvez utiliser {{site.data.keyword.Db2_on_Cloud_short}} de la même manière que vous utilisez n'importe quel logiciel de base de données, sans les frais associés à la configuration de matériel ou à l'installation et la maintenance de logiciels. 
 
-Pour plus d'informations, voir [Initiation à dashDB](/docs/services/dashDB/index.html).
+Vous pouvez également installer une base de données Db2 en local en utilisant la [version Db2 Developer Edition téléchargeable gratuitement ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Une édition prête à l'emploi de Db2 destinée aux développeurs est alors rapidement installée avec des outils au sein d'un conteneur Docker (Docker n'est pas requis ; il installera automatiquement tous les composants nécessaires).
+
+Pour plus d'informations, voir [Initiation à Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
@@ -294,4 +295,4 @@ Pour plus d'informations, voir [Initiation à Secure Gateway](/docs/services/Sec
 
 ### Gestion des événements et des informations de sécurité
 
-Vous pouvez utiliser les outils SIEM (gestion des événements et informations de sécurité) pour analyser les alertes de sécurité dans les journaux d'application. L'un de ces outils est IBM Security QRadar&reg; SIEM, qui fournit la sécurité intérieure dans les environnements de cloud. Pour plus d'informations, voir [IBM QRadar Security Intelligence Platform ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
+Vous pouvez utiliser les outils SIEM (gestion des événements et informations de sécurité) pour analyser les alertes de sécurité dans les journaux d'application. L'un de ces outils est IBM Security QRadar&reg; SIEM, qui fournit la sécurité intérieure dans les environnements de cloud. Pour plus d'informations, voir [IBM QRadar Security Intelligence Platform ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.

@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -56,7 +56,8 @@ O {{site.data.keyword.Bluemix_notm}} fornece vários recursos de segurança func
 
 <dl>
 <dt>Autenticação</dt>
-<dd>Os desenvolvedores de aplicativos são autenticados no {{site.data.keyword.Bluemix_notm}} usando o IBM Web identity.
+<dd>Os desenvolvedores de aplicativos são autenticados no
+{{site.data.keyword.Bluemix_notm}} usando o IBM Web identity.
 
 Para {{site.data.keyword.Bluemix_notm}} Dedicated e Local, a autenticação por meio de LDAP é suportada por padrão. Sob solicitação, a autenticação por meio do IBM Web identity pode ser configurada em vez de {{site.data.keyword.Bluemix_notm}}.
 </dd>
@@ -138,7 +139,10 @@ O {{site.data.keyword.Bluemix_notm}} fornece um ambiente de segurança operacion
 <dd>{{site.data.keyword.Bluemix_notm}} usa as ferramentas IBMSecurity QRadar® para consolidar logs do Linux para monitorar o acesso privilegiado em sistemas Linux. O {{site.data.keyword.Bluemix_notm}} também utiliza informações de segurança e gerenciamento de eventos (SIEM) do IBM QRadar para monitorar tentativas de login bem-sucedidas e malsucedidas dos desenvolvedores de aplicativos.</dd>
 
 <dt>Gerenciamento de acesso do usuário</dt>
-<dd>No {{site.data.keyword.Bluemix_notm}}, as diretrizes de separação de obrigações são seguidas para designar privilégios de acesso granular aos usuários e para assegurar que os usuários tenham somente o acesso que é necessário para executar suas tarefas de acordo com o princípio do menor privilégio.
+<dd>No {{site.data.keyword.Bluemix_notm}}, as diretrizes de
+separação de obrigações são seguidas para designar
+privilégios de acesso granular aos usuários e para assegurar que os
+usuários tenham somente o acesso que é necessário para executar suas tarefas de acordo com o princípio do menor privilégio.
 
 Nos ambientes do {{site.data.keyword.Bluemix_notm}} Dedicated e Local, administradores designados podem gerenciar funções e permissões para os usuários do {{site.data.keyword.Bluemix_notm}} em suas organizações usando o Console administrativo. Veja [Gerenciando o {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng) para obter detalhes.
 </dd>
@@ -155,9 +159,11 @@ Cada datacenter do {{site.data.keyword.BluSoftlayer}} é totalmente protegido co
 ## Segurança de dados
 {: #data-security}
 
-Com o {{site.data.keyword.Bluemix_notm}}, proteger seus dados contra acesso não autorizado é um trabalho em conjunto entre o {{site.data.keyword.Bluemix_notm}} e você.
+Com o {{site.data.keyword.Bluemix_notm}},
+proteger seus dados contra acesso não autorizado é um trabalho em conjunto entre o {{site.data.keyword.Bluemix_notm}} e você.
 
-Os dados associados a um aplicativo em execução podem estar em um de três estados: dados em trânsito, dados em repouso e dados em uso.
+Os dados associados a um aplicativo em execução podem estar em um de três estados:
+dados em trânsito, dados em repouso e dados em uso.
 
 <dl>
 <dt>Dados em trânsito</dt>
@@ -172,7 +178,10 @@ Os dados associados a um aplicativo em execução podem estar em um de três est
 
 Cada tipo de dados precisa ser considerado quando você planeja segurança de dados.
 
-A plataforma {{site.data.keyword.Bluemix_notm}} protege dados em trânsito assegurando o acesso do usuário final ao aplicativo usando SSL, por meio da rede, até que os dados atinjam o IBM DataPower Gateway no limite da rede interna do {{site.data.keyword.Bluemix_notm}}. O IBM DataPower Gateway age como um proxy reverso e fornece rescisão de SSL. De lá para o aplicativo, o IPSEC é usado para proteger os dados conforme eles viajam do IBM DataPower Gateway para o aplicativo.
+A plataforma {{site.data.keyword.Bluemix_notm}}
+protege dados em trânsito assegurando o acesso do usuário final ao
+aplicativo usando SSL, por meio da rede, até que os dados atinjam o
+IBM DataPower Gateway no limite da rede interna do {{site.data.keyword.Bluemix_notm}}. O IBM DataPower Gateway age como um proxy reverso e fornece rescisão de SSL. De lá para o aplicativo, o IPSEC é usado para proteger os dados conforme eles viajam do IBM DataPower Gateway para o aplicativo.
 
 A segurança para dados em uso e dados em repouso é sua responsabilidade ao desenvolver o aplicativo. É possível usufruir das vantagens de vários serviços relacionados aos dados, disponíveis no catálogo do {{site.data.keyword.Bluemix_notm}} para auxiliar nessas questões.
 
@@ -214,11 +223,13 @@ O plug-in do IBM Application Security Testing for {{site.data.keyword.Bluemix_no
 
 Para obter mais informações, acesse [IBM Application Security Testing for Bluemix ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### dashDB
+### Db2 on Cloud
 
-O serviço dashDB usa um servidor LDAP integrado para autenticação do usuário. A conexão entre os aplicativos e o banco de dados é protegida pelos certificados SSL. Esse serviço usa o recurso de criptografia nativa do DB2® para criptografar automaticamente seu banco de dados implementado e os backups de banco de dados. A rotação da chave mestra é automática e acontece a cada 90 dias.
+O {{site.data.keyword.Db2_on_Cloud_long}} é um banco de dados SQL provisionado para você na nuvem. É possível usar o {{site.data.keyword.Db2_on_Cloud_short}} da mesma forma que usaria qualquer software de banco de dados, mas sem o gasto adicional e a despesa de configuração de hardware e instalação e manutenção de software. 
 
-Para obter mais informações, consulte [Introdução ao dashDB](/docs/services/dashDB/index.html).
+Também é possível instalar um banco de dados local do Db2 usando o [download gratuito do Db2 Developer Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Ele instala rapidamente uma edição do desenvolvedor pronta para execução do Db2 com ferramentas dentro de um contêiner do Docker (o Docker não é necessário; qualquer componente necessário será instalado automaticamente).
+
+Para obter mais informações, consulte [Introdução ao DB2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
