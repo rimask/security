@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-10" 
 
 ---
 
@@ -28,7 +28,7 @@ lastupdated: "2017-01-10"
  3. 네트워크 라우터를 통해.
  4. DEA(Droplet Execution Agent)에서 애플리케이션 런타임에 도달합니다.
 
-{{site.data.keyword.Bluemix_notm}} *개발자*는 두 개의 기본 플로우(로그인용, 개발 및 배치용)를 따릅니다. 
+{{site.data.keyword.Bluemix_notm}} *개발자*는 두 개의 기본 플로우(로그인용, 개발 및 배치용)를 따릅니다.
  * **개발자 로그인 플로우**에는 다음이 포함됩니다.
     * {{site.data.keyword.Bluemix_notm}} 퍼블릭에 로그인한 개발자의 경우 플로우는 다음과 같습니다.
       1. IBM Single Sign On 서비스를 통해.

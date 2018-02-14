@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -48,7 +48,7 @@ lastupdated: "2017-01-10"
 
 그림 2. {{site.data.keyword.Bluemix_notm}} 로컬 플랫폼 보안 개요
 
-IBM은 {{site.data.keyword.Bluemix_notm}} 로컬에 포함된 전달 기능인 릴레이를 통해 데이터 센터에 {{site.data.keyword.Bluemix_notm}} 로컬을 설치하고 원격으로 모니터하고 관리합니다. 릴레이는 각 {{site.data.keyword.Bluemix_notm}} 로컬 인스턴스에 고유한 인증서를 안전하게 연결합니다. {{site.data.keyword.Bluemix_notm}} 로컬 및 릴레이에 대한 자세한 정보는 [Bluemix 로컬](/docs/local/index.html)을 참조하십시오. 
+IBM은 {{site.data.keyword.Bluemix_notm}} 로컬에 포함된 전달 기능인 릴레이를 통해 데이터 센터에 {{site.data.keyword.Bluemix_notm}} 로컬을 설치하고 원격으로 모니터하고 관리합니다. 릴레이는 각 {{site.data.keyword.Bluemix_notm}} 로컬 인스턴스에 고유한 인증서를 안전하게 연결합니다. {{site.data.keyword.Bluemix_notm}} 로컬 및 릴레이에 대한 자세한 정보는 [Bluemix 로컬](/docs/local/index.html)을 참조하십시오.
 
 ### 기능적 보안
 
@@ -149,7 +149,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 {{site.data.keyword.BluSoftlayer}} 네트워크 내 네트워크(network-within-a-network)에서 공용 네트워크 계층은 호스팅된 웹 사이트 또는 온라인 리소스에 대한 공용 트래픽을 처리합니다. 사설 네트워크 계층을 사용하면 SSL, PPTP 또는 IPSec VPN 게이트웨이에서 개별 독립형 써드파티 업체를 통해 진정한 대역 외 관리를 수행할 수 있습니다. 데이터 센터 간 네트워크 계층은 개별 {{site.data.keyword.BluSoftlayer}} 설비에 포함된 서버 간의 무료 보안 연결을 제공합니다.
 
-모든 {{site.data.keyword.BluSoftlayer}} 데이터 센터는 예외 없이 SSAE 16 및 업계에서 인정하는 요구사항을 충족하는 제어에 따라 완벽하게 보호됩니다. 
+모든 {{site.data.keyword.BluSoftlayer}} 데이터 센터는 예외 없이 SSAE 16 및 업계에서 인정하는 요구사항을 충족하는 제어에 따라 완벽하게 보호됩니다.
 
 ## 데이터 보안
 {: #data-security}
@@ -171,7 +171,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 각각의 데이터 유형은 데이터 보안을 계획할 때 고려되어야 합니다.
 
-{{site.data.keyword.Bluemix_notm}} 플랫폼은 {{site.data.keyword.Bluemix_notm}} 내부 네트워크의 경계에서 데이터가 IBM DataPower Gateway에 도달할 때까지 네트워크를 통해 SSL을 사용하여 애플리케이션에 대한 일반 사용자 액세스를 보호함으로써 전송 중 데이터를 보호합니다. IBM DataPower Gateway는 리버스 프록시 역할을 하며 SSL 종료를 제공합니다. 여기서 애플리케이션까지 IPSEC를 사용하여 데이터가 IBM DataPower Gateway에서 애플리케이션까지 이동할 때 데이터를 보호합니다. 
+{{site.data.keyword.Bluemix_notm}} 플랫폼은 {{site.data.keyword.Bluemix_notm}} 내부 네트워크의 경계에서 데이터가 IBM DataPower Gateway에 도달할 때까지 네트워크를 통해 SSL을 사용하여 애플리케이션에 대한 일반 사용자 액세스를 보호함으로써 전송 중 데이터를 보호합니다. IBM DataPower Gateway는 리버스 프록시 역할을 하며 SSL 종료를 제공합니다.  여기서 애플리케이션까지 IPSEC를 사용하여 데이터가 IBM DataPower Gateway에서 애플리케이션까지 이동할 때 데이터를 보호합니다.
 
 사용 중 데이터 및 저장 데이터 둘 다에 대한 보안은 애플리케이션 개발 중에 사용자의 책임입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그에서 사용 가능한 다수의 데이터 관련 서비스를 활용하면 이와 관련하여 도움을 받을 수 있습니다.
 
@@ -182,7 +182,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 여러 {{site.data.keyword.Bluemix_notm}} 서비스에서 제공하는 보안 기능을 사용하여 애플리케이션을 보호할 수 있습니다. IBM에서 생성하는 모든 {{site.data.keyword.Bluemix_notm}} 서비스는 IBM 보안 엔지니어링 개발 방식을 따릅니다.
 
-**참고:** 여기에 설명된 서비스 중 일부는 {{site.data.keyword.Bluemix_notm}} 데디케이티드 인스턴스 또는 로컬 인스턴스에 적용되지 않을 수 있습니다. 
+**참고:** 여기에 설명된 서비스 중 일부는 {{site.data.keyword.Bluemix_notm}} 데디케이티드 인스턴스 또는 로컬 인스턴스에 적용되지 않을 수 있습니다.
 
 ### SSO 서비스
 
@@ -209,15 +209,17 @@ Single Sign On 서비스는 사용자의 신임 정보가 저장된 다수의 ID
 
 ### 애플리케이션 보안 테스트를 위한 IBM UrbanCode 플러그인
 
-IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 플러그인을 사용하면 {{site.data.keyword.Bluemix_notm}}에서 호스팅되는 사용자 웹 또는 Android 앱에서 보안 스캔을 실행할 수 있습니다. 이 플러그인은 IBM UrbanCode™ Deploy Community에 의해 개발되었으며 지원됩니다. 
+IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 플러그인을 사용하면 {{site.data.keyword.Bluemix_notm}}에서 호스팅되는 사용자 웹 또는 Android 앱에서 보안 스캔을 실행할 수 있습니다. 이 플러그인은 IBM UrbanCode™ Deploy Community에 의해 개발되었으며 지원됩니다.
 
 자세한 정보는 [IBM Application Security Testing for Bluemix ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}로 이동하십시오.
 
-### dashDB
+### DB2 on Cloud
 
-dashDB 서비스는 사용자 인증을 위한 내장된 LDAP 서버를 사용합니다. 애플리케이션 및 데이터베이스 사이의 연결은 SSL 인증서에 의해 보호됩니다. 이 서비스는 배치된 데이터베이스와 데이터베이스 백업을 자동으로 암호화하기 위해 DB2® 원시 암호화 기능을 사용합니다. 마스터 키 회전은 자동이고 90일마다 수행됩니다.
+{{site.data.keyword.Db2_on_Cloud_long}}는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것 처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 {{site.data.keyword.Db2_on_Cloud_short}}를 사용할 수 있습니다.  
 
-자세한 정보는 [dashDB 시작하기](/docs/services/dashDB/index.html)를 참조하십시오.
+[무료 DB2 Developer Edition 다운로드![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)를 통해 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함). 
+
+자세한 정보는 [DB2 Security on Cloud 시작하기](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)를 참조하십시오.
 
 ### Secure Gateway
 

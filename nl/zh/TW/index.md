@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -55,7 +55,9 @@ IBM 透過「轉遞」來安裝、遠端監視及管理資料中心中的「{{si
 
 <dl>
 <dt>鑑別</dt>
-<dd>應用程式開發人員利用 IBM Web 身分向 {{site.data.keyword.Bluemix_notm}} 進行鑑別。若為「{{site.data.keyword.Bluemix_notm}} 專用」及「Bluemix 本端」，依預設會支援透過 LDAP 進行鑑別。在要求時，可以改為針對 {{site.data.keyword.Bluemix_notm}} 設定透過 IBM Web 身分進行鑑別。
+<dd>應用程式開發人員利用 IBM Web 身分向 {{site.data.keyword.Bluemix_notm}} 進行鑑別。
+
+若為「{{site.data.keyword.Bluemix_notm}} 專用」及「Bluemix 本端」，依預設會支援透過 LDAP 進行鑑別。在要求時，可以改為針對 {{site.data.keyword.Bluemix_notm}} 設定透過 IBM Web 身分進行鑑別。
 </dd>
 
 <dt>授權</dt>
@@ -132,7 +134,9 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 <dd>{{site.data.keyword.Bluemix_notm}} 使用 IBMSecurity QRadar® 工具來合併 Linux 日誌，以監視 Linux 系統上的特許存取。{{site.data.keyword.Bluemix_notm}} 也會使用 IBM QRadar 安全資訊及事件管理 (SIEM)，來監視應用程式開發人員的成功和不成功的登入嘗試。</dd>
 
 <dt>使用者存取管理</dt>
-<dd>在 {{site.data.keyword.Bluemix_notm}} 內，會遵循「權責區分」準則，指派精細的存取權給使用者，並確保根據最低專用權原則，使用者僅具備執行其工作所需的存取權。在「{{site.data.keyword.Bluemix_notm}} 專用」及「Bluemix 本端」環境內，已指派的管理者可以利用「管理主控台」來管理 {{site.data.keyword.Bluemix_notm}} 使用者在其組織中的角色及許可權。如需詳細資料，請參閱[管理 {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng)。
+<dd>在 {{site.data.keyword.Bluemix_notm}} 內，會遵循「權責區分」準則，指派精細的存取權給使用者，並確保根據最低專用權原則，使用者僅具備執行其工作所需的存取權。
+
+在「{{site.data.keyword.Bluemix_notm}} 專用」及「Bluemix 本端」環境內，已指派的管理者可以利用「管理主控台」來管理 {{site.data.keyword.Bluemix_notm}} 使用者在其組織中的角色及許可權。如需詳細資料，請參閱[管理 {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng)。
 </dd>
 </dl>
 
@@ -206,11 +210,13 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 外掛�
 
 如需相關資訊，請前往 [IBM Application Security Testing for Bluemix ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}。
 
-### dashDB
+### Db2 on Cloud
 
-dashDB 服務使用內嵌式 LDAP 伺服器進行使用者鑑別。應用程式與資料庫之間的連線受到 SSL 憑證保護。此服務使用 Db2® 原生加密功能自動加密您的已部署資料庫及資料庫備份。每隔 90 天會自動執行一次主要金鑰輪替。
+{{site.data.keyword.Db2_on_Cloud_long}} 是雲端中為您所佈建的 SQL 資料庫。{{site.data.keyword.Db2_on_Cloud_short}} 的使用方式就像使用任何資料庫軟體一樣，但沒有硬體設定或軟體安裝及維護的額外負擔及費用。 
 
-如需相關資訊，請參閱[開始使用 dashDB](/docs/services/dashDB/index.html)。
+您也可以使用[免費 Db2 Developer Edition 下載 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 來安裝本端 Db2 資料庫。它會在 Docker 容器內使用工具快速安裝 Db2 的備妥開發人員版本（不需要 Docker；它將會自動安裝任何必要元件）。
+
+如需相關資訊，請參閱[開始使用 Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)。
 
 ### Secure Gateway
 

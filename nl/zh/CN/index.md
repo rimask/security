@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2014, 2017
+  years: 2014, 2018
 
-lastupdated: "2017-01-10"
+lastupdated: "2017-01-19"
 
 ---
 
@@ -56,6 +56,8 @@ IBM 通过中继（{{site.data.keyword.Bluemix_notm}} Local 随附的一种交�
 <dl>
 <dt>认证</dt>
 <dd>应用程序开发者使用 IBM Web 身份向 {{site.data.keyword.Bluemix_notm}} 进行认证。
+
+
 
 对于 {{site.data.keyword.Bluemix_notm}} Dedicated 和 Local，缺省情况下支持通过 LDAP 进行认证。根据请求，对于 {{site.data.keyword.Bluemix_notm}}，可以改为设置通过 IBM Web 身份进行认证。
 </dd>
@@ -134,7 +136,9 @@ HTTP 不活动超时为 2 分钟。</dd>
 <dd>{{site.data.keyword.Bluemix_notm}} 使用 IBM Security QRadar® 工具来整合 Linux 日志，从而监视对 Linux 系统的特权访问。{{site.data.keyword.Bluemix_notm}} 还使用 IBM QRadar 安全信息和事件管理 (SIEM) 来监视应用程序开发者的成功和不成功登录尝试。</dd>
 
 <dt>用户访问管理</dt>
-<dd>在 {{site.data.keyword.Bluemix_notm}} 中，按照职责分离准则来为用户分配精细的访问特权，并根据最低特权原则，确保用户只拥有执行其作业所需的访问权。在 {{site.data.keyword.Bluemix_notm}} Dedicated 和 Local 环境中，指派的管理员可以使用管理控制台来管理 {{site.data.keyword.Bluemix_notm}} 用户在其组织中的角色和许可权。有关详细信息，请参阅[管理 {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng)。
+<dd>在 {{site.data.keyword.Bluemix_notm}} 中，按照职责分离准则来为用户分配精细的访问特权，并根据最低特权原则，确保用户只拥有执行其作业所需的访问权。
+
+在 {{site.data.keyword.Bluemix_notm}} Dedicated 和 Local 环境中，指派的管理员可以使用管理控制台来管理 {{site.data.keyword.Bluemix_notm}} 用户在其组织中的角色和许可权。有关详细信息，请参阅[管理 {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng)。
 </dd>
 </dl>
 
@@ -208,11 +212,13 @@ Single Sign On 服务支持多个存储用户凭证的身份源：
 
 有关更多信息，请转至 [IBM Application Security Testing for Bluemix ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}。
 
-### dashDB
+### Db2 on Cloud
 
-dashDB 服务使用嵌入的 LDAP 服务器进行用户认证。应用程序和数据库之间的连接由 SSL 证书保护。此服务使用 Db2® 本机加密功能，以自动加密已部署的数据库和数据库备份。主密钥轮替每 90 天自动执行一次。
+{{site.data.keyword.Db2_on_Cloud_long}} 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 {{site.data.keyword.Db2_on_Cloud_short}}，但却没有硬件安装或软件安装与维护的开销及费用。 
 
-有关更多信息，请参阅 [dashDB 入门](/docs/services/dashDB/index.html)。
+您还可以使用[免费 Db2 Developer Edition 下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 来安装本地 Db2 数据库。它会使用 Docker 容器中的工具快速安装随时可用的开发者版本的 Db2（Docker 不是必需的；它会自动安装所有必要的组件）。
+
+有关更多信息，请参阅 [Db2 on Cloud 入门](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)。
 
 ### Secure Gateway
 
