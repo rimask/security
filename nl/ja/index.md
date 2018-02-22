@@ -58,8 +58,6 @@ IBM は、リレー ({{site.data.keyword.Bluemix_notm}} Local に付属のデリ
 <dt>認証</dt>
 <dd>アプリケーション開発者は、IBM Web ID を使用して {{site.data.keyword.Bluemix_notm}} に対して認証されます。
 
-
-
 {{site.data.keyword.Bluemix_notm}} Dedicated および Local の場合、デフォルトで、LDAP を介した認証がサポートされます。 ご要望に応じて、 {{site.data.keyword.Bluemix_notm}} に対して、代わりに IBM Web ID を介した認証をセットアップできます。
 </dd>
 
@@ -217,9 +215,9 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラ�
 
 ### Db2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} は、ユーザーのためにクラウド内にプロビジョンされている SQL データベースです。{{site.data.keyword.Db2_on_Cloud_short}} は、他のデータベース・ソフトウェアと同様に使用できますが、ハードウェアのセットアップやソフトウェアのインストールおよび保守の手間や経費は必要ありません。 
+{{site.data.keyword.Db2_on_Cloud_long}} は、ユーザーのためにクラウド内にプロビジョンされている SQL データベースです。 {{site.data.keyword.Db2_on_Cloud_short}} は、他のデータベース・ソフトウェアと同様に使用できますが、ハードウェアのセットアップやソフトウェアのインストールおよび保守の手間や経費は必要ありません。 
 
-さらに、[無料の Db2 Developer Edition のダウンロード ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル Db2 データベースをインストールすることもできます。すぐに使用可能な Db2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
+さらに、[無料の Db2 Developer Edition のダウンロード ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル Db2 データベースをインストールすることもできます。 すぐに使用可能な Db2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
 
 詳しくは、『[Db2 on Cloud の概説](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)』を参照してください。
 
