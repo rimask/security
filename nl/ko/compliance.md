@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2017-08-17" 
+lastupdated: "2018-02-01" 
 
 
 
@@ -82,12 +82,10 @@ ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 �
 |{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |
 |{{site.data.keyword.cloudant}}				|Y |Y |	|Y	|
 |{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
-|{{site.data.keyword.datacshort}}			|Y	|Y	|Y	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
 |{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
 |{{site.data.keyword.SecureGateway}}			|Y	|Y |	|	 		|
-|{{site.data.keyword.sescashort}}     |Y |Y |Y	|  |
 {: caption="표 1. 플랫폼 및 서비스 준수" caption-side="top"}

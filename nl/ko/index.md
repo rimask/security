@@ -215,9 +215,9 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 플러�
 
 ### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}}는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것 처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 {{site.data.keyword.Db2_on_Cloud_short}}를 사용할 수 있습니다.  
+{{site.data.keyword.Db2_on_Cloud_long}}는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것 처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 {{site.data.keyword.Db2_on_Cloud_short}}를 사용할 수 있습니다. 
 
-[무료 DB2 Developer Edition 다운로드![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)를 통해 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함). 
+[무료 DB2 Developer Edition 다운로드![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)를 통해 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함).
 
 자세한 정보는 [DB2 Security on Cloud 시작하기](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)를 참조하십시오.
 
