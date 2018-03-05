@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2017-08-17" 
+lastupdated: "2018-02-01" 
 
 
 
@@ -121,12 +121,10 @@ Le tableau ci-dessous indique quels sont les services dans {{site.data.keyword.B
 |{{site.data.keyword.bigicloudst}}			|O |O |	|O |
 |{{site.data.keyword.cloudant}}				|O |O |	|O	|
 |{{site.data.keyword.dashdbshort}}			|O	|O	|	|O	|
-|{{site.data.keyword.datacshort}}			|O	|O	|O	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|O	 		|
 |{{site.data.keyword.contdelivery_short}}					|O	|O	|	|			|
 |{{site.data.keyword.containerlong}}			|O		|O	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|O	 		|
 |{{site.data.keyword.mql}}				|O	|O	|O	|	 		|
 |{{site.data.keyword.SecureGateway}}			|O	|O |	|	 		|
-|{{site.data.keyword.sescashort}}     |O |O |O	|  |
 {: caption="Tableau 1. Conformité de la plateforme et des services" caption-side="top"}
