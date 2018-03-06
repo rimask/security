@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2017-08-17" 
+lastupdated: "2018-02-01" 
 
 
 
@@ -82,12 +82,10 @@ lastupdated: "2017-08-17"
 |{{site.data.keyword.bigicloudst}}			|是|是|	|是|
 |{{site.data.keyword.cloudant}}				|是|是|	|是|
 |{{site.data.keyword.dashdbshort}}			|是|是|	|是|
-|{{site.data.keyword.datacshort}}			|是|是|是|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|是|
 |{{site.data.keyword.contdelivery_short}}					|是|是|	|			|
 |{{site.data.keyword.containerlong}}			|是|是|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|是|
 |{{site.data.keyword.mql}}				|是|是|是|	 		|
 |{{site.data.keyword.SecureGateway}}			|是|是|	|	 		|
-|{{site.data.keyword.sescashort}}     |是|是|是|  |
 {: caption="表 1. 平台和服务合规性" caption-side="top"}

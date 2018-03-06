@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2017-08-17" 
+lastupdated: "2018-02-01" 
 
 
 
@@ -82,12 +82,10 @@ A tabela a seguir exibe quais serviços do {{site.data.keyword.Bluemix_notm}} s�
 |{{site.data.keyword.bigicloudst}}			|S |S |	|S |
 |{{site.data.keyword.cloudant}}				|S |S |	|S	|
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
-|{{site.data.keyword.datacshort}}			|S	|S	|S	|			|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
 |{{site.data.keyword.containerlong}}			|S		|S	|	|			|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|
 |{{site.data.keyword.SecureGateway}}			|S	|S |	|	 		|
-|{{site.data.keyword.sescashort}}     |S |S |S	|  |
 {: caption="Tabela 1. Conformidade de plataforma e serviço" caption-side="top"}
