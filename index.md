@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-19"
+lastupdated: "2018-03-15"
 
 ---
 
@@ -139,7 +139,7 @@ The following HTTP methods are allowed:
 <dt>User access management</dt>
 <dd>Within {{site.data.keyword.Bluemix_notm}}, Separation of Duties guidelines are followed to assign granular access privileges to users, and to ensure that users have only the access that is required to perform their jobs according to the principle of least privilege.
 
-Within {{site.data.keyword.Bluemix_notm}} Dedicated and Local environments, assigned administrators can manage roles and permissions for {{site.data.keyword.Bluemix_notm}} users in their organization by using the Admin Console. See [Managing {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng) for details.
+Within {{site.data.keyword.Bluemix_notm}} Dedicated and Local environments, assigned administrators can manage roles and permissions for {{site.data.keyword.Bluemix_notm}} users in their organization by using the Admin Console. See [Managing {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng) for details.
 </dd>
 </dl>
 
