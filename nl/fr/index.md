@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-19"
+lastupdated: "2018-03-15"
 
 ---
 
@@ -181,8 +181,7 @@ principe du moindre privilège.
 
 Dans les environnements {{site.data.keyword.Bluemix_notm}} dédié et local, les administrateurs désignés
 peuvent
-gérer les rôles et les droits pour les utilisateurs {{site.data.keyword.Bluemix_notm}} dans leur organisation dans la console d'administration. Voir
-[Gestion de {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng) pour des détails.
+gérer les rôles et les droits pour les utilisateurs {{site.data.keyword.Bluemix_notm}} dans leur organisation dans la console d'administration. Pour plus d'informations, voir [Gestion de {{site.data.keyword.Bluemix_local_notm}} et de {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng). 
 </dd>
 </dl>
 
