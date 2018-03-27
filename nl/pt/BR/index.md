@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-19"
+lastupdated: "2018-03-15"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-01-19"
 # Segurança do {{site.data.keyword.Bluemix_notm}}
 {: #security}
 
-Projetada com práticas seguras de engenharia, a plataforma do {{site.data.keyword.Bluemix}} possui controles de segurança em camadas na rede e na infraestrutura. O {{site.data.keyword.Bluemix_notm}} fornece um grupo de serviços de segurança que podem ser usados por desenvolvedores de aplicativos para proteger seus apps móveis e da web. Esses elementos são combinados para fazer do {{site.data.keyword.Bluemix_notm}} uma plataforma com opções claras para desenvolvimento seguro do aplicativo.
+Projetada com práticas seguras de engenharia, a plataforma do {{site.data.keyword.Bluemix}} possui controles de segurança em camadas na rede e na infraestrutura. O {{site.data.keyword.Bluemix_notm}} fornece um grupo de serviços de segurança que podem ser usados por desenvolvedores de aplicativos para assegurar seus apps móveis e da web. Esses elementos são combinados para fazer do {{site.data.keyword.Bluemix_notm}} uma plataforma com opções claras para desenvolvimento seguro do aplicativo.
 {:shortdesc}
 
 O {{site.data.keyword.Bluemix_notm}} garante disponibilidade de segurança ao seguir as políticas de segurança que são orientadas por melhores práticas na IBM para sistemas, rede e engenharia segura. Essas políticas incluem práticas, como varredura do código-fonte, varredura dinâmica, modelagem de ameaça e teste de penetração. O {{site.data.keyword.Bluemix_notm}} segue o processo IBM Product Security Incident Response Team (PSIRT) para gerenciamento de incidentes de segurança. Veja o site [IBM Security Vulnerability Management (PSIRT) ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} para obter detalhes.
@@ -100,7 +100,7 @@ http, ws ou wss.</dd>
 </dd>
 
 <dt>Práticas seguras de desenvolvimento</dt>
-<dd> Para {{site.data.keyword.Bluemix_notm}} Public e Dedicated, varreduras de vulnerabilidade de segurança periódicas são executadas em vários componentes do {{site.data.keyword.Bluemix_notm}} usando o IBM Security AppScan® Dynamic Analyzer. A modelagem de ameaça e teste de penetração são executadas para detectar e tratar possíveis vulnerabilidades em todos os tipos de implementações do {{site.data.keyword.Bluemix_notm}}. Além disso, os desenvolvedores de aplicativos podem usar o serviço AppScan Dynamic Analyzer para proteger seus apps da web que são implementados no {{site.data.keyword.Bluemix_notm}}.</dd>
+<dd> Para {{site.data.keyword.Bluemix_notm}} Public e Dedicated, varreduras de vulnerabilidade de segurança periódicas são executadas em vários componentes do {{site.data.keyword.Bluemix_notm}} usando o IBM Security AppScan® Dynamic Analyzer. A modelagem de ameaça e teste de penetração são executadas para detectar e tratar possíveis vulnerabilidades em todos os tipos de implementações do {{site.data.keyword.Bluemix_notm}}. Além disso, os desenvolvedores de aplicativos podem usar o serviço AppScan Dynamic Analyzer para assegurar seus apps da web que são implementados no {{site.data.keyword.Bluemix_notm}}.</dd>
 </dl>
 
 ### Segurança da infraestrutura
@@ -144,7 +144,7 @@ separação de obrigações são seguidas para designar
 privilégios de acesso granular aos usuários e para assegurar que os
 usuários tenham somente o acesso que é necessário para executar suas tarefas de acordo com o princípio do menor privilégio.
 
-Nos ambientes do {{site.data.keyword.Bluemix_notm}} Dedicated e Local, administradores designados podem gerenciar funções e permissões para os usuários do {{site.data.keyword.Bluemix_notm}} em suas organizações usando o Console administrativo. Veja [Gerenciando o {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng) para obter detalhes.
+Nos ambientes do {{site.data.keyword.Bluemix_notm}} Dedicated e Local, administradores designados podem gerenciar funções e permissões para os usuários do {{site.data.keyword.Bluemix_notm}} em suas organizações usando o Console administrativo. Veja [Gerenciando o {{site.data.keyword.Bluemix_local_notm}} e o {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng) para obter detalhes.
 </dd>
 </dl>
 
@@ -154,7 +154,7 @@ O {{site.data.keyword.Bluemix_notm}} Public e Dedicated dependem da topologia de
 
 Na rede dentro uma rede do {{site.data.keyword.BluSoftlayer}}, a camada de rede pública manipula o tráfego público para websites hospedados ou recursos on-line. A camada de rede privada permite o gerenciamento fora da banda verdadeiro por meio de uma terceira operadora distinta sobre gateways SSL, PPTP ou IPSec VPN. A camada de rede de datacenter para datacenter fornece conectividade grátis e segura entre servidores que estão hospedados em instalações separadas do {{site.data.keyword.BluSoftlayer}}.
 
-Cada datacenter do {{site.data.keyword.BluSoftlayer}} é totalmente protegido com controles que atendem requisitos reconhecidos pelo SSAE 16 e pelo segmento de mercado, sem exceções.
+Cada data center do {{site.data.keyword.BluSoftlayer}} é totalmente assegurado com controles que atendem requisitos reconhecidos pelo SSAE 16 e pelo segmento de mercado, sem exceções.
 
 ## Segurança de dados
 {: #data-security}
