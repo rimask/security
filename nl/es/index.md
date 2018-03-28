@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-19"
+lastupdated: "2018-03-15"
 
 ---
 
@@ -58,8 +58,6 @@ IBM instala, supervisa de forma remota y gestiona {{site.data.keyword.Bluemix_no
 <dl>
 <dt>Autenticación</dt>
 <dd>Los desarrolladores de aplicaciones se autentican ante {{site.data.keyword.Bluemix_notm}} mediante la identidad web de IBM.
-
-
 
 Para {{site.data.keyword.Bluemix_notm}} dedicado y local, la autenticación a través LDAP recibe soporte de forma predeterminado. A petición, se puede configurar la autenticación a través de IBM Web Identity en lugar de para {{site.data.keyword.Bluemix_notm}}.
 </dd>
@@ -145,9 +143,7 @@ Nessus, para detectar cualquier problema en la configuración de la red y del ho
 <dt>Gestión de accesos de usuario</dt>
 <dd>Dentro de {{site.data.keyword.Bluemix_notm}}, se siguen directrices de separación de responsabilidades para asignar a los usuarios privilegios de acceso granulares y para garantizar que los usuarios solo tienen el acceso que necesitan para realizar su trabajo según el principio de privilegio menor.
 
-
-
-En los entornos {{site.data.keyword.Bluemix_notm}} dedicado y local, los administradores asignados pueden gestionar roles y permisos para los usuarios de {{site.data.keyword.Bluemix_notm}} en su organización mediante la Consola de administración. Consulte [Gestión de {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng) para obtener más detalles.
+En los entornos {{site.data.keyword.Bluemix_notm}} dedicado y local, los administradores asignados pueden gestionar roles y permisos para los usuarios de {{site.data.keyword.Bluemix_notm}} en su organización mediante la Consola de administración. Consulte [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng) para más información.
 </dd>
 </dl>
 
@@ -228,8 +224,7 @@ Para obtener más información, vaya a [IBM Application Security Testing for Blu
 
 ### Db2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} es una base de datos SQL suministrada para usted en la nube. Puede utilizar {{site.data.keyword.Db2_on_Cloud_short}} como utilizaría cualquier software de base de datos, pero sin la sobrecarga ni el gasto de la configuración de hardware o la instalación y el mantenimiento de software.
- 
+{{site.data.keyword.Db2_on_Cloud_long}} es una base de datos SQL suministrada para usted en la nube. Puede utilizar {{site.data.keyword.Db2_on_Cloud_short}} como utilizaría cualquier software de base de datos, pero sin la sobrecarga ni el gasto de la configuración de hardware o la instalación y el mantenimiento de software. 
 
 También puede instalar una base de datos Db2 local utilizando la [descarga gratuita de Db2 Developer Edition ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). De esta forma, se instala rápidamente una edición de Db2 para desarrolladores lista para utilizar dentro de un contenedor Docker (no se requiere Docker; todos los componentes necesarios se instalarán automáticamente).
 
