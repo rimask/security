@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-19"
+lastupdated: "2018-03-15"
 
 ---
 
@@ -157,7 +157,7 @@ monitorare i tentativi di accesso riusciti e non riusciti degli sviluppatori di 
 <dd>All'interno di {{site.data.keyword.Bluemix_notm}}, vengono seguite le linee guida di Separazione dei compiti per assegnare agli utenti dei privilegi di accesso granulari e per garantire che gli utenti dispongano soltanto dell'accesso richiesto per eseguire i propri lavori in base al principio del
 minimo privilegio.
 
-Negli ambienti {{site.data.keyword.Bluemix_notm}} dedicato e locale, gli amministratori assegnati possono gestire i ruoli e le autorizzazioni per gli utenti {{site.data.keyword.Bluemix_notm}} nella propria organizzazione utilizzando la Console di gestione. Per i dettagli, vedi [Gestione di {{site.data.keyword.Bluemix_notm}}](/docs/admin/adminpublic.html#mng).
+Negli ambienti {{site.data.keyword.Bluemix_notm}} dedicato e locale, gli amministratori assegnati possono gestire i ruoli e le autorizzazioni per gli utenti {{site.data.keyword.Bluemix_notm}} nella propria organizzazione utilizzando la Console di gestione. Per i dettagli, vedi [Gestione di {{site.data.keyword.Bluemix_local_notm}} e {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng).
 </dd>
 </dl>
 
@@ -238,7 +238,7 @@ Per ulteriori informazioni, vedi [Introduzione a Single Sign On](/docs/services/
 
 ### Application Security on Cloud
 
-Questo servizio fornisce un'analisi della sicurezza delle applicazioni Web e mobili e ti consente di scansionare il codice sorgente alla ricerca di vulnerabilità di sicurezza. Per ulteriori informazioni, vedi [Introduzione a Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
+Questo servizio fornisce un'analisi della sicurezza delle applicazioni Web e mobili e ti consente di scansionare il codice di origine alla ricerca di vulnerabilità di sicurezza. Per ulteriori informazioni, vedi [Introduzione a Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
 
 ### Plug-in IBM UrbanCode per il test di sicurezza delle applicazioni
 
