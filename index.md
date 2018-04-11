@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -171,7 +171,7 @@ Data that is associated with a running application can be in one of three states
 
 Each type of data needs to be considered when you plan for data security.
 
-The {{site.data.keyword.Bluemix_notm}} platform secures data-in-transit by securing the end-user access to the application by using SSL, through the network until the data reaches IBM DataPower Gateway at the boundary of the {{site.data.keyword.Bluemix_notm}} internal network. IBM DataPower Gateway acts as a reverse proxy and provides SSL termination. From there to the application IPSEC is used to secure the data as it travels from the IBM DataPower Gateway to the application.
+The {{site.data.keyword.Bluemix_notm}} platform secures data-in-transit by securing the user access to the application by using SSL, through the network until the data reaches IBM DataPower Gateway at the boundary of the {{site.data.keyword.Bluemix_notm}} internal network. IBM DataPower Gateway acts as a reverse proxy and provides SSL termination. From, there to the application IPSEC is used to secure the data as it travels from the IBM DataPower Gateway to the application.
 
 Security for both data-in-use and data-at-rest is your responsibility as you develop your application. You can take advantage of several data-related services available in the {{site.data.keyword.Bluemix_notm}} Catalog to help with these concerns.
 
@@ -182,7 +182,7 @@ As an application developer, you must enable the security configurations, includ
 
 You can use security capabilities that are provided by several {{site.data.keyword.Bluemix_notm}} services to secure your applications. All {{site.data.keyword.Bluemix_notm}} services that are produced by IBM follow IBM secure engineering development practices.
 
-**Note:** Some of the services described here might not apply to {{site.data.keyword.Bluemix_notm}} Dedicated or Local instances.
+**Note:** Some of the services that are described here might not apply to {{site.data.keyword.Bluemix_notm}} Dedicated or Local instances.
 
 ### SSO service
 
@@ -205,25 +205,25 @@ For more information, see [Getting started with Single Sign On](/docs/services/S
 
 ### Application Security on Cloud
 
-This service provides a security analysis of mobile and web apps, and it allows you to scan source code for security vulnerabilities. For more information, see  [Getting started with Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
+This service provides a security analysis of mobile and web apps, and it allows you to scan source code for security vulnerabilities. For more information, see [Getting started with Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
 
 ### IBM UrbanCode plug-in for application security testing
 
-The IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} plug-in enables you to run security scans on your web or Android apps that are hosted on {{site.data.keyword.Bluemix_notm}}. This plug-in is developed and supported by the IBM UrbanCode™ Deploy Community.
+The IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} plug-in allows you to run security scans on your web or Android apps that are hosted on {{site.data.keyword.Bluemix_notm}}. This plug-in is developed and supported by the IBM UrbanCode™ Deploy Community.
 
 For more information, go to [IBM Application Security Testing for Bluemix ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} is an SQL database provisioned for you in the cloud. You can use {{site.data.keyword.Db2_on_Cloud_short}} just as you would use any database software, but without the overhead and expense of hardware setup or software installation and maintenance. 
+{{site.data.keyword.Db2_on_Cloud_long}} is an SQL database that is provisioned for you in the cloud. You can use {{site.data.keyword.Db2_on_Cloud_short}} just as you would use any database software, but without the overhead and expense of hardware setup or software installation and maintenance.  
 
-You can also install a local Db2 database using the [free Db2 Developer Edition download ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). It rapidly installs a ready-to-go developer edition of Db2 with tools inside a Docker container (Docker not required; it will automatically install any necessary components).
+You can also install a local DB2 database by using the [free Db2 Developer Edition download ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). It rapidly installs a ready-to-go developer edition of Db2 with tools inside a Docker container (Docker not required; it will automatically install any necessary components).
 
-For more information, see [Getting started with Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
+For more information, see [Getting started with DB2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
-The Secure Gateway service enables you to securely connect {{site.data.keyword.Bluemix_notm}} apps to remote locations, either on premises or in the cloud. It provides secure connectivity and establishes a tunnel between your {{site.data.keyword.Bluemix_notm}} organization and the remote location that you want to connect to. You can configure and create a secure gateway by using the {{site.data.keyword.Bluemix_notm}} user interface or an API package.
+The Secure Gateway service allows you to securely connect {{site.data.keyword.Bluemix_notm}} apps to remote locations, either on premises or in the cloud. It provides secure connectivity and establishes a tunnel between your {{site.data.keyword.Bluemix_notm}} organization and the remote location that you want to connect to. You can configure and create a secure gateway by using the {{site.data.keyword.Bluemix_notm}} user interface or an API package.
 
 For more information, see [Getting started with Secure Gateway](/docs/services/SecureGateway/secure_gateway.html).
 
