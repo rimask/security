@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -171,7 +171,7 @@ IBM は、リレー ({{site.data.keyword.Bluemix_notm}} Local に付属のデリ
 
 データ・セキュリティーについて計画する際には、それぞれのタイプのデータを考慮する必要があります。
 
-{{site.data.keyword.Bluemix_notm}} プラットフォームは、ネットワーク全体で、データが {{site.data.keyword.Bluemix_notm}} 内部ネットワークの境界にある IBM DataPower Gateway に到達するまで、SSL を使用してアプリケーションへのエンド・ユーザー・アクセスを保護することで、転送中のデータを保護します。 IBM DataPower Gateway はリバース・プロキシーとして機能し、SSL 終端を提供します。 そこからアプリケーションまで、IPSEC を使用して、IBM DataPower Gateway からアプリケーションまで移動していくデータを保護します。
+{{site.data.keyword.Bluemix_notm}} プラットフォームは、ネットワーク全体で、データが {{site.data.keyword.Bluemix_notm}} 内部ネットワークの境界にある IBM DataPower Gateway に到達するまで、SSL を使用してアプリケーションへのユーザー・アクセスを保護することで、転送中のデータを保護します。 IBM DataPower Gateway はリバース・プロキシーとして機能し、SSL 終端を提供します。 そこからアプリケーションまで、IPSEC を使用して、IBM DataPower Gateway からアプリケーションまで移動していくデータを保護します。
 
 使用中のデータと保存状態のデータのセキュリティーはともに、アプリケーションを開発するのがお客様であるため、お客様の責任になります。 {{site.data.keyword.Bluemix_notm}} カタログで使用可能ないくつかのデータ関連サービスを利用して、この問題の解決に役立てることができます。
 
@@ -209,21 +209,21 @@ Single Sign On サービスでは、以下に示すように、ユーザーの�
 
 ### アプリケーション・セキュリティー・テスト用の IBM UrbanCode プラグイン
 
-IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラグインを使用すれば、{{site.data.keyword.Bluemix_notm}} でホストされている Web アプリや Android アプリに対してセキュリティー・スキャンを実行できるようになります。 このプラグインは、 プラットフォームで IBM UrbanCode™ Deploy Community によって開発され、サポートされています。
+IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラグインを使用すると、{{site.data.keyword.Bluemix_notm}} でホストされている Web アプリや Android アプリに対してセキュリティー・スキャンを実行できます。このプラグインは、 プラットフォームで IBM UrbanCode™ Deploy Community によって開発され、サポートされています。
 
 詳しくは、[IBM Application Security Testing for Bluemix ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window} にアクセスしてください。
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} は、ユーザーのためにクラウド内にプロビジョンされている SQL データベースです。 {{site.data.keyword.Db2_on_Cloud_short}} は、他のデータベース・ソフトウェアと同様に使用できますが、ハードウェアのセットアップやソフトウェアのインストールおよび保守の手間や経費は必要ありません。 
+{{site.data.keyword.Db2_on_Cloud_long}} は、ユーザーのためにクラウド内にプロビジョンされている SQL データベースです。 {{site.data.keyword.Db2_on_Cloud_short}} は、他のデータベース・ソフトウェアと同様に使用できますが、ハードウェアのセットアップやソフトウェアのインストールおよび保守の手間や経費は必要ありません。  
 
-さらに、[無料の Db2 Developer Edition のダウンロード ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル Db2 データベースをインストールすることもできます。 すぐに使用可能な Db2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
+さらに、[無料の Db2 Developer Edition のダウンロード ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル DB2 データベースをインストールすることもできます。 すぐに使用可能な Db2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
 
-詳しくは、『[Db2 on Cloud の概説](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)』を参照してください。
+詳しくは、『[DB2 on Cloud の概説](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)』を参照してください。
 
 ### Secure Gateway
 
-Secure Gateway サービスを使用すれば、{{site.data.keyword.Bluemix_notm}} アプリをオンプレミスまたはクラウドにあるリモート・ロケーションにセキュアに接続できるようになります。 これにより、セキュア接続が実現し、{{site.data.keyword.Bluemix_notm}} 組織と接続先リモート・ロケーションとの間にトンネルが確立されます。 {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースまたは API パッケージを使用して、セキュア・ゲートウェイを構成および作成できます。
+Secure Gateway サービスを使用すると、{{site.data.keyword.Bluemix_notm}} アプリをオンプレミスまたはクラウドにあるリモート・ロケーションにセキュアに接続できるようになります。これにより、セキュア接続が実現し、{{site.data.keyword.Bluemix_notm}} 組織と接続先リモート・ロケーションとの間にトンネルが確立されます。 {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースまたは API パッケージを使用して、セキュア・ゲートウェイを構成および作成できます。
 
 詳しくは、『[Secure Gateway 概説 (Getting started with Secure Gateway)](/docs/services/SecureGateway/secure_gateway.html)』を参照してください。
 

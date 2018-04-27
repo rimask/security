@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-10" 
+lastupdated: "2018-04-11" 
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-01-10"
 
 ![Bluemix セキュリティー・デプロイメント・アーキテクチャー](images/sec_deployment.svg)
 
-図 3. Bluemix セキュリティー・デプロイメント・アーキテクチャー
+図 3. IBM Cloud セキュリティー・デプロイメント・アーキテクチャー
 
 {{site.data.keyword.Bluemix_notm}} *アプリ・ユーザー* の場合、**アプリ・ユーザーのフロー** は次のとおりです。
  1. 侵入防止およびネットワーク・セキュリティーが配備されているファイアウォールを介します。
@@ -35,7 +35,7 @@ lastupdated: "2017-01-10"
       2. IBM Web ID を介します。
     * {{site.data.keyword.Bluemix_notm}} Dedicated または Local にログインする開発者の場合、フローは企業 LDAP を介します。
  * **開発およびデプロイメントのフロー**は、以下のとおりです。
-    1. 侵入防止およびネットワーク・セキュリティーが配備されているファイアウォールを介します。 これは、{{site.data.keyword.Bluemix_notm}} Dedicated にのみ適用されます。
+    1. 侵入防止およびネットワーク・セキュリティーが配備されているファイアウォールを介し、{{site.data.keyword.Bluemix_notm}} Dedicated にのみ適用されます。
     2. リバース・プロキシーおよび SSL 終端プロキシーを備えた IBM DataPower Gateway を介します。
     3. ネットワーク・ルーターを介します。
     4. Cloud Foundry クラウド・コントローラーを使用した許可を介します。これにより、開発者によって作成されたアプリおよびサービス・インスタンスにのみアクセスが確保されます。
