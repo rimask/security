@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-04-30" 
 
 
 
@@ -77,6 +77,7 @@ The following table displays which services in {{site.data.keyword.Bluemix_notm}
 |{{site.data.keyword.Bluemix_notm}} components		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
 |{{site.data.keyword.Bluemix_notm}} platform		|Y			|Y	|Y	|Y	|
+|{{site.data.keyword.openwhisk_short}}    |  |Y | | |
 |{{site.data.keyword.APIM}}			|Y	|Y |Y	|			|
 |{{site.data.keyword.autoscaling}}			|Y	|Y |Y	|			|
 |{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |
