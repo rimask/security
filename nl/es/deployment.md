@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-10" 
+lastupdated: "2018-04-11" 
 
 ---
 
@@ -20,7 +20,7 @@ La arquitectura de despliegue de seguridad de {{site.data.keyword.Bluemix_notm}}
 
 ![Arquitectura de despliegue de seguridad de Bluemix](images/sec_deployment.svg)
 
-Figura 3. Arquitectura de despliegue de seguridad de Bluemix
+Figura 3. Arquitectura de despliegue de seguridad de IBM Cloud
 
 Para los usuarios de la app de {{site.data.keyword.Bluemix_notm}} **, el **flujo de usuario de la app** es el siguiente:
  1. A través de un cortafuegos, con prevención de intrusiones y seguridad de la red.
@@ -35,7 +35,7 @@ El *desarrollador de* {{site.data.keyword.Bluemix_notm}} sigue dos flujos princi
       2. A través de la identidad web de IBM.
     * Para los desarrolladores que han iniciado una sesión en {{site.data.keyword.Bluemix_notm}} dedicado o local, el flujo se realiza a través de LDAP de empresa.
  * El **flujo de desarrollo y despliegue** es el siguiente:
-    1. A través de un cortafuegos, con prevención de intrusiones y seguridad de la red. Esto se aplica únicamente a {{site.data.keyword.Bluemix_notm}} dedicado.
+    1. A través de un cortafuegos, con prevención de intrusiones y seguridad de la red, y solo se aplica a {{site.data.keyword.Bluemix_notm}} dedicado.
     2. A través de IBM DataPower Gateway, con proxy inverso y proxy de terminación de SSL.
     3. A través del direccionador de la red.
     4. A través de autorización mediante el controlador de nube de Cloud Foundry, para garantizar el acceso solo a las apps e instancias de servicio que ha creado el desarrollador.

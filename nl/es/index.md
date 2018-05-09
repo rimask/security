@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -177,7 +177,7 @@ Los datos que asociados a una app en ejecución pueden estar en uno de estos tre
 Hay que tener en cuenta cada tipo de datos al planificar la seguridad de los datos.
 
 La plataforma {{site.data.keyword.Bluemix_notm}} preserva los datos
-data-in-transit protegiendo el acceso del usuario final a la app mediante SSL, a través de la red hasta que los datos alcanzan IBM
+data-in-transit protegiendo el acceso del usuario a la app mediante SSL, a través de la red hasta que los datos alcanzan IBM
 DataPower Gateway en el límite de la red interna de {{site.data.keyword.Bluemix_notm}}. IBM DataPower Gateway actúa como proxy inverso y ofrece terminación de SSL. Desde ese punto a la aplicación, IPSEC se utiliza para proteger los datos a medida que viajan de IBM DataPower Gateway a la aplicación.
 
 La seguridad de los datos de tipo data-in-use y data-at-rest es responsabilidad del usuario, que es quien desarrolla la app. Puede aprovechar los diversos servicios relacionados con datos disponibles en el Catálogo de {{site.data.keyword.Bluemix_notm}} para ayudarle con este tema.
@@ -222,13 +222,13 @@ El plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix_notm
 
 Para obtener más información, vaya a [IBM Application Security Testing for Bluemix ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} es una base de datos SQL suministrada para usted en la nube. Puede utilizar {{site.data.keyword.Db2_on_Cloud_short}} como utilizaría cualquier software de base de datos, pero sin la sobrecarga ni el gasto de la configuración de hardware o la instalación y el mantenimiento de software. 
+{{site.data.keyword.Db2_on_Cloud_long}} es una base de datos SQL suministrada para usted en la nube. Puede utilizar {{site.data.keyword.Db2_on_Cloud_short}} como utilizaría cualquier software de base de datos, pero sin la sobrecarga ni el gasto de la configuración de hardware o la instalación y el mantenimiento de software.  
 
-También puede instalar una base de datos Db2 local utilizando la [descarga gratuita de Db2 Developer Edition ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). De esta forma, se instala rápidamente una edición de Db2 para desarrolladores lista para utilizar dentro de un contenedor Docker (no se requiere Docker; todos los componentes necesarios se instalarán automáticamente).
+También puede instalar una base de datos DB2 local utilizando la [descarga gratuita de Db2 Developer Edition ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). De esta forma, se instala rápidamente una edición de Db2 para desarrolladores lista para utilizar dentro de un contenedor Docker (no se requiere Docker; todos los componentes necesarios se instalarán automáticamente).
 
-Para obtener más información, consulte [Guía de iniciación a Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
+Para obtener más información, consulte [Guía de iniciación a DB2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
