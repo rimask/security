@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -193,9 +193,9 @@ data-in-transit, data-at-rest e data-in-use.
 
 Quando pianifichi la sicurezza dei dati, è necessario considerare ciascun tipo di dati.
 
-La piattaforma {{site.data.keyword.Bluemix_notm}} protegge i data-in-transit proteggendo l'accesso dell'utente finale all'applicazione utilizzando SSL, per tutta la rete,
+La piattaforma {{site.data.keyword.Bluemix_notm}} protegge i data-in-transit proteggendo l'accesso dell'utente all'applicazione utilizzando SSL, per tutta la rete,
 finché i dati non raggiungono l'IBM DataPower Gateway al limite della rete interna {{site.data.keyword.Bluemix_notm}}. IBM
-DataPower Gateway funge da proxy inverso e fornisce la terminazione SSL. Da lì all'applicazione, IPSEC viene utilizzato per proteggere i dati mentre vengono trasmessi dall'IBM DataPower Gateway all'applicazione.
+DataPower Gateway funge da proxy inverso e fornisce la terminazione SSL. Da lì all'applicazione, IPSEC viene utilizzato per proteggere i dati mentre vengono trasmessi dall'IBM DataPower Gateway all'applicazione. 
 
 Come sviluppatore della tua applicazione, sei responsabile della sicurezza sia dei data-in-use
 che dei data-at-rest. Puoi usufruire dei diversi servizi correlati ai dati disponibili nel catalogo {{site.data.keyword.Bluemix_notm}} per informazioni a tale riguardo.
@@ -209,7 +209,7 @@ protezione dei dati applicativi, per le tue applicazioni che vengono eseguite su
 
 Per proteggere le tue applicazioni puoi servirti delle funzionalità di sicurezza fornite da diversi servizi {{site.data.keyword.Bluemix_notm}}. Tutti i servizi {{site.data.keyword.Bluemix_notm}} prodotti da IBM seguono le procedure di sviluppo di IBM Secure Engineering.
 
-**Nota:** alcuni dei servizi qui descritti potrebbero non essere validi per le istanze {{site.data.keyword.Bluemix_notm}} dedicato o locale.
+**Nota:** alcuni dei servizi qui descritti potrebbero non essere validi per le istanze {{site.data.keyword.Bluemix_notm}} dedicato o locale. 
 
 ### Servizio SSO
 
@@ -246,13 +246,13 @@ Il plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix_notm
 
 Per ulteriori informazioni, vai a [IBM Application Security Testing for Bluemix ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} è un database SQL di cui viene eseguito il provisioning nel cloud per te. Puoi utilizzare {{site.data.keyword.Db2_on_Cloud_short}} come useresti qualsiasi software database ma senza dover sostenere il carico di lavoro e i costi necessari per la configurazione dell'hardware o l'installazione e la manutenzione del software. 
+{{site.data.keyword.Db2_on_Cloud_long}} è un database SQL di cui viene eseguito il provisioning nel cloud per te. Puoi utilizzare {{site.data.keyword.Db2_on_Cloud_short}} come useresti qualsiasi software database ma senza dover sostenere il carico di lavoro e i costi necessari per la configurazione dell'hardware o l'installazione e la manutenzione del software.  
 
-Puoi anche installare un database db2 locale utilizzando il [download di Db2 Developer Edition gratuito ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Installa rapidamente una Developer Edition di Db2 pronta per l'uso con strumenti all'interno di un contenitore Docker (Docker non richiesto; installerà automaticamente qualsiasi componente necessario).
+Puoi anche installare un database DB2 locale utilizzando il [download di Db2 Developer Edition gratuito ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Installa rapidamente una Developer Edition di Db2 pronta per l'uso con strumenti all'interno di un contenitore Docker (Docker non richiesto; installerà automaticamente qualsiasi componente necessario).
 
-Per ulteriori informazioni, vedi [Introduzione a Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
+Per ulteriori informazioni, vedi [Introduzione a DB2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
