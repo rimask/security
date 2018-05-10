@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -168,7 +168,7 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 
 當您在規劃資料安全時，需要考量每一種類型的資料。
 
-{{site.data.keyword.Bluemix_notm}} 平台會透過網路，利用 SSL 來保護一般使用者的應用程式存取安全，藉以保護 data-in-transit 的安全，直到資料在 {{site.data.keyword.Bluemix_notm}} 內部網路的界限達到 IBM DataPower Gateway 為止。IBM DataPower Gateway 作為反向 Proxy，並提供 SSL 終止。從這裡到應用程式，IPSEC 是用來保護從 IBM DataPower Gateway 前進到應用程式的資料安全。
+{{site.data.keyword.Bluemix_notm}} 平台會透過網路，利用 SSL 來保護使用者的應用程式存取安全，藉以保護傳輸中資料的安全，直到資料在 {{site.data.keyword.Bluemix_notm}} 內部網路的界限達到 IBM DataPower Gateway 為止。IBM DataPower Gateway 作為反向 Proxy，並提供 SSL 終止。從這裡到應用程式，IPSEC 是用來保護從 IBM DataPower Gateway 前進到應用程式的資料安全。
 
 當您在開發應用程式時，必須負責保護 data-in-use 與 data-at-rest 的安全。您可以充分運用 {{site.data.keyword.Bluemix_notm}}「型錄」中可用的數個資料相關服務，來協助這些重要事項。
 
@@ -212,7 +212,7 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 外掛�
 
 ### Db2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} 是雲端中為您所佈建的 SQL 資料庫。{{site.data.keyword.Db2_on_Cloud_short}} 的使用方式就像使用任何資料庫軟體一樣，但沒有硬體設定或軟體安裝及維護的額外負擔及費用。 
+{{site.data.keyword.Db2_on_Cloud_long}} 是雲端中為您所佈建的 SQL 資料庫。{{site.data.keyword.Db2_on_Cloud_short}} 的使用方式就像使用任何資料庫軟體一樣，但沒有硬體設定或軟體安裝及維護的額外負擔及費用。  
 
 您也可以使用[免費 Db2 Developer Edition 下載 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 來安裝本端 Db2 資料庫。它會在 Docker 容器內使用工具快速安裝 Db2 的備妥開發人員版本（不需要 Docker；它將會自動安裝任何必要元件）。
 

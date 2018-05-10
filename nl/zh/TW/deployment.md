@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-10" 
+lastupdated: "2018-04-11" 
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-01-10"
 
 ![Bluemix 安全部署架構](images/sec_deployment.svg)
 
-圖 3. Bluemix 安全部署架構
+圖 3. IBM Cloud 安全部署架構
 
 針對 {{site.data.keyword.Bluemix_notm}} *應用程式使用者*，**應用程式使用者流程**如下所示：
  1. 透過防火牆，並實施侵入防禦及網路安全。
@@ -35,7 +35,7 @@ lastupdated: "2017-01-10"
       2. 透過 IBM Web 身分。
     * 若為登入「{{site.data.keyword.Bluemix_notm}} 專用」或「Bluemix 本端」的開發人員，流程會透過企業 LDAP。
  * **開發及部署流程**如下所示：
-    1. 透過防火牆，並實施侵入防禦及網路安全。這僅適用於「{{site.data.keyword.Bluemix_notm}} 專用」。
+    1. 透過防火牆，並實施侵入防禦及網路安全，且僅適用於「{{site.data.keyword.Bluemix_notm}} 專用」。
     2. 透過 IBM DataPower Gateway，並具有反向 Proxy 及 SSL 終止 Proxy。
     3. 透過網路路由器。
     4. 透過利用 Cloud Foundry 雲端控制器所進行的授權，以確保僅能存取開發人員所建立的應用程式及服務實例。
