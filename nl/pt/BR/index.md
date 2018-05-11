@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -94,8 +94,7 @@ Os métodos de HTTP a seguir são permitidos:
 <dt>x-client-ip</dt>
 <dd>Configurado com o endereço IP do cliente.</dd>
 <dt>x-forwarded-proto</dt>
-<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https,
-http, ws ou wss.</dd>
+<dd>Configurado com um dos esquemas de conexão de cliente a seguir: https, http, ws ou wss.</dd>
 </dl>
 </dd>
 
@@ -178,10 +177,7 @@ dados em trânsito, dados em repouso e dados em uso.
 
 Cada tipo de dados precisa ser considerado quando você planeja segurança de dados.
 
-A plataforma {{site.data.keyword.Bluemix_notm}}
-protege dados em trânsito assegurando o acesso do usuário final ao
-aplicativo usando SSL, por meio da rede, até que os dados atinjam o
-IBM DataPower Gateway no limite da rede interna do {{site.data.keyword.Bluemix_notm}}. O IBM DataPower Gateway age como um proxy reverso e fornece rescisão de SSL. De lá para o aplicativo, o IPSEC é usado para proteger os dados conforme eles viajam do IBM DataPower Gateway para o aplicativo.
+A plataforma {{site.data.keyword.Bluemix_notm}} protege dados em trânsito assegurando o acesso de usuário ao aplicativo usando SSL, por meio da rede até que os dados atinjam o IBM DataPower Gateway no limite da rede interna do {{site.data.keyword.Bluemix_notm}}. O IBM DataPower Gateway age como um proxy reverso e fornece rescisão de SSL. De lá, o aplicativo IPSEC é usado para proteger os dados conforme eles viajam do IBM DataPower Gateway para o aplicativo.
 
 A segurança para dados em uso e dados em repouso é sua responsabilidade ao desenvolver o aplicativo. É possível usufruir das vantagens de vários serviços relacionados aos dados, disponíveis no catálogo do {{site.data.keyword.Bluemix_notm}} para auxiliar nessas questões.
 
@@ -192,7 +188,7 @@ Como desenvolvedor de aplicativos, deve-se ativar as configurações de seguran�
 
 É possível usar recursos de segurança que são fornecidos por vários serviços do {{site.data.keyword.Bluemix_notm}} para assegurar seus aplicativos. Todos os serviços {{site.data.keyword.Bluemix_notm}} que são produzidos pela IBM seguem as práticas de desenvolvimento de engenharia segura da IBM.
 
-**Observação:** alguns dos serviços descritos aqui podem não se aplicar às instâncias do {{site.data.keyword.Bluemix_notm}} Dedicated ou Local.
+**Nota:** alguns dos serviços que são descritos aqui podem não se aplicar às instâncias Dedicated ou Local do {{site.data.keyword.Bluemix_notm}}.
 
 ### Serviço de SSO
 
@@ -219,21 +215,21 @@ Esse serviço fornece uma análise de segurança de apps móveis e da web e perm
 
 ### Plug-in do IBM UrbanCode para teste de segurança do aplicativo
 
-O plug-in do IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} permite executar varreduras de segurança nos apps da web ou Android que estão hospedados no {{site.data.keyword.Bluemix_notm}}. Esse plug-in é desenvolvido e suportado pela Comunidade IBM UrbanCode™ Deploy.
+O plug-in do IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} permite executar varreduras de segurança nos apps da web ou Android que estejam hospedados no {{site.data.keyword.Bluemix_notm}}. Esse plug-in é desenvolvido e suportado pela Comunidade IBM UrbanCode™ Deploy.
 
 Para obter mais informações, acesse [IBM Application Security Testing for Bluemix ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-O {{site.data.keyword.Db2_on_Cloud_long}} é um banco de dados SQL provisionado para você na nuvem. É possível usar o {{site.data.keyword.Db2_on_Cloud_short}} da mesma forma que usaria qualquer software de banco de dados, mas sem o gasto adicional e a despesa de configuração de hardware e instalação e manutenção de software. 
+O {{site.data.keyword.Db2_on_Cloud_long}} é um banco de dados SQL que é provisionado para você na nuvem. É possível usar o {{site.data.keyword.Db2_on_Cloud_short}} da mesma forma que usaria qualquer software de banco de dados, mas sem o gasto adicional e a despesa de configuração de hardware e instalação e manutenção de software.  
 
-Também é possível instalar um banco de dados local do Db2 usando o [download gratuito do Db2 Developer Edition ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Ele instala rapidamente uma edição do desenvolvedor pronta para execução do Db2 com ferramentas dentro de um contêiner do Docker (o Docker não é necessário; qualquer componente necessário será instalado automaticamente).
+Também é possível instalar um banco de dados DB2 local usando o download do [Db2 Developer Edition![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) grátis. Ele instala rapidamente uma edição do desenvolvedor pronta para execução do Db2 com ferramentas dentro de um contêiner do Docker (o Docker não é necessário; qualquer componente necessário será instalado automaticamente).
 
 Para obter mais informações, consulte [Introdução ao DB2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
-O serviço Secure Gateway permite que você conecte de forma segura apps {{site.data.keyword.Bluemix_notm}} em locais remotos, no local ou na nuvem. Ele fornece conectividade segura e estabelece um túnel entre a organização do {{site.data.keyword.Bluemix_notm}} e o local remoto ao qual você deseja se conectar. É possível configurar e criar um gateway seguro usando a interface com o usuário do {{site.data.keyword.Bluemix_notm}} ou um pacote de API.
+O serviço do Secure Gateway permite que você conecte apps do {{site.data.keyword.Bluemix_notm}} aos locais remotos com segurança, seja no local ou na nuvem. Ele fornece conectividade segura e estabelece um túnel entre a organização do {{site.data.keyword.Bluemix_notm}} e o local remoto ao qual você deseja se conectar. É possível configurar e criar um gateway seguro usando a interface com o usuário do {{site.data.keyword.Bluemix_notm}} ou um pacote de API.
 
 Para obter mais informações, consulte [Introdução ao Secure Gateway](/docs/services/SecureGateway/secure_gateway.html).
 
