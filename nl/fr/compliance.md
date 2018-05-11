@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-02-01" 
+lastupdated: "2018-04-11" 
 
 
 
@@ -34,8 +34,7 @@ ISO
 (International Organization for Standardization) 27001 et 27002**, qui définissent les meilleures pratiques pour les
 processus de gestion de la sécurité des informations. ISO
 27001 est une norme de sécurité globale largement adoptée qui énonce les exigences pour les systèmes de gestion de la sécurité des informations. Elle
-permet une approche systématique de la gestion des informations des entreprises et des clients en fonction d'évaluations de risque régulières. La norme la
-plus récente, ISO/IEC 27001:2013, a été publiée le 25 septembre 2013 par **l'International Organization of Standardization (ISO) et la
+permet une approche systématique de la gestion des informations des entreprises et des clients en fonction d'évaluations de risque régulières. La norme en vigueur, ISO/IEC 27001:2013, a été publiée le 25 septembre 2013 par **l'International Organization of Standardization (ISO) et la
 commission électrotechnique internationale (CEI)** sous le partenariat ISO et CEI. La norme ISO 27001 spécifie les exigences en matière d'établissement, de mise en oeuvre et de documentation des systèmes de management de la sécurité de l'information (SMSI) et les exigences relatives à la mise en oeuvre des contrôles de sécurité, en fonction des besoins des organisations individuelles. La norme ISO 27002 explique en détail chaque contrôle de sécurité de la norme ISO 27001. La famille de normes ISO 27000 intègre un processus d'évaluation des risques et d'estimation des ressources, dans le but de protéger la confidentialité, l'intégrité et l'accessibilité des informations écrites, orales et électroniques.
 
 Pour obtenir la certification ISO 27001:2013, une entreprise doit démontrer qu'elle suit une approche systématique et continue pour gérer les risques

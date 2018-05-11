@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -170,7 +170,7 @@ HTTP 不活动超时为 2 分钟。</dd>
 
 在规划数据安全时，每种类型的数据都需要考虑到。
 
-{{site.data.keyword.Bluemix_notm}} 平台使用 SSL 来确保最终用户能够以安全方式访问应用程序，从而确保传输中的数据能够经由网络安全地到达位于 {{site.data.keyword.Bluemix_notm}} 内部网络边界上的 IBM DataPower Gateway。IBM DataPower Gateway 起到逆向代理的作用，可提供 SSL 终止功能。从那里到应用程序，IPSEC 用于在数据从 IBM DataPower Gateway 传输到应用程序时保护数据的安全。
+{{site.data.keyword.Bluemix_notm}} 平台使用 SSL 来确保用户能够以安全方式访问应用程序，从而确保传输中的数据能够经由网络安全地到达位于 {{site.data.keyword.Bluemix_notm}} 内部网络边界上的 IBM DataPower Gateway。IBM DataPower Gateway 起到逆向代理的作用，可提供 SSL 终止功能。数据从 IBM DataPower Gateway 传输到应用程序时，使用 IPSEC 来确保这些数据的安全。
 
 对于使用中的数据和静态数据，其安全由您负责，因为应用程序由您开发。您可以利用 {{site.data.keyword.Bluemix_notm}}“目录”中提供的几个数据相关服务来帮助您解决这些问题。
 
@@ -214,7 +214,7 @@ Single Sign On 服务支持多个存储用户凭证的身份源：
 
 ### Db2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 {{site.data.keyword.Db2_on_Cloud_short}}，但却没有硬件安装或软件安装与维护的开销及费用。 
+{{site.data.keyword.Db2_on_Cloud_long}} 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 {{site.data.keyword.Db2_on_Cloud_short}}，但却没有硬件安装或软件安装与维护的开销及费用。  
 
 您还可以使用[免费 Db2 Developer Edition 下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 来安装本地 Db2 数据库。它会使用 Docker 容器中的工具快速安装随时可用的开发者版本的 Db2（Docker 不是必需的；它会自动安装所有必要的组件）。
 

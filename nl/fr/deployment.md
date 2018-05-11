@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2017-01-10" 
+lastupdated: "2018-04-11" 
 
 ---
 
@@ -21,7 +21,7 @@ flux d'informations pour les utilisateurs et les développeurs d'applications af
 
 ![Architecture de déploiement de la sécurité Bluemix](images/sec_deployment.svg)
 
-Figure 3. Architecture de déploiement de la sécurité Bluemix
+Figure 3. Architecture de déploiement de la sécurité IBM Cloud
 
 Pour les *utilisateurs d'application* {{site.data.keyword.Bluemix_notm}}, le **flux d'un utilisateur
 d'application** est le suivant :
@@ -42,8 +42,7 @@ est le suivant :
 protocole LDAP
 de l'entreprise.
  * Le **flux de développement et de déploiement** est le suivant :
-    1. Via un pare-feu, avec prévention contre les intrusions et sécurité du réseau. Applicable à l'environnement
-{{site.data.keyword.Bluemix_notm}} dédié seulement.
+    1. Via un pare-feu, avec prévention contre les intrusions et sécurité du réseau, et s'applique uniquement à l'environnement {{site.data.keyword.Bluemix_notm}} dédié. 
     2. Via IBM DataPower Gateway avec proxy inverse et proxy de terminaison SSL.
     3. Via le routeur réseau.
     4. Via l'autorisation avec le contrôleur de cloud Cloud Foundry, pour assurer l'accès uniquement aux applications et aux instances de service qui sont
@@ -60,7 +59,7 @@ En plus des utilisateurs décrits dans ces scénarios, une équipe autorisée en
 sécurité opérationnelles, par exemple :
  * Des analyses de vulnérabilités. Pour l'environnement {{site.data.keyword.Bluemix_notm}} local, vous êtes en charge de la sécurité
 physique et des analyses au sein de votre pare-feu.
- * La gestion de l'accès utilisateur.
+ * La gestion des accès utilisateur.
  * Le renforcement du système d'exploitation en appliquant des correctifs régulièrement avec IBM Endpoint Manager.
  * La gestion des risques avec protection contre les intrusions.
  * La surveillance de la sécurité avec QRadar.

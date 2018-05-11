@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -181,7 +181,7 @@ principe du moindre privilège.
 
 Dans les environnements {{site.data.keyword.Bluemix_notm}} dédié et local, les administrateurs désignés
 peuvent
-gérer les rôles et les droits pour les utilisateurs {{site.data.keyword.Bluemix_notm}} dans leur organisation dans la console d'administration. Pour plus d'informations, voir [Gestion de {{site.data.keyword.Bluemix_local_notm}} et de {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng). 
+gérer les rôles et les droits pour les utilisateurs {{site.data.keyword.Bluemix_notm}} dans leur organisation dans la console d'administration. Pour plus d'informations, voir [Gestion de {{site.data.keyword.Bluemix_local_notm}} et de {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng).
 </dd>
 </dl>
 
@@ -223,7 +223,7 @@ Les données qui sont associées à une application en cours d'exécution peuven
 
 Vous devez prendre en compte chaque type de données lorsque vous planifiez la sécurité des données.
 
-La plateforme {{site.data.keyword.Bluemix_notm}} sécurise les données transférées en sécurisant l'accès de l'utilisateur final à
+La plateforme {{site.data.keyword.Bluemix_notm}} sécurise les données transférées en sécurisant l'accès de l'utilisateur à
 l'application via SSL sur le réseau, jusqu'à ce que les données atteignent IBM DataPower Gateway à la frontière du réseau interne de
 {{site.data.keyword.Bluemix_notm}}. IBM DataPower Gateway sert de
 proxy inverse et fournit la terminaison SSL. IPSEC est utilisé pour sécuriser les données qui transitent entre IBM DataPower Gateway et l'application.
@@ -238,7 +238,7 @@ En tant que développeur, vous devez activer la configuration des paramètres de
 
 Vous pouvez utiliser les fonctions de sécurité fournies par plusieurs services {{site.data.keyword.Bluemix_notm}} pour sécuriser vos applications. Tous les services {{site.data.keyword.Bluemix_notm}} qui sont produits par IBM suivent les pratiques de développement d'ingénierie sécurisée d'IBM.
 
-**Remarque :** il se peut que certains services décrits ici ne soient pas applicables dans les instances
+**Remarque :** il se peut que certains services décrits ici ne soient pas applicables aux instances
 {{site.data.keyword.Bluemix_notm}} dédiées ou locales.
 
 ### Service SSO
@@ -275,9 +275,9 @@ applications Web ou Android qui sont hébergées dans {{site.data.keyword.Bluemi
 
 Pour plus d'informations, voir [IBM Application Security Testing for Bluemix ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} est une base de données SQL mise à votre disposition dans le cloud. Vous pouvez utiliser {{site.data.keyword.Db2_on_Cloud_short}} de la même manière que vous utilisez n'importe quel logiciel de base de données, sans les frais associés à la configuration de matériel ou à l'installation et la maintenance de logiciels. 
+{{site.data.keyword.Db2_on_Cloud_long}} est une base de données SQL mise à votre disposition dans le cloud. Vous pouvez utiliser {{site.data.keyword.Db2_on_Cloud_short}} de la même manière que vous utilisez n'importe quel logiciel de base de données, sans les frais associés à la configuration de matériel ou à l'installation et la maintenance de logiciels.  
 
 Vous pouvez également installer une base de données Db2 en local en utilisant la [version Db2 Developer Edition téléchargeable gratuitement ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Une édition prête à l'emploi de Db2 destinée aux développeurs est alors rapidement installée avec des outils au sein d'un conteneur Docker (Docker n'est pas requis ; il installera automatiquement tous les composants nécessaires).
 

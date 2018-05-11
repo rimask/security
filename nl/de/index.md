@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -139,7 +139,7 @@ Folgende HTTP-Methoden sind zulässig:
 <dt>Benutzerzugriffsmanagement</dt>
 <dd>Innerhalb von {{site.data.keyword.Bluemix_notm}} werden die Richtlinien zur Aufgabentrennung befolgt, um Benutzern differenzierte Zugriffsberechtigungen zuzuweisen und sicherzustellen, dass Benutzer nur über den Zugriff verfügen, der entsprechend dem Prinzip der geringsten Rechte zum Ausführen ihres jeweiligen Jobs erforderlich ist.
 
-Innerhalb einer {{site.data.keyword.Bluemix_notm}} Dedicated- und Local-Umgebung können zugewiesene Administratoren mithilfe der Administrationskonsole Rollen und Berechtigungen für {{site.data.keyword.Bluemix_notm}}-Benutzer in ihrer Organisation verwalten. Weitere Details finden Sie unter [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}} verwalten](/docs/hybrid/index.html#mng). 
+Innerhalb einer {{site.data.keyword.Bluemix_notm}} Dedicated- und Local-Umgebung können zugewiesene Administratoren mithilfe der Administrationskonsole Rollen und Berechtigungen für {{site.data.keyword.Bluemix_notm}}-Benutzer in ihrer Organisation verwalten. Weitere Details finden Sie unter [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}} verwalten](/docs/hybrid/index.html#mng).
 </dd>
 </dl>
 
@@ -171,7 +171,7 @@ Daten, die einer aktiven Anwendung zugeordnet sind, können einen von drei Statu
 
 Bei der Planung der Datensicherheit muss jeder Datentyp berücksichtigt werden.
 
-Bei der {{site.data.keyword.Bluemix_notm}}-Plattform werden die übertragenen Daten gesichert, indem der Endbenutzerzugriff auf die Anwendung mithilfe von SSL über das Netz gesichert wird, bis die Daten das IBM DataPower Gateway an der Grenze zum {{site.data.keyword.Bluemix_notm}}-internen Netz erreichen. IBM DataPower Gateway fungiert als Reverse Proxy und stellt die SSL-Terminierung bereit. Bei der Übertragung vom IBM DataPower Gateway zur Anwendung werden die Daten mit IPSEC geschützt.
+Bei der {{site.data.keyword.Bluemix_notm}}-Plattform werden die übertragenen Daten gesichert, indem der Benutzerzugriff auf die Anwendung mithilfe von SSL über das Netz gesichert wird, bis die Daten das IBM DataPower Gateway an der Grenze zum {{site.data.keyword.Bluemix_notm}}-internen Netz erreichen. IBM DataPower Gateway fungiert als Reverse Proxy und stellt die SSL-Terminierung bereit. Bei der Übertragung vom IBM DataPower Gateway zur Anwendung werden die Daten mit IPSEC geschützt.
 
 Die Sicherheit für verwendete und ruhende Daten liegt beim Entwickeln Ihrer Anwendung in Ihrer Verantwortung. Sie können verschiedene datenbezogene Services nutzen, die im {{site.data.keyword.Bluemix_notm}}-Katalog verfügbar sind, um diese Problemstellungen zu lösen.
 
@@ -213,13 +213,13 @@ Mit dem Plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix
 
 Weitere Informationen finden Sie unter [IBM Application Security Testing for Bluemix ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### Db2 on Cloud
+### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}} ist eine SQL-Datenbank, die für Sie in der Cloud bereitgestellt wird. Sie können {{site.data.keyword.Db2_on_Cloud_short}} genauso wie jede andere Datenbanksoftware verwenden, jedoch ohne den Aufwand und die Kosten, die mit einer Hardwareinstallation oder einer Softwareinstallation und -wartung einhergehen. 
+{{site.data.keyword.Db2_on_Cloud_long}} ist eine SQL-Datenbank, die für Sie in der Cloud bereitgestellt wird. Sie können {{site.data.keyword.Db2_on_Cloud_short}} genauso wie jede andere Datenbanksoftware verwenden, jedoch ohne den Aufwand und die Kosten, die mit einer Hardwareinstallation oder einer Softwareinstallation und -wartung einhergehen.  
 
-Sie haben außerdem die Möglichkeit, unter Verwendung des [kostenlosen Downloads von Db2 Developer Edition![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) eine lokale Db2-Datenbank zu installieren. Der Download installiert in nur wenig Zeit eine sofort einsatzfähige Db2-Edition für Entwickler mit Tools in einem Docker-Container (Docker selbst ist nicht erforderlich; alle benötigten Komponenten werden automatisch installiert).
+Sie haben außerdem die Möglichkeit, unter Verwendung des [kostenlosen Downloads von Db2 Developer Edition![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) eine lokale DB2-Datenbank zu installieren. Der Download installiert in nur wenig Zeit eine sofort einsatzfähige Db2-Edition für Entwickler mit Tools in einem Docker-Container (Docker selbst ist nicht erforderlich; alle benötigten Komponenten werden automatisch installiert).
 
-Weitere Informationen finden Sie unter [Einführung in Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
+Weitere Informationen finden Sie unter [Einführung in DB2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
 
 ### Secure Gateway
 
