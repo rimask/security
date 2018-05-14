@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-03-15"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -139,7 +139,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 <dt>사용자 액세스 관리</dt>
 <dd>{{site.data.keyword.Bluemix_notm}} 내에서는 업무 분리 가이드라인에 따라 사용자에게 세부 단위의 액세스 권한을 지정하며 사용자가 최소 권한 원칙에 따라 자체 작업의 수행에 필요한 액세스 권한만 갖도록 보장합니다.
 
-{{site.data.keyword.Bluemix_notm}} 데디케이티드 환경과 로컬 환경에서는 지정된 관리자가 관리 콘솔을 사용하여 조직 내 {{site.data.keyword.Bluemix_notm}} 사용자의 역할과 권한을 관리할 수 있습니다. 자세한 내용은 [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_dedicated_notm}} 관리](/docs/hybrid/index.html#mng)를 참조하십시오. 
+{{site.data.keyword.Bluemix_notm}} 데디케이티드 환경과 로컬 환경에서는 지정된 관리자가 관리 콘솔을 사용하여 조직 내 {{site.data.keyword.Bluemix_notm}} 사용자의 역할과 권한을 관리할 수 있습니다. 자세한 내용은 [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_dedicated_notm}} 관리](/docs/hybrid/index.html#mng)를 참조하십시오.
 </dd>
 </dl>
 
@@ -171,7 +171,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 각각의 데이터 유형은 데이터 보안을 계획할 때 고려되어야 합니다.
 
-{{site.data.keyword.Bluemix_notm}} 플랫폼은 {{site.data.keyword.Bluemix_notm}} 내부 네트워크의 경계에서 데이터가 IBM DataPower Gateway에 도달할 때까지 네트워크를 통해 SSL을 사용하여 애플리케이션에 대한 일반 사용자 액세스를 보호함으로써 전송 중 데이터를 보호합니다. IBM DataPower Gateway는 리버스 프록시 역할을 하며 SSL 종료를 제공합니다.  여기서 애플리케이션까지 IPSEC를 사용하여 데이터가 IBM DataPower Gateway에서 애플리케이션까지 이동할 때 데이터를 보호합니다.
+{{site.data.keyword.Bluemix_notm}} 플랫폼은 {{site.data.keyword.Bluemix_notm}} 내부 네트워크의 경계에서 데이터가 IBM DataPower Gateway에 도달할 때까지 네트워크를 통해 SSL을 사용하여 애플리케이션에 대한 사용자 액세스를 보호함으로써 전송 중 데이터를 보호합니다. IBM DataPower Gateway는 리버스 프록시 역할을 하며 SSL 종료를 제공합니다. 여기서 애플리케이션까지 IPSEC을 사용하여 IBM DataPower Gateway에서 애플리케이션으로 이동하는 데이터를 보호합니다.
 
 사용 중 데이터 및 저장 데이터 둘 다에 대한 보안은 애플리케이션 개발 중에 사용자의 책임입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그에서 사용 가능한 다수의 데이터 관련 서비스를 활용하면 이와 관련하여 도움을 받을 수 있습니다.
 
@@ -182,7 +182,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 여러 {{site.data.keyword.Bluemix_notm}} 서비스에서 제공하는 보안 기능을 사용하여 애플리케이션을 보호할 수 있습니다. IBM에서 생성하는 모든 {{site.data.keyword.Bluemix_notm}} 서비스는 IBM 보안 엔지니어링 개발 방식을 따릅니다.
 
-**참고:** 여기에 설명된 서비스 중 일부는 {{site.data.keyword.Bluemix_notm}} 데디케이티드 인스턴스 또는 로컬 인스턴스에 적용되지 않을 수 있습니다.
+**참고:** 여기에 설명된 서비스 중 일부는 {{site.data.keyword.Bluemix_notm}} 데디케이티드 또는 로컬 인스턴스에 적용되지 않을 수 있습니다.
 
 ### SSO 서비스
 
@@ -215,11 +215,11 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 플러�
 
 ### DB2 on Cloud
 
-{{site.data.keyword.Db2_on_Cloud_long}}는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 {{site.data.keyword.Db2_on_Cloud_short}}를 사용할 수 있습니다. 
+{{site.data.keyword.Db2_on_Cloud_long}}는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 {{site.data.keyword.Db2_on_Cloud_short}}를 사용할 수 있습니다.  
 
-[무료 DB2 Developer Edition 다운로드![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)를 통해 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함).
+[무료 DB2 Developer Edition 다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)을 사용하여 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함).
 
-자세한 정보는 [DB2 Security on Cloud 시작하기](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)를 참조하십시오.
+자세한 정보는 [DB2 on Cloud 시작하기](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)를 참조하십시오.
 
 ### Secure Gateway
 
