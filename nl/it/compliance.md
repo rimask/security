@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-04-30" 
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2018-04-11"
 {{site.data.keyword.Bluemix}} fornisce una piattaforma cloud sicura di cui ti puoi fidare. La conformità {{site.data.keyword.Bluemix_notm}} deriva da una piattaforma e da servizi basati sui migliori standard di sicurezza, tra cui ISO 27001 e ISO 27002.
 {:shortdesc}
 
-![Clausola del modello di protezione dati UE](images/icon_eumc.png)  Accordi che incorporano le **Clausole del modello dell'Unione Europea (UE)** per proteggere i dati personali che vengono trasferiti dall'Unione Europea (UE) o dallo Spazio economico europeo (SEE) verso un terzo paese. La Clausola del modello UE viene firmato tra il client ubicato nell'UE o SEE come esportatore di dati e il processore di dati IBM ubicato nel paese terzo come importatore dei dati. IBM Data Processing Addendum (con le clausole contrattuali standard EU) contiene i diritti e gli obblighi dell'esportatore e dell'importatore dei dati nonché i diritti dei soggetti interessati. IBM Data Processing Addendum fornisce protezione simile a quella disponibile in EU o EEA per i dati personali elaborati in paesi terzi. 
+![Clausola del modello di protezione dati UE](images/icon_eumc.png)  Accordi che incorporano le **Clausole del modello dell'Unione Europea (UE)** per proteggere i dati personali che vengono trasferiti dall'Unione Europea (UE) o dallo Spazio economico europeo (SEE) verso un terzo paese. La Clausola del modello UE viene firmato tra il client ubicato nell'UE o SEE come esportatore di dati e il processore di dati IBM ubicato nel paese terzo come importatore dei dati. IBM Data Processing Addendum (con le clausole contrattuali standard EU) contiene i diritti e gli obblighi dell'esportatore e dell'importatore dei dati nonché i diritti dei soggetti interessati. IBM Data Processing Addendum fornisce protezione simile a quella disponibile in EU o EEA per i dati personali elaborati in paesi terzi.
 
 
 
@@ -30,7 +30,7 @@ lastupdated: "2018-04-11"
 
 ![ISO 27001/2](images/icon_iso27k1.png)  {{site.data.keyword.Bluemix_notm}} è certificato secondo gli **standard ISO (International Organization for Standardization) 27001 e 27002**, che definiscono le procedure ottimali per i processi di gestione della sicurezza informatica. ISO 27001 è uno standard di sicurezza globale ampiamente adottato che delinea i requisiti per i sistemi di gestione della sicurezza informatica. Fornisce un approccio sistematico nella gestione delle informazioni aziendali e dei clienti basato su periodiche valutazioni dei rischi. Lo standard corrente, ISO/IEC 27001:2013, è stato pubblicato il 25 settembre 2013 dall'**International Organization of Standardization (ISO) e International Electrotechnical Commission (IEC)** sotto la sottocommissione congiunta ISO e IEC. Lo standard ISO 27001 specifica i requisiti per stabilire, implementare e documentare i sistemi di gestione della sicurezza delle informazioni (ISMS) e i requisiti per applicare dei controlli di sicurezza in base alle esigenze delle singole organizzazioni. Lo standard ISO 27002 illustra in dettaglio ciascun controllo di sicurezza dell'ISO 27001. L'insieme di standard ISO 27000 incorpora un processo di ridimensionamento del rischio e valutazione delle risorse, con l'obiettivo di salvaguardare la riservatezza, l'integrità e la disponibilità delle informazioni scritte, orali ed elettroniche.
 
-Per ottenere la certificazione ISO 27001:2013, un'azienda deve dimostrare che ha un approccio sistematico e costante nella gestione dei rischi della sicurezza informatica che influiscono sulla riservatezza, l'integrità e la disponibilità delle informazioni aziendali e dei clienti. Questo standard sottolinea la misurazione e la valutazione dell'efficacia del sistema di gestione della sicurezza delle informazioni (ISMS) di un'organizzazione e include anche i controlli relativi alla sicurezza delle informazioni basati su requisiti di sistema e altri requisiti. 
+Per ottenere la certificazione ISO 27001:2013, un'azienda deve dimostrare che ha un approccio sistematico e costante nella gestione dei rischi della sicurezza informatica che influiscono sulla riservatezza, l'integrità e la disponibilità delle informazioni aziendali e dei clienti. Questo standard sottolinea la misurazione e la valutazione dell'efficacia del sistema di gestione della sicurezza delle informazioni (ISMS) di un'organizzazione e include anche i controlli relativi alla sicurezza delle informazioni basati su requisiti di sistema e altri requisiti.
 
 {{site.data.keyword.Bluemix_notm}} è controllato da una società di sicurezza di terze parti e rispetta tutti i requisiti per l'ISO 27001: [Bluemix ISO 27001:2013 Certificate of Registration ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
 
@@ -77,6 +77,7 @@ La seguente tabella mostra quali servizi {{site.data.keyword.Bluemix_notm}} sono
 |Componenti {{site.data.keyword.Bluemix_notm}}		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
 |Piattaforma {{site.data.keyword.Bluemix_notm}}		|S			|S	|S	|S	|
+|{{site.data.keyword.openwhisk_short}}    |  |S | | |
 |{{site.data.keyword.APIM}}			|S	|S |S	|			|
 |{{site.data.keyword.autoscaling}}			|S	|S |S	|			|
 |{{site.data.keyword.bigicloudst}}			|S |S |	|S |

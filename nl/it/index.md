@@ -195,7 +195,7 @@ Quando pianifichi la sicurezza dei dati, è necessario considerare ciascun tipo 
 
 La piattaforma {{site.data.keyword.Bluemix_notm}} protegge i data-in-transit proteggendo l'accesso dell'utente all'applicazione utilizzando SSL, per tutta la rete,
 finché i dati non raggiungono l'IBM DataPower Gateway al limite della rete interna {{site.data.keyword.Bluemix_notm}}. IBM
-DataPower Gateway funge da proxy inverso e fornisce la terminazione SSL. Da lì all'applicazione, IPSEC viene utilizzato per proteggere i dati mentre vengono trasmessi dall'IBM DataPower Gateway all'applicazione. 
+DataPower Gateway funge da proxy inverso e fornisce la terminazione SSL. Da lì all'applicazione, IPSEC viene utilizzato per proteggere i dati mentre vengono trasmessi dall'IBM DataPower Gateway all'applicazione.
 
 Come sviluppatore della tua applicazione, sei responsabile della sicurezza sia dei data-in-use
 che dei data-at-rest. Puoi usufruire dei diversi servizi correlati ai dati disponibili nel catalogo {{site.data.keyword.Bluemix_notm}} per informazioni a tale riguardo.
@@ -209,7 +209,7 @@ protezione dei dati applicativi, per le tue applicazioni che vengono eseguite su
 
 Per proteggere le tue applicazioni puoi servirti delle funzionalità di sicurezza fornite da diversi servizi {{site.data.keyword.Bluemix_notm}}. Tutti i servizi {{site.data.keyword.Bluemix_notm}} prodotti da IBM seguono le procedure di sviluppo di IBM Secure Engineering.
 
-**Nota:** alcuni dei servizi qui descritti potrebbero non essere validi per le istanze {{site.data.keyword.Bluemix_notm}} dedicato o locale. 
+**Nota:** alcuni dei servizi qui descritti potrebbero non essere validi per le istanze {{site.data.keyword.Bluemix_notm}} dedicato o locale.
 
 ### Servizio SSO
 
@@ -238,7 +238,7 @@ Per ulteriori informazioni, vedi [Introduzione a Single Sign On](/docs/services/
 
 ### Application Security on Cloud
 
-Questo servizio fornisce un'analisi della sicurezza delle applicazioni Web e mobili e ti consente di scansionare il codice di origine alla ricerca di vulnerabilità di sicurezza. Per ulteriori informazioni, vedi [Introduzione a Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
+Questo servizio fornisce un'analisi della sicurezza delle applicazioni Web e mobili e ti consente di scansionare il codice sorgente alla ricerca di vulnerabilità di sicurezza. Per ulteriori informazioni, vedi [Introduzione a Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
 
 ### Plug-in IBM UrbanCode per il test di sicurezza delle applicazioni
 
