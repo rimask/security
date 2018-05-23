@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-04-30" 
 
 
 
@@ -77,6 +77,7 @@ ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 �
 |{{site.data.keyword.Bluemix_notm}} 컴포넌트		|FISC		|ISO 27001	|PCI |SOC 2 유형 1		|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
 |{{site.data.keyword.Bluemix_notm}} 플랫폼		|Y			|Y	|Y	|Y	|
+|{{site.data.keyword.openwhisk_short}}    |  |Y | | |
 |{{site.data.keyword.APIM}}			|Y	|Y |Y	|			|
 |{{site.data.keyword.autoscaling}}			|Y	|Y |Y	|			|
 |{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |

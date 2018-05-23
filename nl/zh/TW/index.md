@@ -21,12 +21,12 @@ lastupdated: "2018-04-11"
 
 {{site.data.keyword.Bluemix_notm}} 堅守由 IBM 在系統、網路及安全工程方面的最佳作法所驅動的安全原則，進而確保安全無虞。這些原則包括原始碼掃描、動態掃描、威脅建模以及滲透測試等作法。{{site.data.keyword.Bluemix_notm}} 遵循 IBM Product Security Incident Response Team (PSIRT) 處理程序，來進行資安突發事件管理。如需詳細資料，請參閱 [IBM Security Vulnerability Management (PSIRT) ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} 網站。
 
-「{{site.data.keyword.Bluemix_notm}} 公用」及「Bluemix 專用」使用「{{site.data.keyword.BluSoftlayer}} 基礎架構即服務 (IaaS)」雲端服務，並充分運用其安全架構。{{site.data.keyword.BluSoftlayer}} IaaS 為您的應用程式及資料提供層層重疊的多個保護層級。若為「{{site.data.keyword.Bluemix_notm}} 本端」，您藉由在公司防火牆後、自己的資料中心內管理「{{site.data.keyword.Bluemix_notm}} 本端」，而掌控實體安全並提供基礎架構。此外，{{site.data.keyword.Bluemix_notm}} 也在「平台即服務」層新增不同種類（平台、資料及應用程式）的安全功能。
+{{site.data.keyword.Bluemix_notm}} Public 及 Bluemix Dedicated 使用「{{site.data.keyword.BluSoftlayer}} 基礎架構即服務 (IaaS)」雲端服務，並充分運用其安全架構。{{site.data.keyword.BluSoftlayer}} IaaS 為您的應用程式及資料提供層層重疊的多個保護層級。若為 {{site.data.keyword.Bluemix_notm}} Local，您藉由在公司防火牆後、自己的資料中心內管理 {{site.data.keyword.Bluemix_notm}} Local，而掌控實體安全並提供基礎架構。此外，{{site.data.keyword.Bluemix_notm}} 也在「平台即服務」層新增不同種類（平台、資料及應用程式）的安全功能。
 
 ## {{site.data.keyword.Bluemix_notm}} 平台的安全
 {: #platform-security}
 
-{{site.data.keyword.Bluemix_notm}} 為核心平台提供了功能安全、基礎架構安全、作業安全及實體安全（透過 {{site.data.keyword.BluSoftlayer}}）。 不過，「{{site.data.keyword.Bluemix_notm}} 本端」獨特之處在於，客戶會提供基礎架構及資料中心，並掌控實體安全。
+{{site.data.keyword.Bluemix_notm}} 為核心平台提供了功能安全、基礎架構安全、作業安全及實體安全（透過 {{site.data.keyword.BluSoftlayer}}）。 不過，{{site.data.keyword.Bluemix_notm}} Local 獨特之處在於，客戶會提供基礎架構及資料中心，並掌控實體安全。
 
 {{site.data.keyword.BluSoftlayer}} 的 {{site.data.keyword.Bluemix_notm}} 環境符合最嚴格的 IBM 資訊技術 (IT) 安全標準，這些標準已達到或超越業界標準。這些標準包括下列項目：網路、資料加密及存取控制
  * 應用程式 ACL、許可權及滲透測試
@@ -41,13 +41,13 @@ lastupdated: "2018-04-11"
 
 圖 1. {{site.data.keyword.Bluemix_notm}} 平台安全概觀
 
-運用「{{site.data.keyword.Bluemix_notm}} 本端」，您可以管理受公司防火牆保護以及在資料中心內的 {{site.data.keyword.Bluemix_notm}}。因此，您要負責特定的安全層面。下圖詳述客戶掌控哪些部分的安全，而哪些部分的安全則由 IBM 所管理及維護。
+運用 {{site.data.keyword.Bluemix_notm}} Local，您可以管理受公司防火牆保護以及在資料中心內的 {{site.data.keyword.Bluemix_notm}}。因此，您要負責特定的安全層面。下圖詳述客戶掌控哪些部分的安全，而哪些部分的安全則由 IBM 所管理及維護。
 
-![Bluemix 本端平台安全概觀](images/security_local_platform.svg) {: #localplatformsecurity}
+![Bluemix Local 平台安全概觀](images/security_local_platform.svg) {: #localplatformsecurity}
 
-圖 2.「{{site.data.keyword.Bluemix_notm}} 本端」平台安全概觀
+圖 2. {{site.data.keyword.Bluemix_notm}} Local 平台安全概觀
 
-IBM 透過「轉遞」來安裝、遠端監視及管理資料中心中的「{{site.data.keyword.Bluemix_notm}} 本端」，而「轉遞」是「{{site.data.keyword.Bluemix_notm}} 本端」內含的一種交付功能。「轉遞」會使用每一個「{{site.data.keyword.Bluemix_notm}} 本端」實例特有的憑證安全地進行連接。如需「{{site.data.keyword.Bluemix_notm}} 本端」及「轉遞」的相關資訊，請參閱 [Bluemix 本端](/docs/local/index.html)。
+IBM 透過「轉遞」來安裝、遠端監視及管理資料中心中的 {{site.data.keyword.Bluemix_notm}} Local，而「轉遞」是 {{site.data.keyword.Bluemix_notm}} Local 內含的一種交付功能。「轉遞」會使用每一個 {{site.data.keyword.Bluemix_notm}} Local 實例特有的憑證安全地進行連接。如需 {{site.data.keyword.Bluemix_notm}} Local 及「轉遞」的相關資訊，請參閱 [Bluemix Local](/docs/local/index.html)。
 
 ### 功能安全
 
@@ -57,7 +57,7 @@ IBM 透過「轉遞」來安裝、遠端監視及管理資料中心中的「{{si
 <dt>鑑別</dt>
 <dd>應用程式開發人員利用 IBM Web 身分向 {{site.data.keyword.Bluemix_notm}} 進行鑑別。
 
-若為「{{site.data.keyword.Bluemix_notm}} 專用」及「Bluemix 本端」，依預設會支援透過 LDAP 進行鑑別。在要求時，可以改為針對 {{site.data.keyword.Bluemix_notm}} 設定透過 IBM Web 身分進行鑑別。
+若為 {{site.data.keyword.Bluemix_notm}} Dedicated 及 Bluemix Local，依預設會支援透過 LDAP 進行鑑別。在要求時，可以改為針對 {{site.data.keyword.Bluemix_notm}} 設定透過 IBM Web 身分進行鑑別。
 </dd>
 
 <dt>授權</dt>
@@ -95,7 +95,7 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 </dd>
 
 <dt>安全開發作法</dt>
-<dd> 若為「{{site.data.keyword.Bluemix_notm}} 公用」及「Bluemix 專用」，會利用 IBM Security AppScan® Dynamic Analyzer，在各種 {{site.data.keyword.Bluemix_notm}} 元件上定期執行安全漏洞掃描。會執行威脅建模及滲透測試，以偵測並解決所有類型之 {{site.data.keyword.Bluemix_notm}} 部署的任何潛在漏洞。此外，應用程式開發人員可以使用 AppScan Dynamic Analyzer 服務來保護在 {{site.data.keyword.Bluemix_notm}} 上部署的 Web 應用程式。</dd>
+<dd> 若為 {{site.data.keyword.Bluemix_notm}} Public 及 Bluemix Dedicated，會利用 IBM Security AppScan® Dynamic Analyzer，在各種 {{site.data.keyword.Bluemix_notm}} 元件上定期執行安全漏洞掃描。會執行威脅建模及滲透測試，以偵測並解決所有類型之 {{site.data.keyword.Bluemix_notm}} 部署的任何潛在漏洞。此外，應用程式開發人員可以使用 AppScan Dynamic Analyzer 服務來保護在 {{site.data.keyword.Bluemix_notm}} 上部署的 Web 應用程式。</dd>
 </dl>
 
 ### 基礎架構安全
@@ -104,13 +104,13 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 
 <dl>
 <dt>環境隔離</dt>
-<dd> 對於「{{site.data.keyword.Bluemix_notm}} 公用」，開發及正式作業環境會彼此隔離，以提高應用程式的穩定性及安全。</dd>
+<dd> 對於 {{site.data.keyword.Bluemix_notm}} Public，開發及正式作業環境會彼此隔離，以提高應用程式的穩定性及安全。</dd>
 
 <dt>防火牆</dt>
-<dd> 實施了防火牆，以限制對 {{site.data.keyword.Bluemix_notm}} 網路的存取。對於「{{site.data.keyword.Bluemix_notm}} 本端」，貴公司的防火牆會隔離您的 {{site.data.keyword.Bluemix_notm}} 實例與您網路的其餘部分。</dd>
+<dd> 實施了防火牆，以限制對 {{site.data.keyword.Bluemix_notm}} 網路的存取。對於 {{site.data.keyword.Bluemix_notm}} Local，貴公司的防火牆會隔離您的 {{site.data.keyword.Bluemix_notm}} 實例與您網路的其餘部分。</dd>
 
 <dt>侵入防禦</dt>
-<dd>「{{site.data.keyword.Bluemix_notm}} 公用」及「Bluemix 專用」能促成侵入防禦，以便發現威脅，進而解決這些威脅。防火牆上已啟用侵入防禦原則。</dd>
+<dd>{{site.data.keyword.Bluemix_notm}} Public 及 Bluemix Dedicated 能促成侵入防禦，以便發現威脅，進而解決這些威脅。防火牆上已啟用侵入防禦原則。</dd>
 
 <dt>安全應用程式容器管理</dt>
 <dd>每一個 {{site.data.keyword.Bluemix_notm}} 應用程式都會在自己的容器中隔離和執行，而容器對於處理器、記憶體及磁碟具有特定的資源限制。</dd>
@@ -136,13 +136,13 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 <dt>使用者存取管理</dt>
 <dd>在 {{site.data.keyword.Bluemix_notm}} 內，會遵循「權責區分」準則，指派精細的存取權給使用者，並確保根據最低專用權原則，使用者僅具備執行其工作所需的存取權。
 
-在「{{site.data.keyword.Bluemix_notm}} 專用」及「Bluemix 本端」環境內，已指派的管理者可以利用「管理主控台」來管理 {{site.data.keyword.Bluemix_notm}} 使用者在其組織中的角色及許可權。如需詳細資料，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng)。
+在 {{site.data.keyword.Bluemix_notm}} Dedicated 及 Bluemix Local 環境內，已指派的管理者可以利用「管理主控台」來管理 {{site.data.keyword.Bluemix_notm}} 使用者在其組織中的角色及許可權。如需詳細資料，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng)。
 </dd>
 </dl>
 
 ### 實體安全
 
-「{{site.data.keyword.Bluemix_notm}} 公用」及「Bluemix 專用」依賴 {{site.data.keyword.BluSoftlayer}} 的「網中網」(network-within-a-network) 拓蹼來確保實體網路安全。這個網中網架構可確保系統只能由獲得授權的人員進行完全存取。若為「{{site.data.keyword.Bluemix_notm}} 本端」，您掌控了本端實例的實體安全。您的資料中心受到貴公司防火牆的安全保護。
+{{site.data.keyword.Bluemix_notm}} Public 及 Bluemix Dedicated 依賴 {{site.data.keyword.BluSoftlayer}} 的「網中網」(network-within-a-network) 拓蹼來確保實體網路安全。這個網中網架構可確保系統只能由獲得授權的人員進行完全存取。若為 {{site.data.keyword.Bluemix_notm}} Local，您掌控了本端實例的實體安全。您的資料中心受到貴公司防火牆的安全保護。
 
 在 {{site.data.keyword.BluSoftlayer}} 網中網內，公用網路層會處理受管理網站或線上資源的公用資料流量。私密網路層容許透過不同的獨立式第三方營運商，經由 SSL、PPTP 或 IPSec VPN 閘道進行真正的頻外管理。資料中心到資料中心的網路層，在位於不同 {{site.data.keyword.BluSoftlayer}} 設施的伺服器之間，提供了免費的安全連線功能。
 
@@ -179,7 +179,7 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 
 您可以使用數個 {{site.data.keyword.Bluemix_notm}} 服務所提供的安全功能來保護應用程式。IBM 生產的所有 {{site.data.keyword.Bluemix_notm}} 服務都遵循 IBM 安全工程開發作法。
 
-**附註：**這裡所述的一些服務可能不適用於「{{site.data.keyword.Bluemix_notm}} 專用」或「Bluemix 本端」實例。
+**附註：**這裡所述的一些服務可能不適用於 {{site.data.keyword.Bluemix_notm}} Dedicated 或 Bluemix Local 實例。
 
 ### SSO 服務
 

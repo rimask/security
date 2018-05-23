@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
-   xmlns:i="&amp;#38;ns_ai;"
+   xmlns:i="&amp;#38;#38;ns_ai;"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -1701,27 +1701,7 @@
      width="562.5"
      height="58"
      id="rect720"
-     style="fill:none" /><text
-     id="text722"
-     x="26.183399"
-     y="52.785999"><tspan
-       x="26.183399"
-       y="52.785999"
-       font-size="24"
-       id="tspan724"
-       style="font-size:24px;fill:#5596e6;font-family:Arial-BoldMT">Bluemix Local</tspan><tspan
-       x="191.9834"
-       y="52.785999"
-       font-size="24"
-       id="tspan726"
-       style="font-size:24px;fill:#5596e6;font-family:ArialMT" /><tspan
-       x="198.88339"
-       y="52.785999"
-       stroke-miterlimit="10"
-       font-size="24"
-       id="tspan728"
-       style="font-size:24px;fill:#5596e6;stroke:#5596e6;stroke-width:0.5;stroke-miterlimit:10;font-family:MS-Gothic">セキュリティーの概要</tspan></text>
-<g
+     style="fill:none" /><g
      id="g730"><defs
        id="defs732"><rect
          id="SVGID_22_"
@@ -14572,4 +14552,18 @@ P54urs9nCNjTv6Xp4vnL0yuZntPFq+/vf8IV/Gj+wUcfff5XseL+C7XOq6E=
            d="m 786.49,11.908 -690.837,0 0,80.58 690.837,0 0,-80.58 z"
            style="fill:url(#pattern7752);fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="path7810"
-           inkscape:connector-curvature="0" /></g></g></g></svg>
+           inkscape:connector-curvature="0" /></g></g></g><text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+     x="237.73169"
+     y="53.806084"
+     id="text7606"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7608"
+       x="237.73169"
+       y="53.806084"
+       style="font-size:24px;fill:#5596e6;font-weight:bold;-inkscape-font-specification:Arial Bold"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+   id="tspan7610">Bluemix Local </tspan>プラットフォーム・セキュリティー</tspan></text>
+</svg>

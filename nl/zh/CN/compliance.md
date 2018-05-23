@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-04-30" 
 
 
 
@@ -21,7 +21,7 @@ lastupdated: "2018-04-11"
 {{site.data.keyword.Bluemix}} 提供了一个您可以信任的安全云平台。{{site.data.keyword.Bluemix_notm}} 合规性是通过基于业界最佳安全标准（包括 ISO 27001 和 ISO 27002）构建的平台和服务来实现的。
 {:shortdesc}
 
-![欧盟数据保护示范条款](images/icon_eumc.png) 合并了**欧盟 (EU) 示范条款**的协议，用于保护从欧盟 (EU) 或欧洲经济区 (EEA) 传输到第三方国家或地区的个人数据。“欧盟 (EU) 示范条款”是由位于 EU 或 EEA 的客户（数据导出方）与位于第三方国家或地区的 IBM 数据处理方（数据导入方）之间签订的。IBM Data Processing Addendum (with EU Standard Contractual Clauses) 包含数据导出方和数据导入方的权利和责任，以及数据主体的权利。针对第三方国家或地区处理的个人数据，IBM Data Processing Addendum 提供的保护类似于 EU 或 EEA 中所提供的保护。
+![欧盟数据保护示范条款](images/icon_eumc.png) 合并了**欧盟 (EU) 示范条款**的协议，用于保护从欧盟 (EU) 或欧洲经济区 (EEA) 传输到第三方国家或地区的个人数据。“欧盟 (EU) 示范条款”是由位于欧盟或欧洲经济区的客户（数据导出方）与位于第三方国家或地区的 IBM 数据处理方（数据导入方）之间签订的。IBM Data Processing Addendum (with EU Standard Contractual Clauses) 包含数据导出方和数据导入方的权利和责任，以及数据主体的权利。针对第三方国家或地区处理的个人数据，IBM Data Processing Addendum 提供的保护类似于欧盟或欧洲经济区中所提供的保护。
 
 
 
@@ -77,6 +77,7 @@ lastupdated: "2018-04-11"
 |{{site.data.keyword.Bluemix_notm}} 组件|FISC|ISO 27001|PCI|SOC 2 第 1 类|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
 |{{site.data.keyword.Bluemix_notm}} 平台|是|是|是|是|
+|{{site.data.keyword.openwhisk_short}}    |  |是| | |
 |{{site.data.keyword.APIM}}			|是|是|是|			|
 |{{site.data.keyword.autoscaling}}			|是|是|是|			|
 |{{site.data.keyword.bigicloudst}}			|是|是|	|是|

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-04-30" 
 
 
 
@@ -51,7 +51,7 @@ lastupdated: "2018-04-11"
 
 ![HIPAA](images/icon_hipaa.png)「醫療保險轉移和責任法 (HIPAA)」是美國國會在 1996 年所頒布，保護員工失業後的醫療保險範圍。HIPAA 是由美國民權辦公室及美國衛生及公共服務部所制定並施行。HIPAA 包含 1996 法案的條例，以及 2009 年健康資訊技術促進經濟和臨床健康法 (HITECH) 的隱私需求。{{site.data.keyword.Bluemix_notm}} 的資料中心或服務提供者端符合所有 HIPAA 需求。 
 
-合併「{{site.data.keyword.Bluemix_notm}} 公用」與 Softlayer 時可能會發生問題。如需達到、認證及維護 {{site.data.keyword.Bluemix_notm}} 環境之 HIPAA 規範的相關資訊或協助，請與 {{site.data.keyword.Bluemix_notm}} [銷售 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 團隊聯絡。
+合併 {{site.data.keyword.Bluemix_notm}} Public 與 Softlayer 時可能會發生問題。如需達到、認證及維護 {{site.data.keyword.Bluemix_notm}} 環境之 HIPAA 規範的相關資訊或協助，請與 {{site.data.keyword.Bluemix_notm}} [銷售 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 團隊聯絡。
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 提供適用於佈建及使用雲端服務的資訊安全控制準則。此外，它也提供雲端服務供應商及雲端服務客戶的實作指引。ISO 27017 提供 ISO/IEC 27002 中所指定之相關控制的實作指引，以及雲端服務特有的其他控制及指引。
@@ -77,6 +77,7 @@ lastupdated: "2018-04-11"
 |{{site.data.keyword.Bluemix_notm}} 元件		|FISC		|ISO 27001	|PCI|SOC 2 類型 1|
 |:----------------------|:---------:|:---------:|:---------:|:---------:|
 |{{site.data.keyword.Bluemix_notm}} 平台		|Y			|Y	|Y	|Y	|
+|{{site.data.keyword.openwhisk_short}}    |  |Y| | |
 |{{site.data.keyword.APIM}}			|Y	|Y|Y	|			|
 |{{site.data.keyword.autoscaling}}			|Y	|Y|Y	|			|
 |{{site.data.keyword.bigicloudst}}			|Y|Y|	|Y|
