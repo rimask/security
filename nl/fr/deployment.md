@@ -42,7 +42,7 @@ est le suivant :
 protocole LDAP
 de l'entreprise.
  * Le **flux de développement et de déploiement** est le suivant :
-    1. Via un pare-feu, avec prévention contre les intrusions et sécurité du réseau, et s'applique uniquement à l'environnement {{site.data.keyword.Bluemix_notm}} dédié. 
+    1. Via un pare-feu, avec prévention contre les intrusions et sécurité du réseau, et s'applique uniquement à l'environnement {{site.data.keyword.Bluemix_notm}} dédié.
     2. Via IBM DataPower Gateway avec proxy inverse et proxy de terminaison SSL.
     3. Via le routeur réseau.
     4. Via l'autorisation avec le contrôleur de cloud Cloud Foundry, pour assurer l'accès uniquement aux applications et aux instances de service qui sont
