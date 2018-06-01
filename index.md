@@ -184,25 +184,6 @@ You can use security capabilities that are provided by several {{site.data.keywo
 
 **Note:** Some of the services that are described here might not apply to {{site.data.keyword.Bluemix_notm}} Dedicated or Local instances.
 
-### SSO service
-
-IBM Single Sign On for {{site.data.keyword.Bluemix_notm}} is a policy-based authentication service that provides an easy to embed single sign-on capability for Node.js or Liberty for Java™ applications. To enable an application developer to embed single sign-on capability into an application, the administrator creates service instances and adds identity sources.
-
-The Single Sign On service supports several identity sources where your users' credentials are stored:
-
-<dl>
-<dt>SAML Enterprise</dt>
-<dd>A user registry with an exchange of SAML tokens that completes the authentication.</dd>
-
-<dt>Cloud Directory</dt>
-<dd>A user registry that is hosted in IBM Cloud.</dd>
-
-<dt>Social identity sources</dt>
-<dd> The user registries that are maintained by Google, Facebook, and LinkedIn.</dd>
-</dl>
-
-For more information, see [Getting started with Single Sign On](/docs/services/SingleSignOn/index.html).
-
 ### IBM UrbanCode plug-in for application security testing
 
 The IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} plug-in allows you to run security scans on your web or Android apps that are hosted on {{site.data.keyword.Bluemix_notm}}. This plug-in is developed and supported by the IBM UrbanCode™ Deploy Community.
