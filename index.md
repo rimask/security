@@ -203,21 +203,17 @@ The Single Sign On service supports several identity sources where your users' c
 
 For more information, see [Getting started with Single Sign On](/docs/services/SingleSignOn/index.html).
 
-### Application Security on Cloud
-
-This service provides a security analysis of mobile and web apps, and it allows you to scan source code for security vulnerabilities. For more information, see [Getting started with Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
-
 ### IBM UrbanCode plug-in for application security testing
 
 The IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} plug-in allows you to run security scans on your web or Android apps that are hosted on {{site.data.keyword.Bluemix_notm}}. This plug-in is developed and supported by the IBM UrbanCode™ Deploy Community.
 
-For more information, go to [IBM Application Security Testing for Bluemix ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
+For more information, go to [IBM Application Security Testing for IBM Cloud ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
 ### DB2 Hosted
 
 DB2 Hosted is a SQL database that is provisioned for you in the cloud. You can use DB2 Hosted just as you would use any database software, but without the overhead and expense of hardware setup or software installation and maintenance.  
 
-You can also install a local DB2 database by using the [free Db2 Developer Edition download ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). It rapidly installs a ready-to-go developer edition of DB2 with tools inside a Docker container (Docker not required; it will automatically install any necessary components).
+You can also install a local DB2 database by using the [free Db2 Developer Edition download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). It rapidly installs a ready-to-go developer edition of DB2 with tools inside a Docker container (Docker not required; it will automatically install any necessary components).
 
 For more information, see [Getting started with DB2 Hosted](docs/services/Db2Hosted/index.html).
 
