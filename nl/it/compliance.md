@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-30" 
+lastupdated: "2018-05-25" 
 
 
 
@@ -69,6 +69,14 @@ In particolare, ISO 27018:2014 specifica le linee guida che si basano sull'ISO 2
 
 ![CJIS Standards](images/icon_CJIS.png) La divisione CJIS (Criminal Justice Information Systems) è una divisione del Dipartimento di Giustizia dell'FBI degli Stati uniti. La divisione CJIS ha creato e pubblicato una politica di sicurezza (CJISD-ITS-DOC-08140-5.4). Questa politica di sicurezza contiene i requisiti minimi di sicurezza delle informazioni, le linee guida e gli accordi che riflettono la volontà delle forze dell'ordine e delle agenzie di giustizia penale per la protezione di fonti, trasmissioni, archiviazioni e generazione di informazioni di giustizia penale (CJI, Criminal Justice Information).
 
+## GDPR (General Data Protection Regulation)
+{: #gdpr}
+
+Il GDPR intende creare un quadro normativo armonizzato in materia di protezione dei dati in tutta l'UE e mira a restituire ai cittadini il controllo dei propri dati personali, imponendo nel contempo regole rigide a chi ospita ed elabora questi dati, in qualsiasi parte del mondo. 
+
+{{site.data.keyword.IBM_notm}} si impegna a fornire ai nostri clienti e ai Business Partner {{site.data.keyword.IBM_notm}} soluzioni innovative per la privacy, la sicurezza e la governance dei dati per aiutarli nel loro viaggio verso la disponibilità GDPR. I dati e la loro protezione stanno diventando sempre più importanti per gli individui e la società. Le aziende devono guadagnare la fiducia del cliente nella loro capacità di amministrare le informazioni. 
+
+{{site.data.keyword.Bluemix_notm}} è agile e scalabile con soluzioni e servizi integrati per la sicurezza e privacy dei dati che possono essere utilizzati in loco o attraverso il cloud pubblico. La nostra piattaforma completa per la sicurezza dei dati aiuta a salvaguardare i dati sensibili ovunque risiedano e offre una gamma completa di funzionalità di protezione dei dati.
 
 
 ## Conformità di servizi e piattaforme
