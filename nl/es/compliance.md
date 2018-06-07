@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-30" 
+lastupdated: "2018-05-25" 
 
 
 
@@ -69,6 +69,14 @@ En concreto, ISO 27018:2014 especifica directrices que se basan en ISO 27002. La
 
 ![Estándares CJIS](images/icon_CJIS.png) Los Servicios de información de la justicia penal (Criminal Justice Information Systems, CJIS) es un servicio de la Oficina Federal de Investigación del Departamento de Justicia de Estados Unidos. Los servicios de CJIS han creado y publicado una Política de seguridad (CJISD-ITS-DOC-08140-5.4). Esta Política de seguridad contiene requisitos de seguridad de información, directrices y acuerdos mínimos que reflejan el compromiso de las agencias de cumplimiento de leyes y de justicia penal para proteger las fuentes, la transmisión, el almacenamiento y la generación de Información de la justicia penal (Criminal Justice Information, CJI).
 
+## Reglamento General de Protección de Datos (GDPR)
+{: #gdpr}
+
+La GDPR busca crear un marco de ley de protección de datos unificado en la Unión Europea y trata de devolver a los ciudadanos el control de sus datos personales, mientras impone reglas estrictas a quienes alojan y procesan los datos, en cualquier parte del mundo. 
+
+{{site.data.keyword.IBM_notm}} está comprometido con ofrecer a nuestros clientes y Business Partners de {{site.data.keyword.IBM_notm}} soluciones innovadoras de privacidad, seguridad y control de los datos para ayudarles en la implantación de GDPR. Los datos y su protección son cada vez más importantes para las personas y la sociedad. Las empresas deben ganarse la confianza del cliente en su capacidad para administrar la información. 
+
+{{site.data.keyword.Bluemix_notm}} es ágil y escalable con servicios y soluciones de privacidad y seguridad de datos incorporados que se pueden consumir de forma local o a través de la nube pública. Nuestra plataforma de seguridad de datos completa ayuda a proteger los datos confidenciales residan donde residan y proporciona una amplia gama de funciones de protección de datos.
 
 
 ## Conformidad de plataforma y servicio
