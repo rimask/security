@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-30" 
+lastupdated: "2018-05-25" 
 
 
 
@@ -69,6 +69,14 @@ Em particular, o ISO 27018:2014 especifica diretrizes que são baseadas no ISO 2
 
 ![Padrões CJIS](images/icon_CJIS.png) A Divisão Criminal Justice Information Systems (CJIS) é uma divisão da Agência Federal de Investigação (FBI) do Departamento de Justiça dos Estados Unidos. A Divisão CJIS criou e publicou uma política de segurança (CJISD-ITS-DOC-08140-5.4). Essa política de segurança contém os requisitos mínimos de segurança de informações, diretrizes e acordos que refletem a vontade que as agências de aplicação da lei e de justiça criminal têm de proteger as fontes, transmissão, armazenamento e geração de Criminal Justice Information (CJI).
 
+## General Data Protection Regulation (GDPR)
+{: #gdpr}
+
+O GDPR visa criar uma estrutura de lei de proteção de dados harmonizados em toda a UE e pretende devolver aos cidadãos o controle de seus dados pessoais, enquanto impõe regras rígidas sobre a hospedagem e o processamento desses dados, em qualquer lugar do mundo. 
+
+A {{site.data.keyword.IBM_notm}} está comprometida em fornecer a nossos clientes e Parceiros de Negócios {{site.data.keyword.IBM_notm}} soluções inovadoras de privacidade de dados, segurança e controle para ajudá-los em sua jornada para a prontidão do GDPR. Os dados e sua proteção estão se tornando cada vez mais importantes para os indivíduos e a sociedade. As empresas devem ganhar a confiança do cliente em sua capacidade de organizar informações. 
+
+O {{site.data.keyword.Bluemix_notm}} é ágil e escalável com serviços e soluções integrados de segurança e privacidade de dados que podem ser consumidos no local ou por meio de nuvem pública. Nossa plataforma de segurança de dados abrangente ajuda a proteger dados sensíveis em qualquer parte em que residam e fornece uma gama completa de recursos de proteção de dados.
 
 
 ## Conformidade de plataforma e serviço
