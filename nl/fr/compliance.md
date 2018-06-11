@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-30" 
+lastupdated: "2018-05-25" 
 
 
 
@@ -107,6 +107,14 @@ fédéral d'investigation (FBI) du ministère de la justice américain. Il a cr�
 directives et les accords minimaux reflétant la volonté des organismes d'application de la loi et de justice pénale de protéger les sources, la
 transmission, le stockage et la génération de l'information en matière de justice pénale.
 
+## Règlement général sur la protection des données (RGPD)
+{: #gdpr}
+
+Le RGPD vise à créer un cadre légal de protection des données harmonisé à travers l'Union Européenne et à restituer aux citoyens le contrôle de leurs données personnelles, tout en imposant des règles strictes sur les entités hébergeant et traitant ces données, où que ce soit dans le monde. 
+
+{{site.data.keyword.IBM_notm}} s'est engagée à fournir à ses clients et aux partenaires commerciaux {{site.data.keyword.IBM_notm}} des solutions de confidentialité des données, de sécurité et de gouvernance innovantes pour les aider à se conformer à la réglementation RGPD. Les données et leur protection sont de plus en plus importantes pour les individus et la société. Les entreprises doivent convaincre les clients qu'elles sont capables d'héberger convenablement ces informations. 
+
+{{site.data.keyword.Bluemix_notm}} est agile et évolutif avec des services et des solutions de sécurité et confidentialité des données intégrées consommables sur place ou via un cloud public. Notre plateforme exhaustive de sécurité des données aide à sécuriser les données sensibles quel que soit leur emplacement et fournit un arsenal complet de fonctions de protection des données.
 
 
 ## Conformité de la plateforme et des services
