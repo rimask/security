@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-04-30" 
+lastupdated: "2018-05-25" 
 
 
 
@@ -69,6 +69,14 @@ Insbesondere enthält ISO 27018:2014 Leitlinien, die auf ISO 27002 basieren. In 
 
 ![CJIS-Standards](images/icon_CJIS.png) Die "Criminal Justice Information Systems" (CJIS) sind eine Abteilung des US-Justizministeriums. Die CJIS-Abteilung hat eine Sicherheitsrichtlinie erarbeitet und veröffentlicht (CJISD-ITS-DOC-08140-5.4). Diese Sicherheitsrichtlinie enthält die Mindestanforderungen an die Informationssicherheit, Leitlinien und Vereinbarungen, die den Willen der gesetzgebenden und Strafrechtsorgane spiegeln, die Quellen, Übertragung, Speicherung und Generierung von Kriminaldaten zu schützen.
 
+## Datenschutzgrundverordnung (DSGVO)
+{: #gdpr}
+
+Die Datenschutzgrundverordnung (DSGVO) zielt darauf ab, einen harmonisierten Rahmen für den Datenschutz in der EU zu schaffen und den Bürgern eine bessere Kontrolle über ihre personenbezogenen Daten zu ermöglichen und gleichzeitig strenge Regeln für das Speichern und Verarbeiten von Daten weltweit festzulegen. 
+
+{{site.data.keyword.IBM_notm}} ist bestrebt, seinen Kunden und {{site.data.keyword.IBM_notm}} Business Partners innovative Datenschutz-, Sicherheits- und Governance-Lösungen zur Verfügung zu stellen, die sie auf ihrem Weg zur Einhaltung der DSGVO unterstützen. Daten und ihr Schutz werden für Einzelpersonen wie auch die Gesellschaft zunehmend wichtiger. Unternehmen müssen sich das Vertrauen des Kunden in ihre Fähigkeit zum verantwortungsvollen Umgang mit Informationen verdienen.  
+
+{{site.data.keyword.Bluemix_notm}} ist agil und mit integrierten Datensicherheits- und Datenschutzservices sowie mit Lösungen skalierbar, die lokal oder über die öffentliche Cloud genutzt werden können. Unsere umfassende Datensicherheitsplattform hilft dabei, vertrauliche Daten an ihrem jeweiligen Standort zu schützen, und bietet eine umfassende Palette an Datenschutzfunktionen.
 
 
 ## Plattform- und Servicekonformität
