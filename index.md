@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-19"
 
 ---
 
@@ -196,7 +196,7 @@ DB2 Hosted is a SQL database that is provisioned for you in the cloud. You can u
 
 You can also install a local DB2 database by using the [free Db2 Developer Edition download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). It rapidly installs a ready-to-go developer edition of DB2 with tools inside a Docker container (Docker not required; it will automatically install any necessary components).
 
-For more information, see [Getting started with DB2 Hosted](docs/services/Db2Hosted/index.html).
+For more information, see [Getting started with DB2 Hosted](/docs/services/Db2Hosted/index.html).
 
 ### Secure Gateway
 
