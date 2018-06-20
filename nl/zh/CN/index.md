@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-04-11"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -183,42 +183,19 @@ HTTP 不活动超时为 2 分钟。</dd>
 
 **注：**此处描述的一些服务可能不适用于 {{site.data.keyword.Bluemix_notm}} Dedicated 或 Local 实例。
 
-### SSO 服务
-
-IBM Single Sign On for {{site.data.keyword.Bluemix_notm}} 是一种基于策略的认证服务，用于为 Node.js 或 Liberty for Java™ 应用程序提供易于嵌入的单点登录功能。为了使应用程序开发者能够将单点登录功能嵌入到应用程序中，管理员会创建服务实例并添加身份源。
-
-Single Sign On 服务支持多个存储用户凭证的身份源：
-
-<dl>
-<dt>SAML Enterprise</dt>
-<dd>通过交换 SAML 令牌完成认证的用户注册表。</dd>
-
-<dt>Cloud Directory</dt>
-<dd>在 IBM Cloud 中托管的用户注册表。</dd>
-
-<dt>社交身份源</dt>
-<dd> 由 Google、Facebook 和 LinkedIn 维护的用户注册表。</dd>
-</dl>
-
-有关更多信息，请参阅 [Single Sign On 入门](/docs/services/SingleSignOn/index.html)。
-
-### Application Security on Cloud
-
-此服务提供对移动和 Web 应用程序的安全性分析，并允许您扫描源代码来查找安全漏洞。有关更多信息，请参阅 [Application Security on Cloud 入门](/docs/services/ApplicationSecurityonCloud/index.html)。
-
 ### 用于应用程序安全测试的 IBM UrbanCode 插件
 
 通过 IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 插件，可以对在 {{site.data.keyword.Bluemix_notm}} 上托管的 Web 或 Android 应用程序运行安全扫描。此插件由 IBM UrbanCode™ Deploy Community 开发并提供支持。
 
-有关更多信息，请转至 [IBM Application Security Testing for Bluemix ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}。
+有关更多信息，请转至 [IBM Application Security Testing for IBM Cloud ![外部链接图标](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}。
 
-### Db2 on Cloud
+### DB2 Hosted
 
-{{site.data.keyword.Db2_on_Cloud_long}} 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 {{site.data.keyword.Db2_on_Cloud_short}}，但却没有硬件安装或软件安装与维护的开销及费用。  
+DB2 Hosted 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 DB2 Hosted，但却没有硬件安装或软件安装与维护的开销及费用。  
 
-您还可以使用[免费 Db2 Developer Edition 下载 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 来安装本地 Db2 数据库。它会使用 Docker 容器中的工具快速安装随时可用的开发者版本的 Db2（Docker 不是必需的；它会自动安装所有必要的组件）。
+您还可以使用[免费 Db2 Developer Edition 下载 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 来安装本地 Db2 数据库。它会使用 Docker 容器中的工具快速安装随时可用的开发者版本的 DB2（Docker 不是必需的；它会自动安装所有必要的组件）。
 
-有关更多信息，请参阅 [Db2 on Cloud 入门](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)。
+有关更多信息，请参阅 [DB2 Hosted 入门](docs/services/Db2Hosted/index.html)。
 
 ### Secure Gateway
 

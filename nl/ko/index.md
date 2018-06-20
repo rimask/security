@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-04-11"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -184,42 +184,19 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 **참고:** 여기에 설명된 서비스 중 일부는 {{site.data.keyword.Bluemix_notm}} 데디케이티드 또는 로컬 인스턴스에 적용되지 않을 수 있습니다.
 
-### SSO 서비스
-
-{{site.data.keyword.Bluemix_notm}}용 IBM Single Sign-On은 Node.js 또는 Liberty for Java™ 애플리케이션의 임베드 용이한 싱글 사인온 기능을 제공하는 정책 기반 인증 서비스입니다. 애플리케이션 개발자가 애플리케이션으로 싱글 사인온 기능을 임베드할 수 있도록 하기 위해 관리자는 서비스 인스턴스를 작성하고 ID 소스를 추가합니다.
-
-Single Sign On 서비스는 사용자의 신임 정보가 저장된 다수의 ID 소스를 지원합니다.
-
-<dl>
-<dt>SAML Enterprise</dt>
-<dd>인증을 수행하며 SAML 토큰 교환을 사용하는 사용자 레지스트리입니다.</dd>
-
-<dt>클라우드 디렉토리</dt>
-<dd>IBM Cloud에서 호스팅되는 사용자 레지스트리입니다.</dd>
-
-<dt>소셜 ID 소스</dt>
-<dd> Google, Facebook 및 LinkedIn에서 유지보수하는 사용자 레지스트리입니다.</dd>
-</dl>
-
-자세한 정보는 [Single Sign-On 시작하기](/docs/services/SingleSignOn/index.html)를 참조하십시오.
-
-### Application Security on Cloud
-
-이 서비스는 모바일 및 웹 앱에 대한 보안 분석을 제공하며 사용자가 보안 취약점에 대한 소스 코드를 스캔할 수 있도록 허용합니다. 자세한 정보는 [Application Security on Cloud 시작하기](/docs/services/ApplicationSecurityonCloud/index.html)를 참조하십시오.
-
 ### 애플리케이션 보안 테스트를 위한 IBM UrbanCode 플러그인
 
 IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 플러그인을 사용하면 {{site.data.keyword.Bluemix_notm}}에서 호스팅되는 사용자 웹 또는 Android 앱에서 보안 스캔을 실행할 수 있습니다. 이 플러그인은 IBM UrbanCode™ Deploy Community에 의해 개발되었으며 지원됩니다.
 
-자세한 정보는 [IBM Application Security Testing for Bluemix ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}로 이동하십시오.
+자세한 정보를 보려면 [IBM Application Security Testing for IBM Cloud ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}로 이동하십시오.
 
-### DB2 on Cloud
+### DB2 Hosted
 
-{{site.data.keyword.Db2_on_Cloud_long}}는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 {{site.data.keyword.Db2_on_Cloud_short}}를 사용할 수 있습니다.  
+DB2 Hosted는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 DB2 Hosted를 사용할 수 있습니다.  
 
-[무료 DB2 Developer Edition 다운로드 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)을 사용하여 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함).
+[무료 DB2 Developer Edition 다운로드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)을 사용하여 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함).
 
-자세한 정보는 [DB2 on Cloud 시작하기](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud)를 참조하십시오.
+자세한 정보는 [DB2 Hosted 시작하기](docs/services/Db2Hosted/index.html)를 참조하십시오.
 
 ### Secure Gateway
 
