@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-04-11"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -241,47 +241,20 @@ Vous pouvez utiliser les fonctions de sécurité fournies par plusieurs services
 **Remarque :** il se peut que certains services décrits ici ne soient pas applicables aux instances
 {{site.data.keyword.Bluemix_notm}} dédiées ou locales.
 
-### Service SSO
-
-IBM Single Sign On for {{site.data.keyword.Bluemix_notm}} est un service d'authentification reposant sur des règles qui fournit une fonction de connexion unique facile à intégrer pour les applications Node.js ou
-Liberty for Java.. Pour permettre à
-un développeur d'applications d'intégrer la fonction de connexion unique à une application, l'administrateur crée des instances de service et ajoute des
-sources d'identité.
-
-Le service Single Sign On prend en charge plusieurs sources d'identité dans lesquelles vos données d'identification utilisateur sont stockées :
-
-<dl>
-<dt>Entreprise SAML</dt>
-<dd>Il s'agit d'un registre d'utilisateurs qui procède à un échange de jetons pour l'authentification.</dd>
-
-<dt>Répertoire cloud</dt>
-<dd>Il s'agit d'un registre d'utilisateurs qui est hébergé dans le cloud IBM.</dd>
-
-<dt>Sources d'identité sociales</dt>
-<dd> Il s'agit des registres d'utilisateurs qui sont gérés par Google, Facebook et LinkedIn.</dd>
-</dl>
-
-Pour plus d'informations, voir [Initiation à Single Sign On](/docs/services/SingleSignOn/index.html).
-
-### Application Security on Cloud
-
-Ce service fournit une analyse de sécurité des applications mobiles et Web et vous permet d'analyser le code source afin d'identifier d'éventuelles
-vulnérabilités en matière de sécurité. Pour plus d'informations, voir [Initiation à Application Security on Cloud](/docs/services/ApplicationSecurityonCloud/index.html).
-
 ### Plug-in IBM UrbanCode pour le test de la sécurité des applications
 
 Le plug-in IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} vous permet d'exécuter des analyses de sécurité pour vos
 applications Web ou Android qui sont hébergées dans {{site.data.keyword.Bluemix_notm}}. Il est développé par la communauté IBM UrbanCode. Deploy Community, qui assure son support.
 
-Pour plus d'informations, voir [IBM Application Security Testing for Bluemix ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
+Pour plus d'informations, voir [IBM Application Security Testing for IBM Cloud ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-application-security-testing-bluemix/1-0/){: new_window}.
 
-### DB2 on Cloud
+### Db2 Hosted
 
-{{site.data.keyword.Db2_on_Cloud_long}} est une base de données SQL mise à votre disposition dans le cloud. Vous pouvez utiliser {{site.data.keyword.Db2_on_Cloud_short}} de la même manière que vous utilisez n'importe quel logiciel de base de données, sans les frais associés à la configuration de matériel ou à l'installation et la maintenance de logiciels.  
+Db2 Hosted est une base de données SQL mise à votre disposition dans le cloud. Vous pouvez utiliser Db2 Hosted de la même manière que vous utilisez n'importe quel logiciel de base de données, sans les frais associés à la configuration de matériel ou à l'installation et la maintenance de logiciels.  
 
-Vous pouvez également installer une base de données Db2 en local en utilisant la [version Db2 Developer Edition téléchargeable gratuitement ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Une édition prête à l'emploi de Db2 destinée aux développeurs est alors rapidement installée avec des outils au sein d'un conteneur Docker (Docker n'est pas requis ; il installera automatiquement tous les composants nécessaires).
+Vous pouvez également installer une base de données Db2 en local en utilisant la [version Db2 Developer Edition téléchargeable gratuitement ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Une édition prête à l'emploi de Db2 destinée aux développeurs est alors rapidement installée avec des outils au sein d'un conteneur Docker (Docker n'est pas requis ; il installera automatiquement tous les composants nécessaires).
 
-Pour plus d'informations, voir [Initiation à Db2 on Cloud](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud).
+Pour plus d'informations, voir la rubrique d'[initiation à Db2 Hosted](docs/services/Db2Hosted/index.html).
 
 ### Secure Gateway
 
