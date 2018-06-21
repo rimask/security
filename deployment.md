@@ -1,12 +1,12 @@
 ---
 
- 
+
 
 copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-06-21" 
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-04-11"
 Figure 3. IBM Cloud security deployment architecture
 
 For {{site.data.keyword.Bluemix_notm}} *app users*, the **app user flow** is as follows:
- 1. Through a firewall, with intrusion prevention and network security in place.
+ 1. Through a firewall, with intrusion prevention and Network security in place.
  2. Through the IBM DataPower Gateway with reverse proxy and SSL termination proxy.
  3. Through the network router.
  4. Reaches the application runtime in the droplet execution agent (DEA).
@@ -35,13 +35,13 @@ The {{site.data.keyword.Bluemix_notm}} *developer* follows two main flows: For l
       2. Through IBM web identity.
     * For developers who are logging in to {{site.data.keyword.Bluemix_notm}} Dedicated or Local, the flow is through the enterprise LDAP.
  * The **development and deployment flow** is as follows:
-    1. Through a firewall, with intrusion prevention and network security in place, and applies to {{site.data.keyword.Bluemix_notm}} Dedicated only.
+    1. Through a firewall, with intrusion prevention and Network security in place, and applies to {{site.data.keyword.Bluemix_notm}} Dedicated only.
     2. Through the IBM DataPower Gateway with reverse proxy and SSL termination proxy.
     3. Through the network router.
     4. Through authorization by using Cloud Foundry cloud controller to ensure access to only apps and service instances that are created by the developer.
 
 For {{site.data.keyword.Bluemix_notm}} Dedicated and {{site.data.keyword.Bluemix_notm}} Local *administrators*, the **administrator flow** is as follows:
- 1. Through a firewall, with intrusion prevention and network security in place.
+ 1. Through a firewall, with intrusion prevention and Network security in place.
  2. Through the IBM DataPower Gateway with reverse proxy and SSL termination proxy.
  3. Through the network router.
  4. Reaches the Administration page in the {{site.data.keyword.Bluemix_notm}} user interface.
