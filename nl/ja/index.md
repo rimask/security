@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -194,9 +194,9 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} プラ�
 
 DB2 Hosted は、ユーザーのためにクラウド内にプロビジョンされている SQL データベースです。 DB2 Hosted は、他のデータベース・ソフトウェアと同様に使用できますが、ハードウェアのセットアップやソフトウェアのインストールおよび保守の手間や経費は必要ありません。  
 
-さらに、[無料の Db2 Developer Edition のダウンロード ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル DB2 データベースをインストールすることもできます。 すぐに使用可能な DB2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
+さらに、[無料の DB2 Developer Edition のダウンロード ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) を使用してローカル DB2 データベースをインストールすることもできます。 すぐに使用可能な DB2 の Developer Edition がツールとともに Docker コンテナー内に素早くインストールされます (Docker は必要ありません。必要なコンポーネントが自動的にインストールされます)。
 
-詳しくは、『[DB2 Hosted の概説](docs/services/Db2Hosted/index.html)』を参照してください。
+詳しくは、『[DB2 Hosted の概説](/docs/services/Db2Hosted/index.html)』を参照してください。
 
 ### Secure Gateway
 
