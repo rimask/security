@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -161,7 +161,7 @@ Cada centro de datos de {{site.data.keyword.BluSoftlayer}} está completamente p
 
 Con {{site.data.keyword.Bluemix_notm}}, proteger sus datos frente a un acceso no autorizado constituye un esfuerzo conjunto entre {{site.data.keyword.Bluemix_notm}} y usted.
 
-Los datos que asociados a una app en ejecución pueden estar en uno de estos tres estados: data-in-transit (datos en tránsito), data-at-rest (datos en reposo) y data-in-use (datos en uso).
+Los datos asociados a una app en ejecución pueden estar en uno de estos tres estados: data-in-transit (datos en tránsito), data-at-rest (datos en reposo) y data-in-use (datos en uso).
 
 <dl>
 <dt>Data-in-transit</dt>
@@ -201,9 +201,9 @@ Para obtener más información, vaya a [IBM Application Security Testing for IBM
 
 DB2 Hosted es una base de datos SQL que se suministra para usted en la nube. Puede utilizar DB2 Hosted como utilizaría cualquier software de base de datos, pero sin la sobrecarga ni el gasto de la configuración de hardware o la instalación y el mantenimiento de software.  
 
-También puede instalar una base de datos DB2 local utilizando la [descarga gratuita de Db2 Developer Edition ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). De esta forma, se instala rápidamente una edición de DB2 para desarrolladores lista para utilizar dentro de un contenedor Docker (no se requiere Docker; todos los componentes necesarios se instalarán automáticamente).
+También puede instalar una base de datos DB2 local utilizando la [descarga gratuita de DB2 Developer Edition ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). De esta forma, se instala rápidamente una edición de DB2 para desarrolladores lista para utilizar dentro de un contenedor Docker (no se requiere Docker; todos los componentes necesarios se instalan automáticamente).
 
-Para obtener más información, consulte [Guía de iniciación a DB2 Hosted](docs/services/Db2Hosted/index.html).
+Para obtener más información, consulte [Guía de iniciación a DB2 Hosted](/docs/services/Db2Hosted/index.html).
 
 ### Secure Gateway
 
