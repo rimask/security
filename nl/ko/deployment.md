@@ -1,12 +1,12 @@
 ---
 
- 
+
 
 copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-06-21" 
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-04-11"
 그림 3. IBM Cloud 보안 배치 아키텍처
 
 {{site.data.keyword.Bluemix_notm}} *앱 사용자*의 경우, **앱 사용자 플로우**는 다음과 같습니다.
- 1. 방화벽을 통해(침입 방지 및 네트워크 보안이 적절히 갖춰져 있음).
+ 1. 방화벽을 통해(침입 방지 및 네트워크 보안이 적절히 갖춰져 있음). 
  2. IBM DataPower Gateway를 통해(리버스 프록시 및 SSL 종료 프록시 포함).
  3. 네트워크 라우터를 통해.
  4. DEA(Droplet Execution Agent)에서 애플리케이션 런타임에 도달합니다.
@@ -41,7 +41,7 @@ lastupdated: "2018-04-11"
     4. Cloud Foundry 클라우드 제어기를 사용한 권한 부여를 통해(개발자가 작성한 앱 및 서비스 인스턴스에 대한 액세스만 보장할 수 있도록).
 
 {{site.data.keyword.Bluemix_notm}} 데디케이티드 및 {{site.data.keyword.Bluemix_notm}} 로컬 *관리자*의 경우, **관리자 플로우**는 다음과 같습니다.
- 1. 방화벽을 통해(침입 방지 및 네트워크 보안이 적절히 갖춰져 있음).
+ 1. 방화벽을 통해(침입 방지 및 네트워크 보안이 적절히 갖춰져 있음). 
  2. IBM DataPower Gateway를 통해(리버스 프록시 및 SSL 종료 프록시 포함).
  3. 네트워크 라우터를 통해.
  4. {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스에서 관리 페이지에 도달합니다.

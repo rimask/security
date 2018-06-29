@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -194,9 +194,9 @@ Weitere Informationen finden Sie in [IBM Application Security Testing for IBM Cl
 
 Bei Db2 Hosted handelt es sich um eine SQL-Datenbank, die für Sie in der Cloud bereitgestellt wird. Sie können Db2 Hosted genauso wie jede andere Datenbanksoftware verwenden, jedoch ohne den Aufwand und die Kosten, die mit einer Hardwareinstallation oder einer Softwareinstallation und -wartung einhergehen.  
 
-Sie haben außerdem die Möglichkeit, unter Verwendung des [kostenlosen Downloads von Db2 Developer Edition![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) eine lokale DB2-Datenbank zu installieren. Der Download installiert ohne großen Zeitaufwand eine sofort einsatzfähige Db2-Edition für Entwickler mit Tools in einem Docker-Container (Docker selbst ist nicht erforderlich; alle benötigten Komponenten werden automatisch installiert).
+Sie haben außerdem die Möglichkeit, unter Verwendung des [kostenlosen Downloads von DB2 Developer Edition ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) eine lokale DB2-Datenbank zu installieren. Der Download installiert ohne großen Zeitaufwand eine sofort einsatzfähige DB2-Edition für Entwickler mit Tools in einem Docker-Container (Docker selbst ist nicht erforderlich; alle benötigten Komponenten werden automatisch installiert).
 
-Weitere Informationen finden Sie in [Einführung in Db2 Hosted](docs/services/Db2Hosted/index.html).
+Weitere Informationen finden Sie in [Einführung in Db2 Hosted](/docs/services/Db2Hosted/index.html).
 
 ### Secure Gateway
 

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-05-25" 
+lastupdated: "2018-06-21" 
 
 
 
@@ -26,7 +26,7 @@ lastupdated: "2018-05-25"
 
 
 ![금융 기관 정보 시스템](images/FISC.gif) 일본의 은행 및 관련 금융 기관에 구축된 컴퓨터 시스템에는 FISC(Center for Financial Industry Information Systems) 보안 지침을 기반으로 하는 보안 절차가 마련되어 있어야 합니다. FISC 보안 지침은 일본 금융 기관(FSA), 일본 은행(BOJ) 및 FISC에서 적용됩니다.
- 
+
 
 ![ISO 27001/2](images/icon_iso27k1.png) {{site.data.keyword.Bluemix_notm}}는 최상의 정보 보안 관리 프로세스 방안을 정의하는 **국제 표준화 기구(ISO) 27001 및 27002 표준**에 의거하여 인증되었습니다. ISO 27001은 널리 채택된 글로벌 보안 표준으로, 정보 보안 관리 시스템에 대한 요구사항을 간략하게 정의합니다. 정기적인 위험성 평가를 기반으로 회사 및 고객 정보를 관리하는 체계적인 방식을 제공합니다. 현재 표준인 ISO/IEC 27001:2013은 2013년 9월 25일에 **국제 표준화 기구(ISO) 및 국제 전기 표준 회의(IEC)**가 ISO 및 IEC의 공동 소위원회를 통해 발표했습니다. ISO 27001 표준은 개별 조직의 요구에 따라 정보 보안 관리 시스템(ISMS)의 설정, 구현 및 문서화를 위한 요구사항과 보안 제어 구현을 위한 요구사항을 지정합니다. ISO 27002 표준은 ISO 27001의 각 보안 제어를 상세히 설명합니다. ISO 27000 표준 모음은 서면, 구두 또는 전자식 정보의 신뢰성, 무결성 및 가용성 보호를 목적으로 자산의 가치와 위험을 척도화하는 프로세스를 통합한 것입니다.
 
@@ -40,21 +40,21 @@ ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 �
 
 {{site.data.keyword.Bluemix}}는 승인된 인증된 서비스 평가자(QSA)를 사용하여 매년 PCI DSS 평가를 완료합니다. {{site.data.keyword.Bluemix_notm}} 환경에 대한 PCI DSS 준수와 관련된 정보 및 지원은 [문의 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}를 통해 영업 팀에 문의하십시오.
 
-![SSAE16 SOC1/2/3](images/icon_aicpa.png) **서비스 조직 제어(SOC)** 보고서에는 서비스 조직에서 보안, 가용성, 처리 무결성, 신뢰성, 개인정보 보호와 관련된 주요 내부 제어 정책의 평가를 정의되어 있습니다. AICPA(American Institute of Certified Public Accountants) 가이드를 사용하여 생성하는 이 보고서는 다음 항목을 제공합니다. 
+![SSAE16 SOC1/2/3](images/icon_aicpa.png) **서비스 조직 제어(SOC)** 보고서에는 서비스 조직에서 보안, 가용성, 처리 무결성, 신뢰성, 개인정보 보호와 관련된 주요 내부 제어 정책의 평가를 정의되어 있습니다. AICPA(American Institute of Certified Public Accountants) 가이드를 사용하여 생성하는 이 보고서는 다음 항목을 제공합니다.
   * 조직 감시
   * 공급업체 관리 프로그램
   * 내부 기업 통제 및 위험 관리 프로세스
   * 규제 감시
- 
-{{site.data.keyword.Bluemix_notm}}는 SOC 1, SOC 2 및 SOC 3 보고서를 제공합니다. 추가 정보는 [{{site.data.keyword.Bluemix_notm}} 영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:bmxcert1@us.ibm.com){:new_window} 팀에 문의하십시오. 
+
+{{site.data.keyword.Bluemix_notm}}는 SOC 1, SOC 2 및 SOC 3 보고서를 제공합니다. 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:bmxcert1@us.ibm.com){:new_window} 팀에 문의하십시오.
 
 
-![HIPAA](images/icon_hipaa.png) 1996년 미국 의회에서 제정된 건강 보험 이동과 책임 법령(HIPAA)은 실직 후 노동자가 건강 보험 혜택을 받을 수 있도록 보호합니다. HIPAA는 미국의 인권 사무국 및 보건복지부에서 규제 및 집행됩니다. HIPAA는 2009년 제정된 건강정보기술법(HITECH) 법률의 개인정보 보호 요구사항을 비롯하여 1996년 법률의 규정을 포함합니다. {{site.data.keyword.Bluemix_notm}}는 데이터 센터 또는 서비스 제공업체 측의 HIPAA에 대한 모든 요구사항을 충족시킵니다. 
+![HIPAA](images/icon_hipaa.png) 1996년 미국 의회에서 제정된 건강 보험 이동과 책임 법령(HIPAA)은 실직 후 노동자가 건강 보험 혜택을 받을 수 있도록 보호합니다. HIPAA는 미국의 인권 사무국 및 보건복지부에서 규제 및 집행됩니다. HIPAA는 2009년 제정된 건강정보기술법(HITECH) 법률의 개인정보 보호 요구사항을 비롯하여 1996년 법률의 규정을 포함합니다. {{site.data.keyword.Bluemix_notm}}는 데이터 센터 또는 서비스 제공업체 측의 HIPAA에 대한 모든 요구사항을 충족시킵니다.
 
-{{site.data.keyword.Bluemix_notm}} Public과 Softlayer의 합병에서 문제가 발생할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 환경에 대한 HIPAA 규제 준수를 이행하고, 증명하며, 관리하는 데 필요한 정보 및 지원을 받으려면 {{site.data.keyword.Bluemix_notm}} [영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 팀에 문의하십시오.
+{{site.data.keyword.Bluemix_notm}} 퍼블릭과 SoftLayer의 병합에서 문제가 발생할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 환경에 대한 HIPAA 규제 준수를 이행하고, 증명하며, 관리하는 데 필요한 정보 및 지원을 받으려면 {{site.data.keyword.Bluemix_notm}} [영업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 팀에 문의하십시오.
 
 
-![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015는 프로비저닝 및 클라우드 서비스에 적용 가능한 정보 보안 제어에 대한 가이드라인을 제공합니다. 또한 클라우드 서비스 제공업체 및 클라우드 서비스 고객을 위해 구현 지시사항을 제공합니다. ISO 27017는 ISO/IEC 27002에 지정되어 있는 관련 제어를 위한 구현 지시사항과 클라우드 서비스에 관련된 추가 제어 방법 및 지시사항을 제공합니다.
+![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015는 프로비저닝 및 클라우드 서비스에 적용 가능한 정보 보안 제어에 대한 가이드라인을 제공합니다. 또한 클라우드 서비스 제공업체 및 클라우드 서비스 고객을 위해 구현 지시사항을 제공합니다. ISO 27017은 ISO/IEC 27002에 지정되어 있는 관련 제어를 위한 구현 지시사항과 클라우드 서비스에 관련된 추가 제어 방법 및 지시사항을 제공합니다.
 
 {{site.data.keyword.Bluemix_notm}}는 ISO 27017:2015를 준수함으로써 IBM이 클라우드 관련 제어를 위한 최첨단 시스템을 갖추고 있음을 보여줍니다. 또한 국내외에서 최고의 IaaS를 제공하기 위해 노력하고 있음을 입증합니다.
 
@@ -72,11 +72,11 @@ ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 �
 ## 일반 개인정보 보호법률(General Data Protection Regulation, "GDPR")
 {: #gdpr}
 
-GDPR의 목적은 EU 전체에서 적절한 개인정보 보호 법 체계를 만들어, 시민들에게 자신의 개인 정보에 대한 통제권을 돌려주는 동시에 전 세계에서 이러한 정보를 호스팅하고 처리하는 대상에게 엄격한 규칙을 적용하는 것입니다.  
+GDPR의 목적은 EU 전체에서 적절한 개인정보 보호 법 체계를 만들어, 시민들에게 자신의 개인 정보에 대한 통제권을 돌려주는 동시에 전 세계에서 이러한 정보를 호스팅하고 처리하는 대상에게 엄격한 규칙을 적용하는 것입니다. 
 
-{{site.data.keyword.IBM_notm}}은 고객 및 {{site.data.keyword.IBM_notm}} 비즈니스 파트너가 GDPR에 대비하는 데 도움을 줄 수 있도록 혁신적인 데이터 개인정보 보호, 보안 및 통제 솔루션을 제공하려 노력하고 있습니다. 개인정보와 그에 대한 보호는 개인 및 사회에 점점 더 중요한 문제가 되고 있습니다. 기업은 정보를 관리하는 능력에 대해 고객의 신뢰를 얻어야 합니다.  
+{{site.data.keyword.IBM_notm}}은 고객 및 {{site.data.keyword.IBM_notm}} 비즈니스 파트너가 GDPR에 대비하는 데 도움을 줄 수 있도록 혁신적인 데이터 개인정보 보호, 보안 및 통제 솔루션을 제공하려 노력하고 있습니다. 개인정보와 그에 대한 보호는 개인 및 사회에 점점 더 중요한 문제가 되고 있습니다. 기업은 정보를 관리하는 능력에 대해 고객의 신뢰를 얻어야 합니다.
 
-{{site.data.keyword.Bluemix_notm}}는 온프레미스 또는 퍼블릭 클라우드를 통해 이용할 수 있는 기본 제공 데이터 보안 및 개인정보 보호 서비스 및 솔루션을 갖추고 있으며 이동성과 확장성이 뛰어납니다. IBM의 포괄적 데이터 보안 플랫폼은 민감한 정보가 어디에 있든 관계없이 이를 보호하는 데 도움을 주며 모든 유형의 데이터 보호 기능을 제공합니다. 
+{{site.data.keyword.Bluemix_notm}}는 온프레미스 또는 퍼블릭 클라우드를 통해 이용할 수 있는 기본 제공 데이터 보안 및 개인정보 보호 서비스 및 솔루션을 갖추고 있으며 이동성과 확장성이 뛰어납니다. IBM의 포괄적 데이터 보안 플랫폼은 민감한 정보가 어디에 있든 관계없이 이를 보호하는 데 도움을 주며 모든 유형의 데이터 보호 기능을 제공합니다.
 
 
 ## 플랫폼 및 서비스 준수

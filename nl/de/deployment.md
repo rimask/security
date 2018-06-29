@@ -1,12 +1,12 @@
 ---
 
- 
+
 
 copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-04-11" 
+lastupdated: "2018-06-21" 
 
 ---
 
@@ -23,7 +23,7 @@ Die Architektur der Sicherheitsbereitstellung für {{site.data.keyword.Bluemix_n
 Abbildung 3. Architektur der Sicherheitsbereitstellung für IBM Cloud
 
 Für Benutzer der {{site.data.keyword.Bluemix_notm}}-*App* ist der **Ablauf des App-Benutzers** wie folgt:
- 1. Über eine Firewall mit aktivem Abwehren unbefugter Zugriffe und aktiver Netzsicherheit.
+ 1. Über eine Firewall mit aktivem Abwehren unbefugter Zugriffe und aktiver Netzsicherheit. 
  2. Über das IBM DataPower Gateway mit Reverse Proxy und SSL-Terminierungsproxy.
  3. Über den Netzrouter.
  4. Erreichen der Anwendungslaufzeit im Droplet Execution Agent (DEA).
@@ -41,7 +41,7 @@ Der {{site.data.keyword.Bluemix_notm}}-*Entwickler* folgt zwei Hauptabläufen: e
     4. Über die Autorisierung über einen Cloud Foundry-Cloud-Controller, um einen Zugriff sicherzustellen, der auf die Apps und Serviceinstanzen beschränkt ist, die von dem Entwickler erstellt wurden.
 
 Für *Administratoren* von {{site.data.keyword.Bluemix_notm}} Dedicated und {{site.data.keyword.Bluemix_notm}} Local ist der **Ablauf für Administratoren** wie folgt:
- 1. Über eine Firewall mit aktivem Abwehren unbefugter Zugriffe und aktiver Netzsicherheit.
+ 1. Über eine Firewall mit aktivem Abwehren unbefugter Zugriffe und aktiver Netzsicherheit. 
  2. Über das IBM DataPower Gateway mit Reverse Proxy und SSL-Terminierungsproxy.
  3. Über den Netzrouter.
  4. Erreichen der Verwaltungsseite in der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle.

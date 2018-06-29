@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -43,7 +43,8 @@ lastupdated: "2018-06-01"
 
 運用 {{site.data.keyword.Bluemix_notm}} Local，您可以管理受公司防火牆保護以及在資料中心內的 {{site.data.keyword.Bluemix_notm}}。因此，您要負責特定的安全層面。下圖詳述客戶掌控哪些部分的安全，而哪些部分的安全則由 IBM 所管理及維護。
 
-![Bluemix Local 平台安全概觀](images/security_local_platform.svg) {: #localplatformsecurity}
+![Bluemix Local 平台安全概觀](images/security_local_platform.svg)
+{: #localplatformsecurity}
 
 圖 2. {{site.data.keyword.Bluemix_notm}} Local 平台安全概觀
 
@@ -170,7 +171,7 @@ HTTP 閒置逾時為 2 分鐘。</dd>
 
 {{site.data.keyword.Bluemix_notm}} 平台會透過網路，利用 SSL 來保護使用者的應用程式存取安全，藉以保護傳輸中資料的安全，直到資料在 {{site.data.keyword.Bluemix_notm}} 內部網路的界限達到 IBM DataPower Gateway 為止。IBM DataPower Gateway 作為反向 Proxy，並提供 SSL 終止。從這裡到應用程式，IPSEC 是用來保護從 IBM DataPower Gateway 前進到應用程式的資料安全。
 
-當您在開發應用程式時，必須負責保護 data-in-use 與 data-at-rest 的安全。您可以充分運用 {{site.data.keyword.Bluemix_notm}}「型錄」中可用的數個資料相關服務，來協助這些重要事項。
+當您在開發應用程式時，必須負責保護 data-in-use 與 data-at-rest 的安全。您可以充分運用 {{site.data.keyword.Bluemix_notm}} 型錄中可用的數個資料相關服務，來協助這些重要事項。
 
 ## {{site.data.keyword.Bluemix_notm}} 應用程式的安全
 {: #application-security}
@@ -193,7 +194,7 @@ Db2 Hosted 是雲端中為您所佈建的 SQL 資料庫。Db2 Hosted 的使用�
 
 您也可以使用[免費 Db2 Developer Edition 下載 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 來安裝本端 Db2 資料庫。它會在 Docker 容器內使用工具快速安裝 Db2 的立即使用開發人員版本（不需要 Docker；它將會自動安裝任何必要元件）。
 
-如需相關資訊，請參閱[開始使用 Db2 Hosted](docs/services/Db2Hosted/index.html)。
+如需相關資訊，請參閱[開始使用 Db2 Hosted](/docs/services/Db2Hosted/index.html)。
 
 ### Secure Gateway
 

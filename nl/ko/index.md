@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -137,7 +137,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 <dd>{{site.data.keyword.Bluemix_notm}}에서는 IBMSecurity QRadar® 도구를 사용하여 Linux 로그를 통합함으로써 Linux 시스템에서 권한 부여된 액세스를 모니터링합니다. 또한 {{site.data.keyword.Bluemix_notm}}는 IBM QRadar 보안 정보 및 이벤트 관리(SIEM)를 사용하여 애플리케이션 개발자의 성공 및 실패한 로그인 시도를 모니터링합니다.</dd>
 
 <dt>사용자 액세스 관리</dt>
-<dd>{{site.data.keyword.Bluemix_notm}} 내에서는 업무 분리 가이드라인에 따라 사용자에게 세부 단위의 액세스 권한을 지정하며 사용자가 최소 권한 원칙에 따라 자체 작업의 수행에 필요한 액세스 권한만 갖도록 보장합니다.
+<dd>{{site.data.keyword.Bluemix_notm}} 내에서는 업무 분리 가이드라인에 따라 사용자에게 세부 단위의 액세스 권한을 지정하며 사용자가 최소 권한 원칙에 따라 자체 작업을 수행하는 데 필요한 액세스 권한만 가지도록 합니다.
 
 {{site.data.keyword.Bluemix_notm}} 데디케이티드 환경과 로컬 환경에서는 지정된 관리자가 관리 콘솔을 사용하여 조직 내 {{site.data.keyword.Bluemix_notm}} 사용자의 역할과 권한을 관리할 수 있습니다. 자세한 내용은 [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_dedicated_notm}} 관리](/docs/hybrid/index.html#mng)를 참조하십시오.
 </dd>
@@ -145,7 +145,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 ### 물리적 보안
 
-{{site.data.keyword.Bluemix_notm}} 퍼블릭 및 데디케이티드에서는 실제 네트워크 보안을 위해 {{site.data.keyword.BluSoftlayer}}의 네트워크 내 네트워크(network-within-a-network) 토폴로지를 사용합니다. 이러한 네트워크 내 네트워크 아키텍처를 사용하여 권한 있는 사용자만 시스템에 완전히 액세스할 수 있도록 할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 로컬에 대해 사용자는 로컬 인스턴스에 대한 물리적 보안을 소유합니다. 데이터 센터는 회사 방화벽 뒤에서 보호됩니다.
+{{site.data.keyword.Bluemix_notm}} 퍼블릭 및 데디케이티드에서는 실제 네트워크 보안을 위해 {{site.data.keyword.BluSoftlayer}}의 네트워크 내 네트워크(network-within-a-network) 토폴로지에 의존합니다. 이러한 네트워크 내 네트워크 아키텍처를 사용하여 권한 있는 사용자만 시스템에 완전히 액세스할 수 있도록 할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 로컬에 대해 사용자는 로컬 인스턴스에 대한 물리적 보안을 소유합니다. 데이터 센터는 회사 방화벽 뒤에서 보호됩니다.
 
 {{site.data.keyword.BluSoftlayer}} 네트워크 내 네트워크(network-within-a-network)에서 공용 네트워크 계층은 호스팅된 웹 사이트 또는 온라인 리소스에 대한 공용 트래픽을 처리합니다. 사설 네트워크 계층을 사용하면 SSL, PPTP 또는 IPSec VPN 게이트웨이에서 개별 독립형 써드파티 업체를 통해 진정한 대역 외 관리를 수행할 수 있습니다. 데이터 센터 간 네트워크 계층은 개별 {{site.data.keyword.BluSoftlayer}} 설비에 포함된 서버 간의 무료 보안 연결을 제공합니다.
 
@@ -173,7 +173,7 @@ HTTP 비활성 제한시간은 2분입니다.</dd>
 
 {{site.data.keyword.Bluemix_notm}} 플랫폼은 {{site.data.keyword.Bluemix_notm}} 내부 네트워크의 경계에서 데이터가 IBM DataPower Gateway에 도달할 때까지 네트워크를 통해 SSL을 사용하여 애플리케이션에 대한 사용자 액세스를 보호함으로써 전송 중 데이터를 보호합니다. IBM DataPower Gateway는 리버스 프록시 역할을 하며 SSL 종료를 제공합니다. 여기서 애플리케이션까지 IPSEC을 사용하여 IBM DataPower Gateway에서 애플리케이션으로 이동하는 데이터를 보호합니다.
 
-사용 중 데이터 및 저장 데이터 둘 다에 대한 보안은 애플리케이션 개발 중에 사용자의 책임입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그에서 사용 가능한 다수의 데이터 관련 서비스를 활용하면 이와 관련하여 도움을 받을 수 있습니다.
+사용 중 데이터 및 저장 데이터 둘 다에 대한 보안은 애플리케이션 개발 중에 사용자의 책임입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그에서 사용 가능한 여러 데이터 관련 서비스를 활용하면 이와 관련하여 도움을 받을 수 있습니다.
 
 ## {{site.data.keyword.Bluemix_notm}} 애플리케이션 보안
 {: #application-security}
@@ -194,9 +194,9 @@ IBM Application Security Testing for {{site.data.keyword.Bluemix_notm}} 플러�
 
 DB2 Hosted는 클라우드에서 사용자를 위해 프로비저닝된 SQL 데이터베이스입니다. 데이터베이스 소프트웨어를 사용하는 것처럼 하드웨어 설정 또는 소프트웨어 설치 및 유지보수의 오버헤드와 비용 없이 DB2 Hosted를 사용할 수 있습니다.  
 
-[무료 DB2 Developer Edition 다운로드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)을 사용하여 로컬 DB2 데이터베이스도 설치할 수 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker는 필요하지 않고, 필수 컴포넌트를 자동으로 설치함).
+[무료 DB2 Developer Edition 다운로드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions)를 사용하여 로컬 DB2 데이터베이스를 설치할 수도 있습니다. Docker 컨테이너 내부에 도구를 포함하여 완료된 DB2의 개발자 에디션을 빠르게 설치합니다(Docker가 필요하지 않으며 필요한 컴포넌트를 자동으로 설치함).
 
-자세한 정보는 [DB2 Hosted 시작하기](docs/services/Db2Hosted/index.html)를 참조하십시오.
+자세한 정보는 [DB2 Hosted 시작하기](/docs/services/Db2Hosted/index.html)를 참조하십시오.
 
 ### Secure Gateway
 
@@ -206,4 +206,4 @@ Secure Gateway 서비스를 사용하면 온프레미스 또는 클라우드에�
 
 ### 보안 정보 및 이벤트 관리
 
-보안 정보 및 이벤트 관리(SIEM) 도구를 사용하여 애플리케이션 로그의 보안 경보를 분석할 수 있습니다. 이러한 도구 중 하나가 클라우드 환경에서 지능형 보안을 제공하는 IBM Security QRadar&reg; SIEM입니다. 관련 정보는 [IBM QRadar Security Intelligence Platform ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}을 참조하십시오.
+보안 정보 및 이벤트 관리(SIEM) 도구를 사용하여 애플리케이션 로그의 보안 경보를 분석할 수 있습니다. 이러한 도구 중 하나가 클라우드 환경에서 지능형 보안을 제공하는 IBM Security QRadar&reg; SIEM입니다. 자세한 정보는 [IBM QRadar Security Intelligence Platform ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}을 참조하십시오.
