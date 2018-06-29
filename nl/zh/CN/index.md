@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -155,7 +155,7 @@ HTTP 不活动超时为 2 分钟。</dd>
 
 使用 {{site.data.keyword.Bluemix_notm}} 时，需要您与 {{site.data.keyword.Bluemix_notm}} 共同努力来保护数据，以防止未经授权的访问。
 
-与运行中应用程序关联的数据的状态有以下三种：传输中的数据、静态数据和使用中的数据。
+与运行中应用程序关联的数据的状态可以有以下三种：传输中的数据、静态数据和使用中的数据。
 
 <dl>
 <dt>传输中的数据</dt>
@@ -191,11 +191,11 @@ HTTP 不活动超时为 2 分钟。</dd>
 
 ### DB2 Hosted
 
-DB2 Hosted 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 DB2 Hosted，但却没有硬件安装或软件安装与维护的开销及费用。  
+Db2 Hosted 是在云中为您供应的 SQL 数据库。您可以像使用任何数据库软件一样来使用 DB2 Hosted，但却没有硬件安装或软件安装与维护的开销及费用。  
 
-您还可以使用[免费 Db2 Developer Edition 下载 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 来安装本地 Db2 数据库。它会使用 Docker 容器中的工具快速安装随时可用的开发者版本的 DB2（Docker 不是必需的；它会自动安装所有必要的组件）。
+您还可以使用[免费 Db2 Developer Edition 下载 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) 来安装本地 Db2 数据库。它会使用 Docker 容器中的工具快速安装随时可用的开发者版本的 Db2（Docker 不是必需的；它会自动安装所有必要的组件）。
 
-有关更多信息，请参阅 [DB2 Hosted 入门](docs/services/Db2Hosted/index.html)。
+有关更多信息，请参阅 [DB2 Hosted 入门](/docs/services/Db2Hosted/index.html)。
 
 ### Secure Gateway
 
@@ -205,5 +205,5 @@ DB2 Hosted 是在云中为您供应的 SQL 数据库。您可以像使用任何�
 
 ### 安全信息和事件管理
 
-您可以使用安全信息和事件管理 (SIEM) 工具来分析应用程序日志中的安全警报。其中一个此类工具是 IBM Security QRadar&reg; SIEM，该工具在云环境中提供安全智能。有关信息，请参阅 [IBM QRadar Security Intelligence Platform ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}。
+您可以使用安全信息和事件管理 (SIEM) 工具来分析应用程序日志中的安全警报。其中一个此类工具是 IBM Security QRadar&reg; SIEM，该工具在云环境中提供安全智能。有关更多信息，请参阅 [IBM QRadar Security Intelligence Platform ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}。
 

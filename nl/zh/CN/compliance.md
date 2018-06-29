@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-05-25" 
+lastupdated: "2018-06-21" 
 
 
 
@@ -26,7 +26,7 @@ lastupdated: "2018-05-25"
 
 
 ![金融行业信息系统](images/FISC.gif) 对于日本的银行和相关金融机构，计算机系统必须具有适当的安全程序，这些程序应基于金融行业信息系统中心 (FISC) 安全准则。FISC 安全准则由日本金融厅 (FSA)、日本央行 (BOJ) 和 FISC 贯彻实施。
- 
+
 
 ![ISO 27001/2](images/icon_iso27k1.png) {{site.data.keyword.Bluemix_notm}} 已通过**国际标准化组织 (ISO) 27001 和 27002 标准**的认证，这两个标准定义了信息安全管理过程的最佳做法。ISO 27001 是一种被广泛采用的全球安全标准。该标准概述了信息安全管理系统的要求，并提供了系统化方法，基于定期风险评估来管理公司和客户信息。现行标准 ISO/IEC 27001:2013 由**国际标准化组织 (ISO) 和国际电工技术委员会 (IEC)** 联合组建的 ISO/IEC 子委员会于 2013 年 9 月 25 日颁布。ISO 27001 标准根据不同组织的需求规定了应如何建立、实施和记录信息安全管理系统 (ISMS)，以及应如何实施安全性控制。ISO 27002 标准对 ISO 27001 中的每种安全性控制进行了详细的说明。ISO 27000 系列标准中包含了一个确定风险规模和评估资产价值的过程，旨在保护书面、口头和电子信息的机密性、完整性和可用性。
 
@@ -40,18 +40,18 @@ lastupdated: "2018-05-25"
 
 {{site.data.keyword.Bluemix}} 通过批准的合格安全服务评估方 (QSA) 完成了年度 PCI DSS 评估。有关使您的 {{site.data.keyword.Bluemix_notm}} 环境符合 PCI DSS 评估要求的信息和帮助，请联系销售人员：[联系我们 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}。
 
-![SSAE16 SOC1/2/3](images/icon_aicpa.png) **服务组织控制 (SOC)** 报告定义了如何对服务组织评估与安全性、可用性、处理完整性、机密性和隐私性相关的主要内部控制做法。这些报告是使用美国注册会计师协会 (AICPA) 指南生成的，包含以下各项： 
+![SSAE16 SOC1/2/3](images/icon_aicpa.png) **服务组织控制 (SOC)** 报告定义了如何对服务组织评估与安全性、可用性、处理完整性、机密性和隐私性相关的主要内部控制做法。这些报告是使用美国注册会计师协会 (AICPA) 指南生成的，包含以下各项：
   * 组织监督
   * 供应商管理程序
   * 内部公司治理和风险管理流程
   * 法规监督
- 
-{{site.data.keyword.Bluemix_notm}} 提供 SOC 1、SOC 2 和 SOC 3 报告。有关其他信息，请联系 [{{site.data.keyword.Bluemix_notm}} 销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:bmxcert1@us.ibm.com){:new_window} 团队。 
+
+{{site.data.keyword.Bluemix_notm}} 提供 SOC 1、SOC 2 和 SOC 3 报告。有关更多信息，请联系 [{{site.data.keyword.Bluemix_notm}} 销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:bmxcert1@us.ibm.com){:new_window} 团队。
 
 
-![HIPAA](images/icon_hipaa.png) 美国国会在 1996 年颁布的《健康保险可移植性和责任法案》(HIPAA) 旨在保障员工在失业后仍能享受健康保险。HIPAA 由美国民权办公室以及卫生和公众服务部负责监管和实施。HIPAA 除了包含 1996 年法案中的规定外，还包含 2009 年颁布的《医疗信息技术促进经济和临床健康法案》(HITECH) 中的隐私要求。{{site.data.keyword.Bluemix_notm}} 符合 HIPAA 有关数据中心或服务提供者方面的所有要求。 
+![HIPAA](images/icon_hipaa.png) 美国国会在 1996 年颁布的《健康保险可移植性和责任法案》(HIPAA) 旨在保障员工在失业后仍能享受健康保险。HIPAA 由美国民权办公室以及卫生和公众服务部负责监管和实施。HIPAA 除了包含 1996 年法案中的规定外，还包含 2009 年颁布的《医疗信息技术促进经济和临床健康法案》(HITECH) 中的隐私要求。{{site.data.keyword.Bluemix_notm}} 符合 HIPAA 有关数据中心或服务提供者方面的所有要求。
 
-将 {{site.data.keyword.Bluemix_notm}} Public 与 Softlayer 合并可能会导致发生一些问题。有关使您的 {{site.data.keyword.Bluemix_notm}} 环境达到 HIPAA 合规性、通过 HIPAA 合规性认证以及保持 HIPAA 合规性的更多信息或帮助，请联系 {{site.data.keyword.Bluemix_notm}} [销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 团队。
+将 {{site.data.keyword.Bluemix_notm}} Public 与 SoftLayer 合并可能会导致发生一些问题。有关使您的 {{site.data.keyword.Bluemix_notm}} 环境达到 HIPAA 合规性、通过 HIPAA 合规性认证以及保持 HIPAA 合规性的更多信息或帮助，请联系 {{site.data.keyword.Bluemix_notm}} [销售 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](mailto:cloudplatform_compliance@us.ibm.com){:new_window} 团队。
 
 
 ![ISO 27017](images/icon_ISO27017.png) ISO/IEC 27017:2015 针对适用于供应和使用云服务的信息安全控制措施提供了准则。此外，它还针对云服务提供商和云服务客户提供了实施指南。ISO 27017 针对 ISO/IEC 27002 中规定的相关控制措施提供了实施指南，同时还提供了专门与云服务相关的更多控制措施与指南。
@@ -72,9 +72,9 @@ lastupdated: "2018-05-25"
 ## 一般数据保护条例 (GDPR)
 {: #gdpr}
 
-GDPR 致力于在整个欧盟建立协调的数据保护法律框架，目的是让居民重获对其个人数据的控制权，同时针对在全球任何位置托管和处理这些数据的行为实施严格规则。 
+GDPR 致力于在整个欧盟建立协调的数据保护法律框架，目的是让居民重获对其个人数据的控制权，同时针对在全球任何位置托管和处理这些数据的行为实施严格规则。
 
-{{site.data.keyword.IBM_notm}} 致力于向客户和 {{site.data.keyword.IBM_notm}} 业务合作伙伴提供创新的数据隐私、安全和监管解决方案，以帮助他们最终符合 GDPR 条例的要求。数据及其保护对于个人和社会越来越重要。企业必须赢得客户对其管理信息能力的信任。 
+{{site.data.keyword.IBM_notm}} 致力于向客户和 {{site.data.keyword.IBM_notm}} 业务合作伙伴提供创新的数据隐私、安全和监管解决方案，以帮助他们最终符合 GDPR 条例的要求。数据及其保护对于个人和社会越来越重要。企业必须赢得客户对其管理信息能力的信任。
 
 {{site.data.keyword.Bluemix_notm}} 具有灵活且可扩展的内置数据安全性与隐私服务和解决方案，可在内部部署中或通过公共云使用。我们的综合数据安全平台有助于保护位于任何位置的敏感数据安全，并提供全面的数据保护功能。
 
