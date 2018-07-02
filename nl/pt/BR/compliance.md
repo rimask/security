@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2018
 
-lastupdated: "2018-05-25" 
+lastupdated: "2018-06-21" 
 
 
 
@@ -26,7 +26,7 @@ O {{site.data.keyword.Bluemix}} fornece uma plataforma de nuvem segura que você
 
 
 ![Sistemas de informações do setor financeiro](images/FISC.gif) Para instituições financeiras e relacionadas a finanças no Japão, os sistemas de computador devem ter procedimentos de segurança locais que sejam baseados nas diretrizes de segurança do Centro para Financial Industry Information Systems (FISC). As diretrizes de segurança do FISC são aplicadas pela Japan Financial Services Agency (FSA), Bank of Japan (BOJ) e FISC.
- 
+
 
 O ![ISO 27001/2](images/icon_iso27k1.png)  {{site.data.keyword.Bluemix_notm}} é certificado sob as **normas da Organização internacional para normatização (ISO) 27001 e 27002**, que definem as melhores práticas para processos de gerenciamento de segurança da informação. O ISO 27001 é um padrão de segurança global amplamente adotado que descreve os requisitos para sistemas de gerenciamento de sistema do gerenciamento de segurança da informação. Ele fornece uma abordagem sistemática para gerenciar as informações da empresa e do cliente com base em avaliações de risco periódicas. O padrão atual, ISO/IEC 27001:2013, foi publicado em 25 de setembro de 2013 pela **Organização Internacional de Normalização (ISO) e pela Comissão Eletrotécnica Internacional (IEC)**, sob o subcomitê de ISO e IEC em conjunto. A norma ISO 27001 especifica os requisitos para estabelecer, implementar e documentar Information Security Management Systems (ISMS) e os requisitos para implementar controles de segurança, de acordo com as necessidades de organizações individuais. A norma ISO 27002 explica cada controle de segurança de ISO 27001 em detalhes. A família de normas ISO 27000 incorpora um processo de ajuste de escala de risco e avaliação de ativos, com o objetivo de proteger a confidencialidade, a integridade e a disponibilidade das informações nas formas escrita, oral e eletrônica.
 
@@ -36,25 +36,25 @@ O {{site.data.keyword.Bluemix_notm}} é auditado por uma firma de segurança de 
 
 ![PCI DSS](images/icon_pci.png) O **Padrão de Segurança de Dados (DSS) do Setor de Cartão de Pagamento (PCI)** é um padrão de segurança de informações que é projetado para proteger os dados de cartão de crédito. O PCI DSS é aplicado a todas as entidades envolvidas no processamento de cartão de pagamento, incluindo comerciantes, processadores, emissores e provedores de serviços. Ele também se aplica a todas as outras entidades que armazenam, processam transmitem dados do dono do cartão ou dados de autenticação confidenciais.
 
-Se você armazenar ou processar dados do cartão de crédito, a conformidade e a segurança de rede do Setor de Cartão de Pagamento (PCI) serão de interesse primário para seu negócio. Para assegurar padrões consistentes para comerciantes, o Conselho de Padrões de Setor de Cartão de Pagamento estabeleceu normas de segurança de dados de PCI. Estas normas incorporam as melhores práticas para proteger os dados do dono do cartão, e muitas vezes necessitam de validação de um terceiro Qualified Service Assessor (QSA). A IBM ajuda os clientes a atenderem suas necessidades de conformidade de PCI, fornecendo um Atestado de Conformidade a partir de um QSA independente. O Atestado de Conformidade pode ser usado juntamente com o relatório SOC 2 e com a certificação ISO 27001 para demonstrar que a infraestrutura atende aos controles de PCI.
+Se você armazenar ou processar dados de cartão de crédito, a conformidade de Payment Card Industry (PCI) e a segurança de rede serão de interesse principal para seu negócio. Para assegurar padrões consistentes para comerciantes, o Conselho de Padrões de Setor de Cartão de Pagamento estabeleceu normas de segurança de dados de PCI. Estas normas incorporam as melhores práticas para proteger os dados do dono do cartão, e muitas vezes necessitam de validação de um terceiro Qualified Service Assessor (QSA). A IBM ajuda os clientes a atenderem suas necessidades de conformidade de PCI, fornecendo um Atestado de Conformidade a partir de um QSA independente. O Atestado de Conformidade pode ser usado juntamente com o relatório SOC 2 e com a certificação ISO 27001 para demonstrar que a infraestrutura atende aos controles de PCI.
 
 O {{site.data.keyword.Bluemix}} conclui uma avaliação anual PCI DSS usando um Qualified Security Assessor (QSA). Para obter informações e assistência na conformidade com o PCI DSS de seu ambiente do {{site.data.keyword.Bluemix_notm}}, entre em contato com vendas em [Entre em contato conosco ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
 
-Os relatórios ![SSAE16 SOC1/2/3](images/icon_aicpa.png) **Service Organization Controls (SOC)** definem a avaliação das principais práticas de controle interno que estão relacionados à segurança, disponibilidade, integridade do processamento, confidencialidade e privacidade em uma organização de serviços. Os relatórios que são gerados usando o Guia American Institute of Certified Public Accountants (AICPA) incluem os itens a seguir: 
+Os relatórios ![SSAE16 SOC1/2/3](images/icon_aicpa.png) **Service Organization Controls (SOC)** definem a avaliação das principais práticas de controle interno que estão relacionados à segurança, disponibilidade, integridade do processamento, confidencialidade e privacidade em uma organização de serviços. Os relatórios que são gerados usando o Guia American Institute of Certified Public Accountants (AICPA) incluem os itens a seguir:
   * Supervisão da organização
   * Programa de gerenciamento de fornecedores
   * Governança corporativa interna e processos de gerenciamento de riscos
   * Supervisão regulamentar
- 
-O {{site.data.keyword.Bluemix_notm}} fornece os relatórios SOC 1, SOC 2 e SOC 3. Para obter informações adicionais, entre em contato com a equipe de [vendas do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](mailto:bmxcert1@us.ibm.com){:new_window}. 
+
+O {{site.data.keyword.Bluemix_notm}} fornece os relatórios SOC 1, SOC 2 e SOC 3. Para obter mais informações, entre em contato com a equipe de vendas do [{{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](mailto:bmxcert1@us.ibm.com){:new_window}.
 
 
-![HIPAA](images/icon_hipaa.png) O Health Insurance Portability and Accountability Act (HIPAA), decretado pelo Congresso dos EUA em 1996, protege a cobertura de seguro de saúde para funcionários após a perda do emprego. O HIPAA é regulamentado e aplicado pelo Departamento de Direitos Civis e pelo Departamento de Saúde e Serviços Humanos dos EUA. O HIPAA inclui regulamentações do ato 1996, bem como requisitos de privacidade do Ato Health Information Technology for Economic and Clinical Health (HITECH) de 2009. O {{site.data.keyword.Bluemix_notm}} atende a todos os requisitos para HIPAA no lado do datacenter ou do provedor de serviços. 
+![HIPAA](images/icon_hipaa.png) O Health Insurance Portability and Accountability Act (HIPAA), decretado pelo Congresso dos EUA em 1996, protege a cobertura de seguro de saúde para funcionários após a perda do emprego. O HIPAA é regulamentado e aplicado pelo Departamento de Direitos Civis e pelo Departamento de Saúde e Serviços Humanos dos EUA. O HIPAA inclui regulamentações do ato 1996, bem como requisitos de privacidade do Ato Health Information Technology for Economic and Clinical Health (HITECH) de 2009. O {{site.data.keyword.Bluemix_notm}} atende a todos os requisitos para HIPAA no lado do datacenter ou do provedor de serviços.
 
-Pode haver problemas decorrentes da mesclagem do {{site.data.keyword.Bluemix_notm}} Public com o Softlayer. Para obter mais informações ou assistência para conseguir, certificar e manter a conformidade HIPAA para seu ambiente do {{site.data.keyword.Bluemix_notm}}, entre em contato com a equipe de [vendas do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
+Pode haver problemas que surjam da mesclagem do {{site.data.keyword.Bluemix_notm}} Public com o SoftLayer. Para obter mais informações ou assistência para conseguir, certificar e manter a conformidade HIPAA para seu ambiente do {{site.data.keyword.Bluemix_notm}}, entre em contato com a equipe de [vendas do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
 
 
-![ISO 27017](images/icon_ISO27017.png) O ISO/IEC 27017:2015 fornece diretrizes para controles de segurança informações aplicáveis ao fornecimento e uso de serviços de nuvem. Além disso, fornece orientação de implementação para os provedores de serviços em nuvem e para os clientes de serviço de nuvem. O ISO 27017 fornece orientação de implementação para controles relevantes que são especificados no ISO/IEC 27002, bem como controles e orientação adicionais que se relacionam especificamente com os serviços de nuvem.
+![ISO 27017](images/icon_ISO27017.png) O ISO/IEC 27017:2015 fornece diretrizes para controles de segurança informações aplicáveis ao fornecimento e uso de serviços de nuvem. Além disso, fornece orientação de implementação para os provedores de serviços em nuvem e para os clientes de serviço de nuvem. A ISO 27017 fornece orientação de implementação para controles relevantes que são especificados em ISO/IEC 27002 assim como mais controles e orientação que se relacionam especificamente com os serviços de nuvem.
 
 O alinhamento do {{site.data.keyword.Bluemix_notm}} com o ISO 27017:2015 demonstra que a IBM tem um sistema sofisticado de controles específicos de nuvem em vigor. Além disso, mostra um compromisso de ser o melhor em IaaS, internamente e em todo o mundo.
 
@@ -67,14 +67,14 @@ Em particular, o ISO 27018:2014 especifica diretrizes que são baseadas no ISO 2
 ![Cloud Security Alliance – STAR Registrant](images/icon_CSA.png) O Cloud Security Alliance é uma organização sem fins lucrativos com uma missão de promover o uso de melhores práticas para fornecer garantia de segurança na computação em nuvem. Um dos mecanismos que a Cloud Security Alliance usa em busca de sua missão é o de Segurança, Confiança e Registro de Garantia (STAR). STAR é um registro grátis, acessível publicamente que documenta os controles de segurança fornecidos por várias ofertas de computação em nuvem.
 
 
-![Padrões CJIS](images/icon_CJIS.png) A Divisão Criminal Justice Information Systems (CJIS) é uma divisão da Agência Federal de Investigação (FBI) do Departamento de Justiça dos Estados Unidos. A Divisão CJIS criou e publicou uma política de segurança (CJISD-ITS-DOC-08140-5.4). Essa política de segurança contém os requisitos mínimos de segurança de informações, diretrizes e acordos que refletem a vontade que as agências de aplicação da lei e de justiça criminal têm de proteger as fontes, transmissão, armazenamento e geração de Criminal Justice Information (CJI).
+![Padrões CJIS](images/icon_CJIS.png) A Divisão Criminal Justice Information Systems (CJIS) é uma divisão da Agência Federal de Investigação (FBI) do Departamento de Justiça dos Estados Unidos. A Divisão CJIS criou e publicou uma Política de segurança (CJISD-ITS-DOC-08140-5.4). Essa política de segurança contém os requisitos mínimos de segurança de informações, diretrizes e acordos que refletem a vontade que as agências de aplicação da lei e de justiça criminal têm de proteger as fontes, transmissão, armazenamento e geração de Criminal Justice Information (CJI).
 
 ## General Data Protection Regulation (GDPR)
 {: #gdpr}
 
-O GDPR visa criar uma estrutura de lei de proteção de dados harmonizados em toda a UE e pretende devolver aos cidadãos o controle de seus dados pessoais, enquanto impõe regras rígidas sobre a hospedagem e o processamento desses dados, em qualquer lugar do mundo. 
+O GDPR busca criar uma estrutura de lei de proteção de dados harmonizada na UE e visa devolver aos cidadãos o controle de seus dados pessoais, ao impor regras estritas sobre os que hospedam e processam esses dados, em qualquer lugar do mundo.
 
-A {{site.data.keyword.IBM_notm}} está comprometida em fornecer a nossos clientes e Parceiros de Negócios {{site.data.keyword.IBM_notm}} soluções inovadoras de privacidade de dados, segurança e controle para ajudá-los em sua jornada para a prontidão do GDPR. Os dados e sua proteção estão se tornando cada vez mais importantes para os indivíduos e a sociedade. As empresas devem ganhar a confiança do cliente em sua capacidade de organizar informações. 
+A {{site.data.keyword.IBM_notm}} é comprometida em fornecer a nossos clientes e Parceiros de Negócios {{site.data.keyword.IBM_notm}} soluções inovadoras de privacidade de dados, segurança e controle para auxiliá-los em sua jornada para a prontidão de GDPR. Os dados e sua proteção estão se tornando cada vez mais importantes para os indivíduos e a sociedade. As empresas devem ganhar a confiança do cliente em sua capacidade de organizar informações.
 
 O {{site.data.keyword.Bluemix_notm}} é ágil e escalável com serviços e soluções integrados de segurança e privacidade de dados que podem ser consumidos no local ou por meio de nuvem pública. Nossa plataforma de segurança de dados abrangente ajuda a proteger dados sensíveis em qualquer parte em que residam e fornece uma gama completa de recursos de proteção de dados.
 

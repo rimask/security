@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -63,7 +63,7 @@ Para {{site.data.keyword.Bluemix_notm}} Dedicated e Local, a autenticação por 
 </dd>
 
 <dt>Autorização</dt>
-<dd>O {{site.data.keyword.Bluemix_notm}} usa os mecanismos do Cloud Foundry para assegurar que cada desenvolvedor de aplicativos tenha acesso somente aos aplicativos e instâncias de serviço que criaram. A autorização para serviços do {{site.data.keyword.Bluemix_notm}} baseia-se em OAuth. O acesso a todos os terminais internos da Plataforma do {{site.data.keyword.Bluemix_notm}} é restrito aos usuários externos.</dd>
+<dd>O {{site.data.keyword.Bluemix_notm}} usa mecanismos Cloud Foundry para assegurar que cada desenvolvedor de aplicativos tenha acesso somente aos aplicativos e instâncias de serviços que criaram. A autorização para serviços do {{site.data.keyword.Bluemix_notm}} baseia-se em OAuth. O acesso a todos os terminais internos da Plataforma do {{site.data.keyword.Bluemix_notm}} é restrito aos usuários externos.</dd>
 
 <dt>Auditoria</dt>
 <dd>São criados logs de auditoria para todas as tentativas de autenticação bem-sucedidas e malsucedidas dos desenvolvedores de aplicativos. Logs de auditoria são criados também para acesso privilegiado a sistemas Linux que hospedam os contêineres nos quais os aplicativos {{site.data.keyword.Bluemix_notm}} são executados.</dd>
@@ -139,10 +139,7 @@ O {{site.data.keyword.Bluemix_notm}} fornece um ambiente de segurança operacion
 <dd>{{site.data.keyword.Bluemix_notm}} usa as ferramentas IBMSecurity QRadar® para consolidar logs do Linux para monitorar o acesso privilegiado em sistemas Linux. O {{site.data.keyword.Bluemix_notm}} também utiliza informações de segurança e gerenciamento de eventos (SIEM) do IBM QRadar para monitorar tentativas de login bem-sucedidas e malsucedidas dos desenvolvedores de aplicativos.</dd>
 
 <dt>Gerenciamento de acesso do usuário</dt>
-<dd>No {{site.data.keyword.Bluemix_notm}}, as diretrizes de
-separação de obrigações são seguidas para designar
-privilégios de acesso granular aos usuários e para assegurar que os
-usuários tenham somente o acesso que é necessário para executar suas tarefas de acordo com o princípio do menor privilégio.
+<dd>No {{site.data.keyword.Bluemix_notm}}, as recomendações de Separação de obrigações são seguidas para designar privilégios de acesso granulares a usuários e para assegurar que os usuários tenham somente o acesso necessário para executar suas tarefas de acordo com o princípio de menor privilégio.
 
 Nos ambientes do {{site.data.keyword.Bluemix_notm}} Dedicated e Local, administradores designados podem gerenciar funções e permissões para os usuários do {{site.data.keyword.Bluemix_notm}} em suas organizações usando o Console administrativo. Veja [Gerenciando o {{site.data.keyword.Bluemix_local_notm}} e o {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng) para obter detalhes.
 </dd>
@@ -150,7 +147,7 @@ Nos ambientes do {{site.data.keyword.Bluemix_notm}} Dedicated e Local, administr
 
 ### Segurança física
 
-O {{site.data.keyword.Bluemix_notm}} Public e Dedicated dependem da topologia de rede dentro uma rede do {{site.data.keyword.BluSoftlayer}} para segurança de rede física. Essa arquitetura de rede dentro de uma rede assegura que os sistemas sejam totalmente acessíveis somente à equipe autorizada. Para {{site.data.keyword.Bluemix_notm}} Local, você possui a segurança física para a instância local. Seu datacenter está assegurado sob o firewall da sua empresa.
+O {{site.data.keyword.Bluemix_notm}} Public e o Dedicated contam com a topologia de rede dentro de uma rede do {{site.data.keyword.BluSoftlayer}} para segurança de Rede física. Essa arquitetura de rede dentro de uma rede assegura que os sistemas sejam totalmente acessíveis somente à equipe autorizada. Para {{site.data.keyword.Bluemix_notm}} Local, você possui a segurança física para a instância local. Seu datacenter está assegurado sob o firewall da sua empresa.
 
 Na rede dentro uma rede do {{site.data.keyword.BluSoftlayer}}, a camada de rede pública manipula o tráfego público para websites hospedados ou recursos on-line. A camada de rede privada permite o gerenciamento fora da banda verdadeiro por meio de uma terceira operadora distinta sobre gateways SSL, PPTP ou IPSec VPN. A camada de rede de datacenter para datacenter fornece conectividade grátis e segura entre servidores que estão hospedados em instalações separadas do {{site.data.keyword.BluSoftlayer}}.
 
@@ -162,8 +159,7 @@ Cada data center do {{site.data.keyword.BluSoftlayer}} é totalmente assegurado 
 Com o {{site.data.keyword.Bluemix_notm}},
 proteger seus dados contra acesso não autorizado é um trabalho em conjunto entre o {{site.data.keyword.Bluemix_notm}} e você.
 
-Os dados associados a um aplicativo em execução podem estar em um de três estados:
-dados em trânsito, dados em repouso e dados em uso.
+Os dados associados a um aplicativo em execução podem estar em 1 de 3 estados: dados em trânsito, dados em repouso e dados em uso.
 
 <dl>
 <dt>Dados em trânsito</dt>
@@ -180,7 +176,7 @@ Cada tipo de dados precisa ser considerado quando você planeja segurança de da
 
 A plataforma {{site.data.keyword.Bluemix_notm}} protege dados em trânsito assegurando o acesso de usuário ao aplicativo usando SSL, por meio da rede até que os dados atinjam o IBM DataPower Gateway no limite da rede interna do {{site.data.keyword.Bluemix_notm}}. O IBM DataPower Gateway age como um proxy reverso e fornece rescisão de SSL. De lá, o aplicativo IPSEC é usado para proteger os dados conforme eles viajam do IBM DataPower Gateway para o aplicativo.
 
-A segurança para dados em uso e dados em repouso é sua responsabilidade ao desenvolver o aplicativo. É possível usufruir das vantagens de vários serviços relacionados aos dados, disponíveis no catálogo do {{site.data.keyword.Bluemix_notm}} para auxiliar nessas questões.
+A segurança para dados em uso e dados em repouso é sua responsabilidade ao desenvolver o aplicativo. É possível aproveitar vários serviços relacionados a dados disponíveis no catálogo do {{site.data.keyword.Bluemix_notm}} para ajudar com essas questões.
 
 ## Segurança de aplicativos do {{site.data.keyword.Bluemix_notm}}
 {: #application-security}
@@ -201,14 +197,12 @@ Security Testing for IBM Cloud ![Ícone de link externo](../icons/launch-glyph.s
 
 ### DB2 Hosted
 
-DB2 Hosted é um banco de dados SQL que é fornecido para você na nuvem. É possível usar o DB2 Hosted como você usaria
+O DB2 Hosted é um banco de dados SQL que é provisionado para você na nuvem. É possível usar o DB2 Hosted como você usaria
 qualquer software de banco de dados, mas sem o gasto adicional e a despesa de configuração de hardware e instalação e manutenção de software.  
 
-Também é possível instalar um banco de dados DB2 local usando o download do [Db2 Developer Edition![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) grátis. 
-Ele instala rapidamente uma edição do desenvolvedor pronta para execução do DB2 com ferramentas dentro de um contêiner do Docker (o
-Docker não é necessário; qualquer componente necessário será instalado automaticamente).
+Também é possível instalar um banco de dados DB2 local usando [Download grátis do DB2 Developer Edition![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Ele instala rapidamente uma edição de desenvolvedor pronta para execução do DB2 com ferramentas dentro de um contêiner do Docker (o Docker não é necessário; ele instala automaticamente quaisquer componentes necessários).
 
-Para obter informações adicionais, consulte [Introdução ao DB2 Hosted](docs/services/Db2Hosted/index.html).
+Para obter mais informações, consulte [Introdução ao DB2 Hosted](/docs/services/Db2Hosted/index.html).
 
 ### Secure Gateway
 
@@ -216,6 +210,6 @@ O serviço do Secure Gateway permite que você conecte apps do {{site.data.keywo
 
 Para obter mais informações, consulte [Introdução ao Secure Gateway](/docs/services/SecureGateway/secure_gateway.html).
 
-### Security information and event management
+### Informações de segurança e gerenciamento de eventos
 
-É possível usar ferramentas do security information and event management (SIEM) para analisar alertas de segurança em logs de aplicativos. Uma dessas ferramentas é o IBM Security QRadar&reg; SIEM, que fornece inteligência de segurança em ambientes de nuvem. Para obter informações, veja [IBM QRadar Security Intelligence Platform ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
+É possível usar ferramentas do security information and event management (SIEM) para analisar alertas de segurança em logs de aplicativos. Uma dessas ferramentas é o IBM Security QRadar&reg; SIEM, que fornece inteligência de segurança em ambientes de nuvem. Para obter mais informações, consulte [Plataforma IBM QRadar Security Intelligence![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
