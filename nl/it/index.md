@@ -6,7 +6,7 @@ copyright:
 
   years: 2014, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-21"
 
 ---
 
@@ -70,7 +70,7 @@ Per {{site.data.keyword.Bluemix_notm}} dedicato e locale, l'autenticazione trami
 </dd>
 
 <dt>Autorizzazione</dt>
-<dd>{{site.data.keyword.Bluemix_notm}} utilizza i meccanismi Cloud Foundry per assicurare che ogni sviluppatore di applicazioni abbia accesso solo alle applicazioni e alle istanze di servizio da essi create. L'autorizzazione ai servizi {{site.data.keyword.Bluemix_notm}} è basata su OAuth. L'accesso a tutti gli endpoint interni della piattaforma {{site.data.keyword.Bluemix_notm}} è limitato per gli utenti esterni.</dd>
+<dd>{{site.data.keyword.Bluemix_notm}} utilizza i meccanismi di Cloud Foundry per garantire che ogni sviluppatore di applicazioni abbia accesso solo alle applicazioni e alle istanze del servizio che ha creato. L'autorizzazione ai servizi {{site.data.keyword.Bluemix_notm}} è basata su OAuth. L'accesso a tutti gli endpoint interni della piattaforma {{site.data.keyword.Bluemix_notm}} è limitato per gli utenti esterni.</dd>
 
 <dt>Controllo</dt>
 <dd>I log di controllo vengono creati per tutti i tentativi di autenticazione riusciti e non riusciti degli sviluppatori di applicazioni. I log di controllo vengono creati anche per l'accesso privilegiato ai sistemi Linux che ospitano i contenitori dove vengono eseguite le applicazioni {{site.data.keyword.Bluemix_notm}}.</dd>
@@ -154,8 +154,7 @@ le correzioni per i sistemi operativi vengano applicate con frequenza adeguata. 
 monitorare i tentativi di accesso riusciti e non riusciti degli sviluppatori di applicazioni.</dd>
 
 <dt>Gestione degli accessi utente</dt>
-<dd>All'interno di {{site.data.keyword.Bluemix_notm}}, vengono seguite le linee guida di Separazione dei compiti per assegnare agli utenti dei privilegi di accesso granulari e per garantire che gli utenti dispongano soltanto dell'accesso richiesto per eseguire i propri lavori in base al principio del
-minimo privilegio.
+<dd>All'interno di {{site.data.keyword.Bluemix_notm}}, vengono seguite le linee guida di Separazione dei compiti per assegnare privilegi di accesso granulare agli utenti e per garantire che gli utenti dispongano soltanto dell'accesso richiesto per eseguire i propri lavori in base al principio del minimo privilegio.
 
 Negli ambienti {{site.data.keyword.Bluemix_notm}} dedicato e locale, gli amministratori assegnati possono gestire i ruoli e le autorizzazioni per gli utenti {{site.data.keyword.Bluemix_notm}} nella propria organizzazione utilizzando la Console di gestione. Per i dettagli, vedi [Gestione di {{site.data.keyword.Bluemix_local_notm}} e {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/hybrid/index.html#mng).
 </dd>
@@ -177,8 +176,7 @@ Ogni data center {{site.data.keyword.BluSoftlayer}} è pienamente protetto, con 
 Con {{site.data.keyword.Bluemix_notm}},
 la protezione dei dati da accessi non autorizzati è uno sforzo congiunto tra te e {{site.data.keyword.Bluemix_notm}}.
 
-I dati associati a un'applicazione in esecuzione possono trovarsi in uno di tre stati:
-data-in-transit, data-at-rest e data-in-use.
+I dati associati a un'applicazione in esecuzione possono essere in 1 di 3 stati: data-in-transit, data-at-rest e data-in-use.
 
 <dl>
 <dt>Data-in-transit</dt>
@@ -198,7 +196,7 @@ finché i dati non raggiungono l'IBM DataPower Gateway al limite della rete inte
 DataPower Gateway funge da proxy inverso e fornisce la terminazione SSL. Da lì all'applicazione, IPSEC viene utilizzato per proteggere i dati mentre vengono trasmessi dall'IBM DataPower Gateway all'applicazione.
 
 Come sviluppatore della tua applicazione, sei responsabile della sicurezza sia dei data-in-use
-che dei data-at-rest. Puoi usufruire dei diversi servizi correlati ai dati disponibili nel catalogo {{site.data.keyword.Bluemix_notm}} per informazioni a tale riguardo.
+che dei data-at-rest. Puoi usufruire di diversi servizi correlati ai dati disponibili nel catalogo {{site.data.keyword.Bluemix_notm}} per informazioni a tale riguardo.
 
 ## Sicurezza delle applicazioni
                {{site.data.keyword.Bluemix_notm}}
@@ -219,11 +217,11 @@ Per ulteriori informazioni, vai a [IBM Application Security Testing for IBM Clou
 
 ### DB2 Hosted
 
-DB2 Hosted è un database SQL di cui viene eseguito il provisioning nel cloud per te. Puoi utilizzare DB2 Hosted come useresti qualsiasi software database ma senza dover sostenere il carico di lavoro e i costi necessari per la configurazione dell'hardware o l'installazione e la manutenzione del software.  
+DB2 Hosted è un database SQL fornito per te nel cloud. Puoi utilizzare DB2 Hosted come useresti qualsiasi software database ma senza dover sostenere il carico di lavoro e i costi necessari per la configurazione dell'hardware o l'installazione e la manutenzione del software.  
 
-Puoi anche installare un database DB2 locale utilizzando il [download di Db2 Developer Edition gratuito ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Installa rapidamente una Developer Edition di DB2 pronta per l'uso con strumenti all'interno di un contenitore Docker (Docker non richiesto; installerà automaticamente qualsiasi componente necessario).
+Puoi anche installare un database DB2 locale utilizzando il [download gratuito di DB2 Developer Edition![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions). Questo installa rapidamente una Developer Edition di DB2 pronta per l'uso con strumenti all'interno di un contenitore Docker (Docker non richiesto; vengono installati automaticamente tutti i componenti necessari).
 
-Per ulteriori informazioni, vedi [Introduzione a DB2 Hosted](docs/services/Db2Hosted/index.html).
+Per ulteriori informazioni, vedi [Introduzione a DB2 Hosted](/docs/services/Db2Hosted/index.html).
 
 ### Secure Gateway
 
@@ -237,4 +235,4 @@ Per ulteriori informazioni, vedi [Introduzione a Secure Gateway](/docs/services/
 
 ### SIEM (Security Information and Event Management)
 
-Puoi utilizzare gli strumenti SIEM (Security Information and Event Management) per analizzare gli avvisi di sicurezza nei log dell'applicazione. Uno di questi strumenti è IBM Security QRadar&reg; SIEM, che fornisce servizi di sicurezza in ambienti cloud. Per informazioni, vedi [IBM QRadar Security Intelligence Platform ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
+Puoi utilizzare gli strumenti SIEM (Security Information and Event Management) per analizzare gli avvisi di sicurezza nei log dell'applicazione. Uno di questi strumenti è IBM Security QRadar&reg; SIEM, che fornisce servizi di sicurezza in ambienti cloud. Per ulteriori informazioni, vedi [IBM QRadar Security Intelligence Platform ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-01.ibm.com/support/knowledgecenter/SS42VS/welcome?lang=en){: new_window}.
