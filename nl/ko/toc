@@ -2,18 +2,18 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="bluemix-security" audience="platform" href="/docs/security/index.html"}
-Bluemix 보안
-    
+IBM Cloud 보안
+
     {: .navgroup id="learn"}
     index.md
     deployment.md
-    
+
     {: .topicgroup}
     관련 링크
         [IBM SaaS 보안](http://www.ibm.com/cloud-computing/built-on-cloud/saas-security)
-        
+
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
     compliance.md
     {: .navgroup-end}
