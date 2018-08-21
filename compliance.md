@@ -82,19 +82,20 @@ The GDPR seeks to create a harmonized data protection law framework across the E
 ## Platform and service compliance
 The following table displays which services in {{site.data.keyword.Bluemix_notm}} are compliant for each of the standards.
 
-|{{site.data.keyword.Bluemix_notm}} components		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
-|:----------------------|:---------:|:---------:|:---------:|:---------:|
-|{{site.data.keyword.Bluemix_notm}} platform		|Y			|Y	|Y	|Y	|
-|{{site.data.keyword.openwhisk_short}}    |  |Y | | |
-|{{site.data.keyword.APIM}}			|Y	|Y |Y	|			|
-|{{site.data.keyword.autoscaling}}			|Y	|Y |Y	|			|
-|{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |
-|{{site.data.keyword.cloudant}}				|Y |Y |	|Y	|
-|{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
-|{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
-|{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
-|{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
-|{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
-|{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
-|{{site.data.keyword.SecureGateway}}			|Y	|Y |	|	 		|
+|{{site.data.keyword.Bluemix_notm}} components		|FISC		|HIPAA | ISO 27001	|PCI |SOC 2 Type 1		| SOC 2 Type 2  |
+|:----------------------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|{{site.data.keyword.Bluemix_notm}} platform		|Y		|	|Y	|Y	|Y	|  |
+|{{site.data.keyword.openwhisk_short}}    | | |Y | | | |
+|{{site.data.keyword.APIM}}			|Y |	|Y |Y	|			| |
+|{{site.data.keyword.autoscaling}}			|Y |	|Y |Y	|			| |
+|{{site.data.keyword.bigicloudst}}			|Y | |Y |	|Y | |
+|{{site.data.keyword.cloudant}}				|Y | |Y |	|Y	| |
+|{{site.data.keyword.Db2_on_Cloud_short}}			|Y	| Y |Y	|	|  | Y	|
+|{{site.data.keyword.dashdbshort}}			|Y| Y	|Y	|	|  | Y	|
+|{{site.data.keyword.dataworks_short}}				|	| |	|	|Y	 		| |
+|{{site.data.keyword.contdelivery_short}}					|Y	| |Y	|	|			| |
+|{{site.data.keyword.containerlong}}			|Y	| 	|Y	|	|			| |
+|{{site.data.keyword.dwl_short}}				|	| |	|	|Y	 		| |
+|{{site.data.keyword.mql}}				|Y |	|Y	|Y	|	 		| |
+|{{site.data.keyword.SecureGateway}}			|Y |	|Y |	|	 		| |
 {: caption="Table 1. Platform and service compliance" caption-side="top"}
